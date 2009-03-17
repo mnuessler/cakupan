@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<project basedir="." name="cakupan" default="test">
+
+    <property name="ant.test.lib" value="ant-testutil.jar"/>
+    <property name="report.dir"   value="report"/>
+    <property name="junit.out.dir.xml"  value="${report.dir}/junit/xml"/>
+    <property name="junit.out.dir.html" value="${report.dir}/junit/html"/>
+    <property name="instrmtxslt.dir" value="${report.dir}/cakupan"/>
+    <property name="src.dir" value="src"/>
+    <property name="test.dir" value="test"/>
+    <property name="notices.dir" value="notices"/>
+    <property name="classes.dir" value="classes"/>
+    <property file="version.properties" />
+
+	<!-- Cakupan - xslt coverage tasks -->
+	<taskdef classpath="${classes.dir}" resource="cakupantasks.properties" />
+
+	<path id="classpath.run">
+        <path path="${java.class.path}"/>
+        <path location="${ant.project.name}-${version}.jar"/>
+    </path>
+
+    <path id="classpath.test">
+        <path refid="classpath.run"/>
+        <path refid="classpath.xslt"/>
+        <path location="${ant.test.lib}"/>
+        <path location="${classes.dir}"/>
+    </path>
+
+    <path id="classpath.xslt">
+        <pathelement location="${lib.dir}/app/commons-lang-2.1.jar" />
+        <pathelement location="${lib.dir}/app/xstream-1.2.2.jar" />
+        <pathelement location="${lib.dir}/app/xpp3-1.1.4c.jar" />
+        <pathelement location="${lib.dir}/app/saxon9.jar" />
+        <!--pathelement location="lib/${ant.test.lib}" /-->
+     </path>
+
+	<target name="compile" description="Compiles the Task">
+        <mkdir dir="${classes.dir}"/>
+        <javac debuglevel="lines,source" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
+    </target>
+
+	<target name="compileTest" depends="copypropfiles" description="Compiles the tests">
+        <mkdir dir="${classes.dir}"/>
+        <javac debuglevel="lines,source" srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
+    </target>
+
+	
+    <target name="clean" description="Delete all generated files">
+        <delete failonerror="false" includeEmptyDirs="true">
+            <fileset dir="." includes="${ant.project.name}-${version}.jar"/>
+            <fileset dir="${classes.dir}"/>
+            <fileset dir="${report.dir}"/>
+        </delete>
+    </target>
+	
+    <target name="jar" description="JARs the Task" depends="compile,copypropfiles">
+        <jar destfile="${ant.project.name}-${version}.jar" basedir="${classes.dir}">
+        	<fileset dir="." includes="${notices.dir}/**"/>
+        	</jar>
+    </target>
+    
+	<target name="copypropfiles" description="copy xtra files to classes">
+        <copy todir="${classes.dir}">
+             <fileset dir="${src.dir}" includes="**/*.css,**/*.properties,**/*.xsl" />
+         </copy>
+    </target>
+
+	
+    <target name="junit" description="Runs the unit tests">
+        <delete dir="${junit.out.dir.xml}"/>
+        <mkdir  dir="${junit.out.dir.xml}"/>
+        <junit printsummary="yes" haltonfailure="no">
+			<sysproperty
+				key="javax.xml.transform.TransformerFactory"
+				value="com.cakupan.xslt.transform.TransformerInstrumentFactoryImpl" />
+			<sysproperty
+					key="cakupan.dir"
+					value="${instrmtxslt.dir}"/>
+            <classpath refid="classpath.test"/>
+            <formatter type="xml"/>
+            <batchtest fork="yes" todir="${junit.out.dir.xml}">
+                <fileset dir="${test.dir}" includes="**/*Test.java"/>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="junitreport" description="Create a report for the rest result">
+        <mkdir dir="${junit.out.dir.html}"/>
+        <junitreport todir="${junit.out.dir.html}">
+            <fileset dir="${junit.out.dir.xml}">
+                <include name="*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.out.dir.html}"/>
+        </junitreport>
+    </target>
+
+    <target name="make" depends="clean, compile" />
+
+    <target name="test"
+            depends="compileTest,junit,junitreport"
+            description="Runs unit tests and creates a report"
+    />
+	
+	<!-- instrumentation of the XSLTs, fileset for retrieving the XSLTs and destdir for writing the trace and instrumenting files-->   
+	<target name="instrumentCakupan">
+        <cakupan-instrument destdir="${instrmtxslt.dir}">
+         	<fileset dir="../cakupan/test" includes="**/*.xsl"/>
+        </cakupan-instrument>
+    </target>
+
+	<!-- merging intrumentation data of different modules-->   
+	<target name="mergeCakupan">
+        <cakupan-merge destdir="report/merged/cakupan">
+              <fileset dir="${instrmtxslt.dir}"/>
+       	</cakupan-merge>
+    </target>
+ 
+	<!-- building the coverage report-->   
+    <target name="reportCakupan">
+        <cakupan-report destdir="report/cakupan"/>
+    </target>	  
+	
+	<!-- building the coverage report, wrong dir-->   
+    <target name="reportCakupanError">
+        <cakupan-report destdir="report/cakupa"/>
+    </target>	    
+
+</project>

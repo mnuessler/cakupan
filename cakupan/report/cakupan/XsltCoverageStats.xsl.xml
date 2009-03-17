@@ -1,0 +1,226 @@
+<trace saxon-version="9.1.0.5"  module="XsltCoverageStats.xsl">
+ <source node="/" line="0" file="test\coverage.xml">
+  <xsl:template match="/" line="5" column="26" module="XsltCoverageStats.xsl">
+   <LRE name="html" line="6" column="9" module="XsltCoverageStats.xsl">
+    <LRE name="head" line="7" column="10" module="XsltCoverageStats.xsl">
+     <LRE name="title" line="8" column="12" module="XsltCoverageStats.xsl">
+     </LRE>
+     <LRE name="link" line="9" column="75" module="XsltCoverageStats.xsl">
+      <ATTR name="title" line="9" module="XsltCoverageStats.xsl">
+      </ATTR>
+      <ATTR name="type" line="9" module="XsltCoverageStats.xsl">
+      </ATTR>
+      <ATTR name="rel" line="9" module="XsltCoverageStats.xsl">
+      </ATTR>
+      <ATTR name="href" line="9" module="XsltCoverageStats.xsl">
+      </ATTR>
+     </LRE>
+    </LRE>
+    <LRE name="body" line="11" column="10" module="XsltCoverageStats.xsl">
+     <LRE name="h5" line="12" column="9" module="XsltCoverageStats.xsl">
+     </LRE>
+     <xsl:variable name="stats0Percentage" line="13" module="XsltCoverageStats.xsl">
+      <xsl:variable name="statsTotal" line="14" module="XsltCoverageStats.xsl">
+       <xsl:variable name="stats0" line="15" module="XsltCoverageStats.xsl">
+        <xsl:variable name="greenBarPerc" line="16" module="XsltCoverageStats.xsl">
+         <LRE name="h3" line="19" column="9" module="XsltCoverageStats.xsl">
+          <xsl:value-of select="$statsTotal - $stats0" line="19" column="69" module="XsltCoverageStats.xsl">
+          </xsl:value-of>
+          <xsl:value-of select="format-number($stats0Percentage,'##.###')" line="19" column="137" module="XsltCoverageStats.xsl">
+          </xsl:value-of>
+          <xsl:value-of select="$stats0" line="19" column="191" module="XsltCoverageStats.xsl">
+          </xsl:value-of>
+          <xsl:value-of select="format-number(100 - $stats0Percentage,'##.###')" line="19" column="265" module="XsltCoverageStats.xsl">
+          </xsl:value-of>
+         </LRE>
+         <xsl:text line="20" column="15" module="XsltCoverageStats.xsl">
+         </xsl:text>
+         <LRE name="table" line="21" column="47" module="XsltCoverageStats.xsl">
+          <ATTR name="class" line="21" module="XsltCoverageStats.xsl">
+          </ATTR>
+          <ATTR name="id" line="21" module="XsltCoverageStats.xsl">
+          </ATTR>
+          <LRE name="thead" line="22" column="12" module="XsltCoverageStats.xsl">
+           <LRE name="tr" line="23" column="10" module="XsltCoverageStats.xsl">
+            <LRE name="td" line="24" column="27" module="XsltCoverageStats.xsl">
+             <ATTR name="class" line="24" module="XsltCoverageStats.xsl">
+             </ATTR>
+            </LRE>
+            <LRE name="td" line="25" column="27" module="XsltCoverageStats.xsl">
+             <ATTR name="class" line="25" module="XsltCoverageStats.xsl">
+             </ATTR>
+            </LRE>
+            <LRE name="td" line="26" column="27" module="XsltCoverageStats.xsl">
+             <ATTR name="class" line="26" module="XsltCoverageStats.xsl">
+             </ATTR>
+            </LRE>
+           </LRE>
+          </LRE>
+          <LRE name="tbody" line="29" column="12" module="XsltCoverageStats.xsl">
+           <LRE name="tr" line="30" column="10" module="XsltCoverageStats.xsl">
+            <LRE name="td" line="31" column="11" module="XsltCoverageStats.xsl">
+             <LRE name="b" line="32" column="11" module="XsltCoverageStats.xsl">
+              <xsl:value-of select="count(//entry)" line="32" column="61" module="XsltCoverageStats.xsl">
+              </xsl:value-of>
+             </LRE>
+            </LRE>
+            <LRE name="td" line="34" column="25" module="XsltCoverageStats.xsl">
+             <ATTR name="class" line="34" module="XsltCoverageStats.xsl">
+             </ATTR>
+             <xsl:value-of select="$statsTotal" line="35" column="44" module="XsltCoverageStats.xsl">
+             </xsl:value-of>
+            </LRE>
+            <LRE name="td" line="36" column="11" module="XsltCoverageStats.xsl">
+             <LRE name="table" line="37" column="72" module="XsltCoverageStats.xsl">
+              <ATTR name="cellpadding" line="37" module="XsltCoverageStats.xsl">
+              </ATTR>
+              <ATTR name="cellspacing" line="37" module="XsltCoverageStats.xsl">
+              </ATTR>
+              <ATTR name="class" line="37" module="XsltCoverageStats.xsl">
+              </ATTR>
+              <LRE name="tr" line="38" column="34" module="XsltCoverageStats.xsl">
+               <ATTR name="class" line="38" module="XsltCoverageStats.xsl">
+               </ATTR>
+               <LRE name="td" line="39" column="60" module="XsltCoverageStats.xsl">
+                <ATTR name="align" line="39" module="XsltCoverageStats.xsl">
+                </ATTR>
+                <ATTR name="class" line="39" module="XsltCoverageStats.xsl">
+                </ATTR>
+                <ATTR name="width" line="39" module="XsltCoverageStats.xsl">
+                </ATTR>
+                <xsl:value-of select="format-number($stats0Percentage,'##.###')" line="40" column="77" module="XsltCoverageStats.xsl">
+                </xsl:value-of>
+               </LRE>
+               <LRE name="td" line="41" column="35" module="XsltCoverageStats.xsl">
+                <ATTR name="class" line="41" module="XsltCoverageStats.xsl">
+                </ATTR>
+                <LRE name="div" line="42" column="37" module="XsltCoverageStats.xsl">
+                 <ATTR name="class" line="42" module="XsltCoverageStats.xsl">
+                 </ATTR>
+                 <LRE name="div" line="43" column="67" module="XsltCoverageStats.xsl">
+                  <ATTR name="class" line="43" module="XsltCoverageStats.xsl">
+                  </ATTR>
+                  <ATTR name="style" line="43" module="XsltCoverageStats.xsl">
+                   <xsl:value-of select="format-number($stats0Percentage,'##.###')" line="17" column="72" module="XsltCoverageStats.xsl">
+                   </xsl:value-of>
+                  </ATTR>
+                  <LRE name="span" line="44" column="32" module="XsltCoverageStats.xsl">
+                   <ATTR name="class" line="44" module="XsltCoverageStats.xsl">
+                   </ATTR>
+                   <xsl:value-of select="$statsTotal - $stats0" line="45" column="60" module="XsltCoverageStats.xsl">
+                   </xsl:value-of>
+                   <xsl:value-of select="$statsTotal" line="45" column="97" module="XsltCoverageStats.xsl">
+                   </xsl:value-of>
+                  </LRE>
+                 </LRE>
+                </LRE>
+               </LRE>
+              </LRE>
+             </LRE>
+            </LRE>
+           </LRE>
+           <xsl:apply-templates select="*/entry" line="54" column="45" module="XsltCoverageStats.xsl">
+            <source node="/tree-map/entry[1]" line="-1" file="test%5Ccoverage.xml">
+             <xsl:template match="entry" line="60" column="30" module="XsltCoverageStats.xsl">
+              <xsl:variable name="perc" line="61" module="XsltCoverageStats.xsl">
+               <xsl:variable name="total" line="67" module="XsltCoverageStats.xsl">
+                <xsl:variable name="totOk" line="68" module="XsltCoverageStats.xsl">
+                 <xsl:variable name="uri" line="69" module="XsltCoverageStats.xsl">
+                  <xsl:variable name="percentage" line="70" module="XsltCoverageStats.xsl">
+                   <xsl:choose line="71" column="16" module="XsltCoverageStats.xsl">
+                    <xsl:when test="$total - $totOk = $total" line="72" column="47" module="XsltCoverageStats.xsl">
+                    </xsl:when>
+                   </xsl:choose>
+                   <xsl:variable name="greenBarPerc" line="78" module="XsltCoverageStats.xsl">
+                    <LRE name="tr" line="81" column="7" module="XsltCoverageStats.xsl">
+                     <LRE name="td" line="82" column="8" module="XsltCoverageStats.xsl">
+                      <LRE name="a" line="83" column="22" module="XsltCoverageStats.xsl">
+                       <ATTR name="href" line="83" module="XsltCoverageStats.xsl">
+                       </ATTR>
+                       <xsl:value-of select="string/text()" line="84" column="44" module="XsltCoverageStats.xsl">
+                       </xsl:value-of>
+                      </LRE>
+                      <LRE name="i" line="86" column="9" module="XsltCoverageStats.xsl">
+                       <xsl:text line="87" column="16" module="XsltCoverageStats.xsl">
+                       </xsl:text>
+                       <xsl:value-of select="$percentage" line="88" column="42" module="XsltCoverageStats.xsl">
+                       </xsl:value-of>
+                       <xsl:text line="89" column="16" module="XsltCoverageStats.xsl">
+                       </xsl:text>
+                      </LRE>
+                     </LRE>
+                     <LRE name="td" line="92" column="22" module="XsltCoverageStats.xsl">
+                      <ATTR name="class" line="92" module="XsltCoverageStats.xsl">
+                      </ATTR>
+                      <xsl:value-of select="count(*/line/*/lineNumber)" line="93" column="56" module="XsltCoverageStats.xsl">
+                      </xsl:value-of>
+                     </LRE>
+                     <LRE name="td" line="95" column="8" module="XsltCoverageStats.xsl">
+                      <LRE name="table" line="96" column="69" module="XsltCoverageStats.xsl">
+                       <ATTR name="cellpadding" line="96" module="XsltCoverageStats.xsl">
+                       </ATTR>
+                       <ATTR name="cellspacing" line="96" module="XsltCoverageStats.xsl">
+                       </ATTR>
+                       <ATTR name="class" line="96" module="XsltCoverageStats.xsl">
+                       </ATTR>
+                       <LRE name="tr" line="97" column="31" module="XsltCoverageStats.xsl">
+                        <ATTR name="class" line="97" module="XsltCoverageStats.xsl">
+                        </ATTR>
+                        <LRE name="td" line="98" column="57" module="XsltCoverageStats.xsl">
+                         <ATTR name="align" line="98" module="XsltCoverageStats.xsl">
+                         </ATTR>
+                         <ATTR name="class" line="98" module="XsltCoverageStats.xsl">
+                         </ATTR>
+                         <ATTR name="width" line="98" module="XsltCoverageStats.xsl">
+                         </ATTR>
+                         <xsl:value-of select="$percentage" line="99" column="44" module="XsltCoverageStats.xsl">
+                         </xsl:value-of>
+                        </LRE>
+                        <LRE name="td" line="100" column="32" module="XsltCoverageStats.xsl">
+                         <ATTR name="class" line="100" module="XsltCoverageStats.xsl">
+                         </ATTR>
+                         <LRE name="div" line="101" column="34" module="XsltCoverageStats.xsl">
+                          <ATTR name="class" line="101" module="XsltCoverageStats.xsl">
+                          </ATTR>
+                          <LRE name="div" line="102" column="64" module="XsltCoverageStats.xsl">
+                           <ATTR name="class" line="102" module="XsltCoverageStats.xsl">
+                           </ATTR>
+                           <ATTR name="style" line="102" module="XsltCoverageStats.xsl">
+                            <xsl:value-of select="$percentage" line="79" column="40" module="XsltCoverageStats.xsl">
+                            </xsl:value-of>
+                           </ATTR>
+                           <LRE name="span" line="103" column="29" module="XsltCoverageStats.xsl">
+                            <ATTR name="class" line="103" module="XsltCoverageStats.xsl">
+                            </ATTR>
+                            <xsl:value-of select="$totOk" line="104" column="42" module="XsltCoverageStats.xsl">
+                            </xsl:value-of>
+                            <xsl:value-of select="$total" line="104" column="74" module="XsltCoverageStats.xsl">
+                            </xsl:value-of>
+                           </LRE>
+                          </LRE>
+                         </LRE>
+                        </LRE>
+                       </LRE>
+                      </LRE>
+                     </LRE>
+                    </LRE>
+                   </xsl:variable>
+                  </xsl:variable>
+                 </xsl:variable>
+                </xsl:variable>
+               </xsl:variable>
+              </xsl:variable>
+             </xsl:template>
+            </source><!-- /tree-map/entry[1] -->
+           </xsl:apply-templates>
+          </LRE>
+         </LRE>
+        </xsl:variable>
+       </xsl:variable>
+      </xsl:variable>
+     </xsl:variable>
+    </LRE>
+   </LRE>
+  </xsl:template>
+ </source><!-- / -->
+</trace>

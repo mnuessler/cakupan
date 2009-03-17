@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx version="1.0" creator="Mobile Trail Explorer" xmlns="http://www.topografix.com/GPX/1/0">
+<trk>
+<trkseg>
+<trkpt lat="45.588838333333335" lon="10.54296">
+<time>2007-05-13T10:23:00Z</time>
+<speed>12.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.0 km]]></desc>
+</trkpt>
+<trkpt lat="45.58913" lon="10.542778333333333">
+<time>2007-05-13T10:24:00Z</time>
+<speed>13.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.035378793283642504 km]]></desc>
+</trkpt>
+<trkpt lat="45.589515" lon="10.542726666666667">
+<time>2007-05-13T10:24:00Z</time>
+<speed>11.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.07837720643443646 km]]></desc>
+</trkpt>
+<trkpt lat="45.58972333333333" lon="10.542428333333334">
+<time>2007-05-13T10:24:00Z</time>
+<speed>13.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.11117279622930093 km]]></desc>
+</trkpt>
+<trkpt lat="45.59011" lon="10.542381666666667">
+<time>2007-05-13T10:24:00Z</time>
+<speed>13.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.15432123879598675 km]]></desc>
+</trkpt>
+<trkpt lat="45.590473333333335" lon="10.542206666666667">
+<time>2007-05-13T10:24:00Z</time>
+<speed>16.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.19695519439452047 km]]></desc>
+</trkpt>
+<trkpt lat="45.59085666666667" lon="10.541943333333334">
+<time>2007-05-13T10:24:00Z</time>
+<speed>16.0</speed>
+<geoidheight>89.4</geoidheight><desc><![CDATA[Distance from Start:0.24424923976824806 km]]></desc>
+</trkpt>
+<trkpt lat="45.59099166666667" lon="10.541611666666666">
+<time>2007-05-13T10:25:00Z</time>
+<speed>16.0</speed>
+<geoidheight>144.1</geoidheight><desc><![CDATA[Distance from Start:0.2741050147404593 km]]></desc>
+</trkpt>
+<trkpt lat="45.59126" lon="10.541316666666667">
+<time>2007-05-13T10:25:00Z</time>
+<speed>17.0</speed>
+<geoidheight>141.0</geoidheight><desc><![CDATA[Distance from Start:0.3117502857834836 km]]></desc>
+</trkpt>
+<trkpt lat="45.59176166666666" lon="10.540663333333333">
+<time>2007-05-13T10:25:00Z</time>
+<speed>20.0</speed>
+<geoidheight>134.7</geoidheight><desc><![CDATA[Distance from Start:0.38722251101816163 km]]></desc>
+</trkpt>
+<trkpt lat="45.59217833333334" lon="10.540101666666667">
+<time>2007-05-13T10:25:00Z</time>
+<speed>21.0</speed>
+<geoidheight>131.0</geoidheight><desc><![CDATA[Distance from Start:0.4509136880979321 km]]></desc>
+</trkpt>
+<trkpt lat="45.59258166666667" lon="10.539546666666666">
+<time>2007-05-13T10:25:00Z</time>
+<speed>19.0</speed>
+<geoidheight>127.9</geoidheight><desc><![CDATA[Distance from Start:0.5131734974915637 km]]></desc>
+</trkpt>
+<trkpt lat="45.59287666666667" lon="10.538965">
+<time>2007-05-13T10:25:00Z</time>
+<speed>19.0</speed>
+<geoidheight>124.5</geoidheight><desc><![CDATA[Distance from Start:0.5690696275056011 km]]></desc>
+</trkpt>
+<trkpt lat="45.59293666666667" lon="10.538236666666666">
+<time>2007-05-13T10:26:00Z</time>
+<speed>19.0</speed>
+<geoidheight>121.9</geoidheight><desc><![CDATA[Distance from Start:0.6261317740627342 km]]></desc>
+</trkpt>
+<trkpt lat="45.59291" lon="10.537558333333333">
+<time>2007-05-13T10:26:00Z</time>
+<speed>17.0</speed>
+<geoidheight>119.5</geoidheight><desc><![CDATA[Distance from Start:0.6789953204941053 km]]></desc>
+</trkpt>
+<trkpt lat="45.59288166666666" lon="10.536876666666666">
+<time>2007-05-13T10:26:00Z</time>
+<speed>17.0</speed>
+<geoidheight>117.7</geoidheight><desc><![CDATA[Distance from Start:0.7321285159583658 km]]></desc>
+</trkpt>
+<trkpt lat="45.59274" lon="10.536076666666666">
+<time>2007-05-13T10:26:00Z</time>
+<speed>20.0</speed>
+<geoidheight>148.8</geoidheight><desc><![CDATA[Distance from Start:0.7963379925086921 km]]></desc>
+</trkpt>
+<trkpt lat="45.59287166666667" lon="10.53533">
+<time>2007-05-13T10:26:00Z</time>
+<speed>21.0</speed>
+<geoidheight>153.6</geoidheight><desc><![CDATA[Distance from Start:0.8562517168882164 km]]></desc>
+</trkpt>
+<trkpt lat="45.59299" lon="10.534521666666667">
+<time>2007-05-13T10:26:00Z</time>
+<speed>24.0</speed>
+<geoidheight>153.5</geoidheight><desc><![CDATA[Distance from Start:0.9205088052584257 km]]></desc>
+</trkpt>
+<trkpt lat="45.59296666666667" lon="10.533691666666666">
+<time>2007-05-13T10:27:00Z</time>
+<speed>21.0</speed>
+<geoidheight>154.5</geoidheight><desc><![CDATA[Distance from Start:0.9851421636414971 km]]></desc>
+</trkpt>
+<trkpt lat="45.59296333333333" lon="10.532886666666666">
+<time>2007-05-13T10:27:00Z</time>
+<speed>23.0</speed>
+<geoidheight>157.5</geoidheight><desc><![CDATA[Distance from Start:1.047779317942147 km]]></desc>
+</trkpt>
+<trkpt lat="45.592998333333334" lon="10.532053333333334">
+<time>2007-05-13T10:27:00Z</time>
+<speed>22.0</speed>
+<geoidheight>156.0</geoidheight><desc><![CDATA[Distance from Start:1.1127366302743826 km]]></desc>
+</trkpt>
+<trkpt lat="45.59314166666667" lon="10.531198333333334">
+<time>2007-05-13T10:27:00Z</time>
+<speed>21.0</speed>
+<geoidheight>152.7</geoidheight><desc><![CDATA[Distance from Start:1.1811455187451851 km]]></desc>
+</trkpt>
+<trkpt lat="45.59321" lon="10.53046">
+<time>2007-05-13T10:27:00Z</time>
+<speed>20.0</speed>
+<geoidheight>155.5</geoidheight><desc><![CDATA[Distance from Start:1.2390944189645812 km]]></desc>
+</trkpt>
+<trkpt lat="45.59325333333334" lon="10.52961">
+<time>2007-05-13T10:27:00Z</time>
+<speed>22.0</speed>
+<geoidheight>153.7</geoidheight><desc><![CDATA[Distance from Start:1.3054068494839035 km]]></desc>
+</trkpt>
+<trkpt lat="45.593155" lon="10.528816666666666">
+<time>2007-05-13T10:28:00Z</time>
+<speed>21.0</speed>
+<geoidheight>151.5</geoidheight><desc><![CDATA[Distance from Start:1.3680958052286805 km]]></desc>
+</trkpt>
+<trkpt lat="45.59297333333333" lon="10.528118333333333">
+<time>2007-05-13T10:28:00Z</time>
+<speed>19.0</speed>
+<geoidheight>154.7</geoidheight><desc><![CDATA[Distance from Start:1.4260655958170778 km]]></desc>
+</trkpt>
+<trkpt lat="45.59283" lon="10.52733">
+<time>2007-05-13T10:28:00Z</time>
+<speed>22.0</speed>
+<geoidheight>153.6</geoidheight><desc><![CDATA[Distance from Start:1.489441690386332 km]]></desc>
+</trkpt>
+<trkpt lat="45.592618333333334" lon="10.526528333333333">
+<time>2007-05-13T10:28:00Z</time>
+<speed>24.0</speed>
+<geoidheight>153.9</geoidheight><desc><![CDATA[Distance from Start:1.5561113310376642 km]]></desc>
+</trkpt>
+<trkpt lat="45.59251666666667" lon="10.525825">
+<time>2007-05-13T10:28:00Z</time>
+<speed>21.0</speed>
+<geoidheight>154.0</geoidheight><desc><![CDATA[Distance from Start:1.6119926484249072 km]]></desc>
+</trkpt>
+<trkpt lat="45.59256" lon="10.52485">
+<time>2007-05-13T10:28:00Z</time>
+<speed>23.0</speed>
+<geoidheight>153.1</geoidheight><desc><![CDATA[Distance from Start:1.688009639064812 km]]></desc>
+</trkpt>
+<trkpt lat="45.592545" lon="10.523953333333333">
+<time>2007-05-13T10:29:00Z</time>
+<speed>20.0</speed>
+<geoidheight>150.8</geoidheight><desc><![CDATA[Distance from Start:1.7577986139941495 km]]></desc>
+</trkpt>
+<trkpt lat="45.592328333333334" lon="10.522923333333333">
+<time>2007-05-13T10:29:00Z</time>
+<speed>32.0</speed>
+<geoidheight>145.7</geoidheight><desc><![CDATA[Distance from Start:1.8414853033080785 km]]></desc>
+</trkpt>
+<trkpt lat="45.592506666666665" lon="10.522025">
+<time>2007-05-13T10:29:00Z</time>
+<speed>22.0</speed>
+<geoidheight>155.6</geoidheight><desc><![CDATA[Distance from Start:1.9141425426955638 km]]></desc>
+</trkpt>
+<trkpt lat="45.593158333333335" lon="10.521938333333333">
+<time>2007-05-13T10:29:00Z</time>
+<speed>28.0</speed>
+<geoidheight>173.1</geoidheight><desc><![CDATA[Distance from Start:1.9869176711109262 km]]></desc>
+</trkpt>
+<trkpt lat="45.59385666666667" lon="10.52165">
+<time>2007-05-13T10:29:00Z</time>
+<speed>25.0</speed>
+<geoidheight>162.1</geoidheight><desc><![CDATA[Distance from Start:2.067744709860033 km]]></desc>
+</trkpt>
+<trkpt lat="45.59386" lon="10.520465">
+<time>2007-05-13T10:29:00Z</time>
+<speed>26.0</speed>
+<geoidheight>142.1</geoidheight><desc><![CDATA[Distance from Start:2.1599473763882813 km]]></desc>
+</trkpt>
+<trkpt lat="45.593955" lon="10.519241666666666">
+<time>2007-05-13T10:30:00Z</time>
+<speed>32.0</speed>
+<geoidheight>132.8</geoidheight><desc><![CDATA[Distance from Start:2.2557162092656053 km]]></desc>
+</trkpt>
+<trkpt lat="45.593986666666666" lon="10.518871666666668">
+<time>2007-05-13T10:30:00Z</time>
+<speed>11.0</speed>
+<geoidheight>155.3</geoidheight><desc><![CDATA[Distance from Start:2.2847194765254897 km]]></desc>
+</trkpt>
+<trkpt lat="45.594136666666664" lon="10.518818333333334">
+<time>2007-05-13T10:30:00Z</time>
+<speed>7.0</speed>
+<geoidheight>158.3</geoidheight><desc><![CDATA[Distance from Start:2.3019071809580853 km]]></desc>
+</trkpt>
+<trkpt lat="45.59498" lon="10.521625">
+<time>2007-05-13T10:30:00Z</time>
+<speed>29.0</speed>
+<geoidheight>111.7</geoidheight><desc><![CDATA[Distance from Start:2.539566983794037 km]]></desc>
+</trkpt>
+<trkpt lat="45.595148333333334" lon="10.52291">
+<time>2007-05-13T10:30:00Z</time>
+<speed>36.0</speed>
+<geoidheight>123.5</geoidheight><desc><![CDATA[Distance from Start:2.6412845442338218 km]]></desc>
+</trkpt>
+<trkpt lat="45.595353333333335" lon="10.523753333333334">
+<time>2007-05-13T10:30:00Z</time>
+<speed>13.0</speed>
+<geoidheight>110.9</geoidheight><desc><![CDATA[Distance from Start:2.7107473168728298 km]]></desc>
+</trkpt>
+<trkpt lat="45.5954" lon="10.522833333333333">
+<time>2007-05-13T10:31:00Z</time>
+<speed>25.0</speed>
+<geoidheight>112.2</geoidheight><desc><![CDATA[Distance from Start:2.7825161458425702 km]]></desc>
+</trkpt>
+<trkpt lat="45.59543166666667" lon="10.521958333333334">
+<time>2007-05-13T10:31:00Z</time>
+<speed>23.0</speed>
+<geoidheight>113.1</geoidheight><desc><![CDATA[Distance from Start:2.8506868430334102 km]]></desc>
+</trkpt>
+<trkpt lat="45.59548" lon="10.521088333333333">
+<time>2007-05-13T10:31:00Z</time>
+<speed>24.0</speed>
+<geoidheight>113.5</geoidheight><desc><![CDATA[Distance from Start:2.9185904869224686 km]]></desc>
+</trkpt>
+<trkpt lat="45.595585" lon="10.520563333333333">
+<time>2007-05-13T10:31:00Z</time>
+<speed>5.0</speed>
+<geoidheight>116.3</geoidheight><desc><![CDATA[Distance from Start:2.9610740590906897 km]]></desc>
+</trkpt>
+<trkpt lat="45.59574" lon="10.521231666666667">
+<time>2007-05-13T10:31:00Z</time>
+<speed>27.0</speed>
+<geoidheight>118.4</geoidheight><desc><![CDATA[Distance from Start:3.0158556315565686 km]]></desc>
+</trkpt>
+<trkpt lat="45.59592333333333" lon="10.522496666666667">
+<time>2007-05-13T10:31:00Z</time>
+<speed>31.0</speed>
+<geoidheight>119.9</geoidheight><desc><![CDATA[Distance from Start:3.1163677081719667 km]]></desc>
+</trkpt>
+<trkpt lat="45.596125" lon="10.523648333333334">
+<time>2007-05-13T10:32:00Z</time>
+<speed>17.0</speed>
+<geoidheight>126.6</geoidheight><desc><![CDATA[Distance from Start:3.208735906218056 km]]></desc>
+</trkpt>
+<trkpt lat="45.595945" lon="10.523251666666667">
+<time>2007-05-13T10:32:00Z</time>
+<speed>29.0</speed>
+<geoidheight>142.5</geoidheight><desc><![CDATA[Distance from Start:3.245520344246752 km]]></desc>
+</trkpt>
+<trkpt lat="45.59589666666667" lon="10.521991666666667">
+<time>2007-05-13T10:32:00Z</time>
+<speed>28.0</speed>
+<geoidheight>105.1</geoidheight><desc><![CDATA[Distance from Start:3.343701435301581 km]]></desc>
+</trkpt>
+<trkpt lat="45.596075" lon="10.520781666666666">
+<time>2007-05-13T10:32:00Z</time>
+<speed>31.0</speed>
+<geoidheight>90.5</geoidheight><desc><![CDATA[Distance from Start:3.4399107159705484 km]]></desc>
+</trkpt>
+<trkpt lat="45.59622" lon="10.519426666666666">
+<time>2007-05-13T10:32:00Z</time>
+<speed>35.0</speed>
+<geoidheight>86.3</geoidheight><desc><![CDATA[Distance from Start:3.5465614044986458 km]]></desc>
+</trkpt>
+<trkpt lat="45.59666333333333" lon="10.518038333333333">
+<time>2007-05-13T10:32:00Z</time>
+<speed>37.0</speed>
+<geoidheight>81.3</geoidheight><desc><![CDATA[Distance from Start:3.665296339025771 km]]></desc>
+</trkpt>
+<trkpt lat="45.59710666666667" lon="10.517288333333333">
+<time>2007-05-13T10:33:00Z</time>
+<speed>16.0</speed>
+<geoidheight>87.5</geoidheight><desc><![CDATA[Distance from Start:3.741684498467767 km]]></desc>
+</trkpt>
+<trkpt lat="45.597213333333336" lon="10.517801666666667">
+<time>2007-05-13T10:33:00Z</time>
+<speed>8.0</speed>
+<geoidheight>91.7</geoidheight><desc><![CDATA[Distance from Start:3.7833473114210032 km]]></desc>
+</trkpt>
+<trkpt lat="45.59748166666667" lon="10.51856">
+<time>2007-05-13T10:33:00Z</time>
+<speed>13.0</speed>
+<geoidheight>94.1</geoidheight><desc><![CDATA[Distance from Start:3.8494631862966506 km]]></desc>
+</trkpt>
+<trkpt lat="45.59832166666666" lon="10.518776666666668">
+<time>2007-05-13T10:33:00Z</time>
+<speed>23.0</speed>
+<geoidheight>109.4</geoidheight><desc><![CDATA[Distance from Start:3.9443758801650604 km]]></desc>
+</trkpt>
+<trkpt lat="45.59899333333333" lon="10.518631666666666">
+<time>2007-05-13T10:33:00Z</time>
+<speed>20.0</speed>
+<geoidheight>110.4</geoidheight><desc><![CDATA[Distance from Start:4.019908993658989 km]]></desc>
+</trkpt>
+<trkpt lat="45.599623333333334" lon="10.518551666666667">
+<time>2007-05-13T10:33:00Z</time>
+<speed>19.0</speed>
+<geoidheight>96.2</geoidheight><desc><![CDATA[Distance from Start:4.09023774586623 km]]></desc>
+</trkpt>
+<trkpt lat="45.60022333333333" lon="10.51874">
+<time>2007-05-13T10:34:00Z</time>
+<speed>21.0</speed>
+<geoidheight>80.3</geoidheight><desc><![CDATA[Distance from Start:4.158544686628944 km]]></desc>
+</trkpt>
+<trkpt lat="45.60081666666667" lon="10.519036666666667">
+<time>2007-05-13T10:34:00Z</time>
+<speed>16.0</speed>
+<geoidheight>86.0</geoidheight><desc><![CDATA[Distance from Start:4.22844090228307 km]]></desc>
+</trkpt>
+<trkpt lat="45.601346666666664" lon="10.519246666666668">
+<time>2007-05-13T10:34:00Z</time>
+<speed>19.0</speed>
+<geoidheight>97.4</geoidheight><desc><![CDATA[Distance from Start:4.289596836453862 km]]></desc>
+</trkpt>
+<trkpt lat="45.60189333333334" lon="10.519363333333333">
+<time>2007-05-13T10:34:00Z</time>
+<speed>24.0</speed>
+<geoidheight>113.2</geoidheight><desc><![CDATA[Distance from Start:4.351057269538913 km]]></desc>
+</trkpt>
+<trkpt lat="45.602518333333336" lon="10.519333333333334">
+<time>2007-05-13T10:34:00Z</time>
+<speed>19.0</speed>
+<geoidheight>108.6</geoidheight><desc><![CDATA[Distance from Start:4.420593275847304 km]]></desc>
+</trkpt>
+<trkpt lat="45.603228333333334" lon="10.51935">
+<time>2007-05-13T10:34:00Z</time>
+<speed>21.0</speed>
+<geoidheight>88.3</geoidheight><desc><![CDATA[Distance from Start:4.499552319421742 km]]></desc>
+</trkpt>
+<trkpt lat="45.6039" lon="10.519573333333334">
+<time>2007-05-13T10:35:00Z</time>
+<speed>22.0</speed>
+<geoidheight>87.1</geoidheight><desc><![CDATA[Distance from Start:4.57623245770323 km]]></desc>
+</trkpt>
+<trkpt lat="45.604461666666666" lon="10.519725">
+<time>2007-05-13T10:35:00Z</time>
+<speed>18.0</speed>
+<geoidheight>84.9</geoidheight><desc><![CDATA[Distance from Start:4.639791645361322 km]]></desc>
+</trkpt>
+<trkpt lat="45.604933333333335" lon="10.520113333333333">
+<time>2007-05-13T10:35:00Z</time>
+<speed>13.0</speed>
+<geoidheight>102.0</geoidheight><desc><![CDATA[Distance from Start:4.700316769123034 km]]></desc>
+</trkpt>
+<trkpt lat="45.60520833333333" lon="10.520333333333333">
+<time>2007-05-13T10:35:00Z</time>
+<speed>8.0</speed>
+<geoidheight>102.7</geoidheight><desc><![CDATA[Distance from Start:4.735358859972419 km]]></desc>
+</trkpt>
+<trkpt lat="45.60535333333333" lon="10.52079">
+<time>2007-05-13T10:35:00Z</time>
+<speed>6.0</speed>
+<geoidheight>103.5</geoidheight><desc><![CDATA[Distance from Start:4.77437137309605 km]]></desc>
+</trkpt>
+<trkpt lat="45.605403333333335" lon="10.521073333333334">
+<time>2007-05-13T10:35:00Z</time>
+<speed>4.0</speed>
+<geoidheight>105.8</geoidheight><desc><![CDATA[Distance from Start:4.797102713673057 km]]></desc>
+</trkpt>
+<trkpt lat="45.60537" lon="10.52133">
+<time>2007-05-13T10:36:00Z</time>
+<speed>4.0</speed>
+<geoidheight>103.8</geoidheight><desc><![CDATA[Distance from Start:4.817410325438093 km]]></desc>
+</trkpt>
+<trkpt lat="45.60527833333333" lon="10.521443333333334">
+<time>2007-05-13T10:36:00Z</time>
+<speed>1.0</speed>
+<geoidheight>100.1</geoidheight><desc><![CDATA[Distance from Start:4.830887090725628 km]]></desc>
+</trkpt>
+<trkpt lat="45.605375" lon="10.521586666666666">
+<time>2007-05-13T10:36:00Z</time>
+<speed>5.0</speed>
+<geoidheight>91.2</geoidheight><desc><![CDATA[Distance from Start:4.846374604803722 km]]></desc>
+</trkpt>
+<trkpt lat="45.60625" lon="10.521786666666667">
+<time>2007-05-13T10:36:00Z</time>
+<speed>15.0</speed>
+<geoidheight>45.5</geoidheight><desc><![CDATA[Distance from Start:4.944906240823578 km]]></desc>
+</trkpt>
+<trkpt lat="45.60664166666667" lon="10.522208333333333">
+<time>2007-05-13T10:36:00Z</time>
+<speed>13.0</speed>
+<geoidheight>74.7</geoidheight><desc><![CDATA[Distance from Start:4.999428318251979 km]]></desc>
+</trkpt>
+<trkpt lat="45.60687333333333" lon="10.522158333333334">
+<time>2007-05-13T10:36:00Z</time>
+<speed>6.0</speed>
+<geoidheight>106.5</geoidheight><desc><![CDATA[Distance from Start:5.025480454459989 km]]></desc>
+</trkpt>
+<trkpt lat="45.60686666666667" lon="10.522503333333333">
+<time>2007-05-13T10:37:00Z</time>
+<speed>8.0</speed>
+<geoidheight>146.7</geoidheight><desc><![CDATA[Distance from Start:5.0523280634949055 km]]></desc>
+</trkpt>
+<trkpt lat="45.606685" lon="10.52299">
+<time>2007-05-13T10:37:00Z</time>
+<speed>11.0</speed>
+<geoidheight>178.2</geoidheight><desc><![CDATA[Distance from Start:5.095237917211549 km]]></desc>
+</trkpt>
+<trkpt lat="45.606585" lon="10.523148333333333">
+<time>2007-05-13T10:37:00Z</time>
+<speed>15.0</speed>
+<geoidheight>192.6</geoidheight><desc><![CDATA[Distance from Start:5.111831431454961 km]]></desc>
+</trkpt>
+<trkpt lat="45.613548333333334" lon="10.549355">
+<time>2007-05-13T10:43:00Z</time>
+<speed>0.0</speed>
+<geoidheight>192.6</geoidheight><desc><![CDATA[Distance from Start:7.29241620488134 km]]></desc>
+</trkpt>
+<trkpt lat="45.613615" lon="10.549105">
+<time>2007-05-13T10:43:00Z</time>
+<speed>4.0</speed>
+<geoidheight>145.2</geoidheight><desc><![CDATA[Distance from Start:7.313226352864334 km]]></desc>
+</trkpt>
+<trkpt lat="45.61383166666667" lon="10.549648333333334">
+<time>2007-05-13T10:43:00Z</time>
+<speed>20.0</speed>
+<geoidheight>142.4</geoidheight><desc><![CDATA[Distance from Start:7.361871825070523 km]]></desc>
+</trkpt>
+<trkpt lat="45.61421166666667" lon="10.550461666666667">
+<time>2007-05-13T10:44:00Z</time>
+<speed>22.0</speed>
+<geoidheight>127.9</geoidheight><desc><![CDATA[Distance from Start:7.437946293463322 km]]></desc>
+</trkpt>
+<trkpt lat="45.61441166666667" lon="10.5512">
+<time>2007-05-13T10:44:00Z</time>
+<speed>17.0</speed>
+<geoidheight>116.7</geoidheight><desc><![CDATA[Distance from Start:7.49952897917868 km]]></desc>
+</trkpt>
+<trkpt lat="45.614621666666665" lon="10.551841666666666">
+<time>2007-05-13T10:44:00Z</time>
+<speed>10.0</speed>
+<geoidheight>126.8</geoidheight><desc><![CDATA[Distance from Start:7.554629670440595 km]]></desc>
+</trkpt>
+<trkpt lat="45.61472666666667" lon="10.552036666666666">
+<time>2007-05-13T10:44:00Z</time>
+<speed>0.0</speed>
+<geoidheight>127.6</geoidheight><desc><![CDATA[Distance from Start:7.573769930413114 km]]></desc>
+</trkpt>
+<trkpt lat="45.61464333333333" lon="10.552233333333334">
+<time>2007-05-13T10:44:00Z</time>
+<speed>3.0</speed>
+<geoidheight>131.0</geoidheight><desc><![CDATA[Distance from Start:7.591654146748987 km]]></desc>
+</trkpt>
+<trkpt lat="45.61464333333333" lon="10.552236666666667">
+<time>2007-05-13T10:44:00Z</time>
+<speed>1.0</speed>
+<geoidheight>131.2</geoidheight><desc><![CDATA[Distance from Start:7.591913409103629 km]]></desc>
+</trkpt>
+<trkpt lat="45.615595" lon="10.555093333333334">
+<time>2007-05-13T10:45:00Z</time>
+<speed>20.0</speed>
+<geoidheight>211.5</geoidheight><desc><![CDATA[Distance from Start:7.838012122310256 km]]></desc>
+</trkpt>
+<trkpt lat="45.61532" lon="10.55571">
+<time>2007-05-13T10:45:00Z</time>
+<speed>19.0</speed>
+<geoidheight>325.2</geoidheight><desc><![CDATA[Distance from Start:7.8948934461895925 km]]></desc>
+</trkpt>
+<trkpt lat="45.615003333333334" lon="10.556465">
+<time>2007-05-13T10:45:00Z</time>
+<speed>22.0</speed>
+<geoidheight>463.0</geoidheight><desc><![CDATA[Distance from Start:7.963363758421938 km]]></desc>
+</trkpt>
+<trkpt lat="45.614823333333334" lon="10.557058333333334">
+<time>2007-05-13T10:45:00Z</time>
+<speed>20.0</speed>
+<geoidheight>576.8</geoidheight><desc><![CDATA[Distance from Start:8.013665702865175 km]]></desc>
+</trkpt>
+<trkpt lat="45.614673333333336" lon="10.557801666666666">
+<time>2007-05-13T10:45:00Z</time>
+<speed>18.0</speed>
+<geoidheight>710.6</geoidheight><desc><![CDATA[Distance from Start:8.07383892878028 km]]></desc>
+</trkpt>
+<trkpt lat="45.61439" lon="10.55858">
+<time>2007-05-13T10:45:00Z</time>
+<speed>19.0</speed>
+<geoidheight>822.5</geoidheight><desc><![CDATA[Distance from Start:8.142084180674352 km]]></desc>
+</trkpt>
+<trkpt lat="45.614203333333336" lon="10.559138333333333">
+<time>2007-05-13T10:46:00Z</time>
+<speed>16.0</speed>
+<geoidheight>884.8</geoidheight><desc><![CDATA[Distance from Start:8.190216362765284 km]]></desc>
+</trkpt>
+<trkpt lat="45.614241666666665" lon="10.559601666666667">
+<time>2007-05-13T10:46:00Z</time>
+<speed>12.0</speed>
+<geoidheight>925.8</geoidheight><desc><![CDATA[Distance from Start:8.226505303342298 km]]></desc>
+</trkpt>
+<trkpt lat="45.61434" lon="10.559951666666667">
+<time>2007-05-13T10:46:00Z</time>
+<speed>10.0</speed>
+<geoidheight>937.4</geoidheight><desc><![CDATA[Distance from Start:8.255841840577222 km]]></desc>
+</trkpt>
+<trkpt lat="45.614315" lon="10.560345">
+<time>2007-05-13T10:46:00Z</time>
+<speed>10.0</speed>
+<geoidheight>959.0</geoidheight><desc><![CDATA[Distance from Start:8.28656100895469 km]]></desc>
+</trkpt>
+<trkpt lat="45.61448333333333" lon="10.560755">
+<time>2007-05-13T10:46:00Z</time>
+<speed>8.0</speed>
+<geoidheight>957.8</geoidheight><desc><![CDATA[Distance from Start:8.323537905472408 km]]></desc>
+</trkpt>
+<trkpt lat="45.614715" lon="10.56112">
+<time>2007-05-13T10:46:00Z</time>
+<speed>4.0</speed>
+<geoidheight>960.8</geoidheight><desc><![CDATA[Distance from Start:8.361872423278362 km]]></desc>
+</trkpt>
+<trkpt lat="45.615046666666665" lon="10.561375">
+<time>2007-05-13T10:47:00Z</time>
+<speed>6.0</speed>
+<geoidheight>956.1</geoidheight><desc><![CDATA[Distance from Start:8.403746947553959 km]]></desc>
+</trkpt>
+<trkpt lat="45.615295" lon="10.561636666666667">
+<time>2007-05-13T10:47:00Z</time>
+<speed>7.0</speed>
+<geoidheight>948.1</geoidheight><desc><![CDATA[Distance from Start:8.43805001146239 km]]></desc>
+</trkpt>
+<trkpt lat="45.61553166666667" lon="10.561851666666668">
+<time>2007-05-13T10:47:00Z</time>
+<speed>4.0</speed>
+<geoidheight>923.1</geoidheight><desc><![CDATA[Distance from Start:8.469229660911411 km]]></desc>
+</trkpt>
+<trkpt lat="45.61582" lon="10.561818333333333">
+<time>2007-05-13T10:47:00Z</time>
+<speed>1.0</speed>
+<geoidheight>868.5</geoidheight><desc><![CDATA[Distance from Start:8.501395515864376 km]]></desc>
+</trkpt>
+<trkpt lat="45.61593666666667" lon="10.561855">
+<time>2007-05-13T10:47:00Z</time>
+<speed>1.0</speed>
+<geoidheight>847.3</geoidheight><desc><![CDATA[Distance from Start:8.5146780198738 km]]></desc>
+</trkpt>
+<trkpt lat="45.61634166666666" lon="10.562013333333333">
+<time>2007-05-13T10:47:00Z</time>
+<speed>7.0</speed>
+<geoidheight>826.0</geoidheight><desc><![CDATA[Distance from Start:8.561365345670938 km]]></desc>
+</trkpt>
+<trkpt lat="45.616748333333334" lon="10.561771666666667">
+<time>2007-05-13T10:48:00Z</time>
+<speed>12.0</speed>
+<geoidheight>821.1</geoidheight><desc><![CDATA[Distance from Start:8.610335413982563 km]]></desc>
+</trkpt>
+<trkpt lat="45.61727666666667" lon="10.56136">
+<time>2007-05-13T10:48:00Z</time>
+<speed>11.0</speed>
+<geoidheight>766.6</geoidheight><desc><![CDATA[Distance from Start:8.677241685855178 km]]></desc>
+</trkpt>
+<trkpt lat="45.617825" lon="10.561841666666666">
+<time>2007-05-13T10:48:00Z</time>
+<speed>11.0</speed>
+<geoidheight>785.6</geoidheight><desc><![CDATA[Distance from Start:8.748802375108372 km]]></desc>
+</trkpt>
+<trkpt lat="45.61904166666667" lon="10.562395">
+<time>2007-05-13T10:48:00Z</time>
+<speed>5.0</speed>
+<geoidheight>617.1</geoidheight><desc><![CDATA[Distance from Start:8.890769258545454 km]]></desc>
+</trkpt>
+<trkpt lat="45.619353333333336" lon="10.56239">
+<time>2007-05-13T10:48:00Z</time>
+<speed>2.0</speed>
+<geoidheight>590.1</geoidheight><desc><![CDATA[Distance from Start:8.925427191985541 km]]></desc>
+</trkpt>
+<trkpt lat="45.620905" lon="10.562505">
+<time>2007-05-13T10:48:00Z</time>
+<speed>1.0</speed>
+<geoidheight>332.5</geoidheight><desc><![CDATA[Distance from Start:9.09819629909129 km]]></desc>
+</trkpt>
+<trkpt lat="45.620938333333335" lon="10.563001666666667">
+<time>2007-05-13T10:49:00Z</time>
+<speed>18.0</speed>
+<geoidheight>340.5</geoidheight><desc><![CDATA[Distance from Start:9.13699949363687 km]]></desc>
+</trkpt>
+<trkpt lat="45.621195" lon="10.564165">
+<time>2007-05-13T10:49:00Z</time>
+<speed>9.0</speed>
+<geoidheight>344.4</geoidheight><desc><![CDATA[Distance from Start:9.231866515574655 km]]></desc>
+</trkpt>
+<trkpt lat="45.621095" lon="10.56454">
+<time>2007-05-13T10:49:00Z</time>
+<speed>1.0</speed>
+<geoidheight>353.0</geoidheight><desc><![CDATA[Distance from Start:9.263078061753188 km]]></desc>
+</trkpt>
+<trkpt lat="45.621075" lon="10.56485">
+<time>2007-05-13T10:49:00Z</time>
+<speed>2.0</speed>
+<geoidheight>347.3</geoidheight><desc><![CDATA[Distance from Start:9.287289045366734 km]]></desc>
+</trkpt>
+<trkpt lat="45.621105" lon="10.56519">
+<time>2007-05-13T10:49:00Z</time>
+<speed>6.0</speed>
+<geoidheight>357.8</geoidheight><desc><![CDATA[Distance from Start:9.313940357485425 km]]></desc>
+</trkpt>
+<trkpt lat="45.62127" lon="10.565405">
+<time>2007-05-13T10:49:00Z</time>
+<speed>7.0</speed>
+<geoidheight>389.7</geoidheight><desc><![CDATA[Distance from Start:9.3387635826869 km]]></desc>
+</trkpt>
+<trkpt lat="45.62141" lon="10.565396666666667">
+<time>2007-05-13T10:50:00Z</time>
+<speed>7.0</speed>
+<geoidheight>410.1</geoidheight><desc><![CDATA[Distance from Start:9.354344356458093 km]]></desc>
+</trkpt>
+<trkpt lat="45.621851666666664" lon="10.565301666666667">
+<time>2007-05-13T10:50:00Z</time>
+<speed>9.0</speed>
+<geoidheight>378.8</geoidheight><desc><![CDATA[Distance from Start:9.40400805300312 km]]></desc>
+</trkpt>
+<trkpt lat="45.62221666666667" lon="10.565018333333333">
+<time>2007-05-13T10:50:00Z</time>
+<speed>7.0</speed>
+<geoidheight>322.9</geoidheight><desc><![CDATA[Distance from Start:9.450189759239251 km]]></desc>
+</trkpt>
+<trkpt lat="45.622481666666665" lon="10.564691666666667">
+<time>2007-05-13T10:50:00Z</time>
+<speed>9.0</speed>
+<geoidheight>278.8</geoidheight><desc><![CDATA[Distance from Start:9.48909551886641 km]]></desc>
+</trkpt>
+<trkpt lat="45.622705" lon="10.564261666666667">
+<time>2007-05-13T10:50:00Z</time>
+<speed>11.0</speed>
+<geoidheight>246.9</geoidheight><desc><![CDATA[Distance from Start:9.530748187628062 km]]></desc>
+</trkpt>
+<trkpt lat="45.62301" lon="10.563886666666667">
+<time>2007-05-13T10:50:00Z</time>
+<speed>9.0</speed>
+<geoidheight>204.1</geoidheight><desc><![CDATA[Distance from Start:9.575476876651145 km]]></desc>
+</trkpt>
+<trkpt lat="45.623358333333336" lon="10.563646666666667">
+<time>2007-05-13T10:51:00Z</time>
+<speed>12.0</speed>
+<geoidheight>165.1</geoidheight><desc><![CDATA[Distance from Start:9.618472040360478 km]]></desc>
+</trkpt>
+<trkpt lat="45.623621666666665" lon="10.563383333333332">
+<time>2007-05-13T10:51:00Z</time>
+<speed>12.0</speed>
+<geoidheight>150.3</geoidheight><desc><![CDATA[Distance from Start:9.65420388972228 km]]></desc>
+</trkpt>
+<trkpt lat="45.62376166666667" lon="10.563013333333334">
+<time>2007-05-13T10:51:00Z</time>
+<speed>10.0</speed>
+<geoidheight>143.8</geoidheight><desc><![CDATA[Distance from Start:9.686918619188782 km]]></desc>
+</trkpt>
+<trkpt lat="45.623918333333336" lon="10.562863333333333">
+<time>2007-05-13T10:51:00Z</time>
+<speed>9.0</speed>
+<geoidheight>146.3</geoidheight><desc><![CDATA[Distance from Start:9.707883944718443 km]]></desc>
+</trkpt>
+<trkpt lat="45.62406" lon="10.563006666666666">
+<time>2007-05-13T10:51:00Z</time>
+<speed>4.0</speed>
+<geoidheight>158.8</geoidheight><desc><![CDATA[Distance from Start:9.727181292025302 km]]></desc>
+</trkpt>
+<trkpt lat="45.624208333333335" lon="10.563121666666667">
+<time>2007-05-13T10:51:00Z</time>
+<speed>6.0</speed>
+<geoidheight>157.0</geoidheight><desc><![CDATA[Distance from Start:9.74594367767978 km]]></desc>
+</trkpt>
+<trkpt lat="45.62429" lon="10.563541666666667">
+<time>2007-05-13T10:52:00Z</time>
+<speed>3.0</speed>
+<geoidheight>164.4</geoidheight><desc><![CDATA[Distance from Start:9.77984403317555 km]]></desc>
+</trkpt>
+<trkpt lat="45.624293333333334" lon="10.56363">
+<time>2007-05-13T10:52:00Z</time>
+<speed>5.0</speed>
+<geoidheight>168.2</geoidheight><desc><![CDATA[Distance from Start:9.786723295858296 km]]></desc>
+</trkpt>
+<trkpt lat="45.624363333333335" lon="10.564143333333334">
+<time>2007-05-13T10:52:00Z</time>
+<speed>13.0</speed>
+<geoidheight>164.6</geoidheight><desc><![CDATA[Distance from Start:9.827394565084075 km]]></desc>
+</trkpt>
+<trkpt lat="45.624608333333335" lon="10.564233333333334">
+<time>2007-05-13T10:52:00Z</time>
+<speed>0.0</speed>
+<geoidheight>157.9</geoidheight><desc><![CDATA[Distance from Start:9.855521985301984 km]]></desc>
+</trkpt>
+<trkpt lat="45.624575" lon="10.564478333333334">
+<time>2007-05-13T10:52:00Z</time>
+<speed>3.0</speed>
+<geoidheight>161.4</geoidheight><desc><![CDATA[Distance from Start:9.874931574646284 km]]></desc>
+</trkpt>
+<trkpt lat="45.62515333333333" lon="10.564805">
+<time>2007-05-13T10:52:00Z</time>
+<speed>10.0</speed>
+<geoidheight>159.8</geoidheight><desc><![CDATA[Distance from Start:9.944074910235987 km]]></desc>
+</trkpt>
+<trkpt lat="45.62545" lon="10.564658333333334">
+<time>2007-05-13T10:53:00Z</time>
+<speed>10.0</speed>
+<geoidheight>159.6</geoidheight><desc><![CDATA[Distance from Start:9.97897876933795 km]]></desc>
+</trkpt>
+<trkpt lat="45.62563" lon="10.564526666666668">
+<time>2007-05-13T10:53:00Z</time>
+<speed>8.0</speed>
+<geoidheight>171.9</geoidheight><desc><![CDATA[Distance from Start:10.001460722368487 km]]></desc>
+</trkpt>
+<trkpt lat="45.625805" lon="10.564528333333334">
+<time>2007-05-13T10:53:00Z</time>
+<speed>4.0</speed>
+<geoidheight>183.9</geoidheight><desc><![CDATA[Distance from Start:10.020920265981212 km]]></desc>
+</trkpt>
+<trkpt lat="45.62584666666667" lon="10.564966666666667">
+<time>2007-05-13T10:53:00Z</time>
+<speed>6.0</speed>
+<geoidheight>222.0</geoidheight><desc><![CDATA[Distance from Start:10.055319901081846 km]]></desc>
+</trkpt>
+<trkpt lat="45.625706666666666" lon="10.565476666666667">
+<time>2007-05-13T10:53:00Z</time>
+<speed>5.0</speed>
+<geoidheight>260.9</geoidheight><desc><![CDATA[Distance from Start:10.097925038843183 km]]></desc>
+</trkpt>
+<trkpt lat="45.62577" lon="10.565555">
+<time>2007-05-13T10:53:00Z</time>
+<speed>6.0</speed>
+<geoidheight>285.0</geoidheight><desc><![CDATA[Distance from Start:10.1072363497072 km]]></desc>
+</trkpt>
+<trkpt lat="45.625855" lon="10.565713333333333">
+<time>2007-05-13T10:54:00Z</time>
+<speed>5.0</speed>
+<geoidheight>324.0</geoidheight><desc><![CDATA[Distance from Start:10.12275827051235 km]]></desc>
+</trkpt>
+<trkpt lat="45.62577666666667" lon="10.566113333333334">
+<time>2007-05-13T10:54:00Z</time>
+<speed>7.0</speed>
+<geoidheight>362.1</geoidheight><desc><![CDATA[Distance from Start:10.155060088808895 km]]></desc>
+</trkpt>
+<trkpt lat="45.62566833333333" lon="10.566803333333333">
+<time>2007-05-13T10:54:00Z</time>
+<speed>17.0</speed>
+<geoidheight>405.8</geoidheight><desc><![CDATA[Distance from Start:10.210052368207027 km]]></desc>
+</trkpt>
+<trkpt lat="45.62556166666667" lon="10.567338333333334">
+<time>2007-05-13T10:54:00Z</time>
+<speed>6.0</speed>
+<geoidheight>418.4</geoidheight><desc><![CDATA[Distance from Start:10.253313514461356 km]]></desc>
+</trkpt>
+<trkpt lat="45.62569166666667" lon="10.567658333333334">
+<time>2007-05-13T10:54:00Z</time>
+<speed>6.0</speed>
+<geoidheight>427.1</geoidheight><desc><![CDATA[Distance from Start:10.282091731854585 km]]></desc>
+</trkpt>
+<trkpt lat="45.625975" lon="10.568031666666666">
+<time>2007-05-13T10:54:00Z</time>
+<speed>10.0</speed>
+<geoidheight>435.2</geoidheight><desc><![CDATA[Distance from Start:10.324933447701229 km]]></desc>
+</trkpt>
+<trkpt lat="45.626306666666665" lon="10.568575">
+<time>2007-05-13T10:55:00Z</time>
+<speed>8.0</speed>
+<geoidheight>433.8</geoidheight><desc><![CDATA[Distance from Start:10.381016100628617 km]]></desc>
+</trkpt>
+<trkpt lat="45.62665" lon="10.568913333333333">
+<time>2007-05-13T10:55:00Z</time>
+<speed>1.0</speed>
+<geoidheight>403.2</geoidheight><desc><![CDATA[Distance from Start:10.42738064845665 km]]></desc>
+</trkpt>
+<trkpt lat="45.62721666666667" lon="10.569011666666666">
+<time>2007-05-13T10:55:00Z</time>
+<speed>4.0</speed>
+<geoidheight>333.6</geoidheight><desc><![CDATA[Distance from Start:10.490853380675592 km]]></desc>
+</trkpt>
+<trkpt lat="45.62725" lon="10.569521666666667">
+<time>2007-05-13T10:55:00Z</time>
+<speed>11.0</speed>
+<geoidheight>327.0</geoidheight><desc><![CDATA[Distance from Start:10.530684444434963 km]]></desc>
+</trkpt>
+<trkpt lat="45.627415" lon="10.569648333333333">
+<time>2007-05-13T10:55:00Z</time>
+<speed>9.0</speed>
+<geoidheight>296.1</geoidheight><desc><![CDATA[Distance from Start:10.551508367198215 km]]></desc>
+</trkpt>
+<trkpt lat="45.627535" lon="10.56975">
+<time>2007-05-13T10:55:00Z</time>
+<speed>7.0</speed>
+<geoidheight>251.5</geoidheight><desc><![CDATA[Distance from Start:10.56701791445902 km]]></desc>
+</trkpt>
+<trkpt lat="45.627633333333335" lon="10.569843333333333">
+<time>2007-05-13T10:56:00Z</time>
+<speed>8.0</speed>
+<geoidheight>234.3</geoidheight><desc><![CDATA[Distance from Start:10.5801415498375 km]]></desc>
+</trkpt>
+<trkpt lat="45.62788" lon="10.570018333333334">
+<time>2007-05-13T10:56:00Z</time>
+<speed>6.0</speed>
+<geoidheight>236.8</geoidheight><desc><![CDATA[Distance from Start:10.610759841608395 km]]></desc>
+</trkpt>
+<trkpt lat="45.62813" lon="10.570205">
+<time>2007-05-13T10:56:00Z</time>
+<speed>4.0</speed>
+<geoidheight>236.6</geoidheight><desc><![CDATA[Distance from Start:10.642120030303364 km]]></desc>
+</trkpt>
+<trkpt lat="45.628235" lon="10.57049">
+<time>2007-05-13T10:56:00Z</time>
+<speed>4.0</speed>
+<geoidheight>261.3</geoidheight><desc><![CDATA[Distance from Start:10.667169024633662 km]]></desc>
+</trkpt>
+<trkpt lat="45.62819666666667" lon="10.570893333333334">
+<time>2007-05-13T10:56:00Z</time>
+<speed>5.0</speed>
+<geoidheight>319.1</geoidheight><desc><![CDATA[Distance from Start:10.698820500848292 km]]></desc>
+</trkpt>
+<trkpt lat="45.62824333333333" lon="10.571081666666666">
+<time>2007-05-13T10:56:00Z</time>
+<speed>3.0</speed>
+<geoidheight>357.2</geoidheight><desc><![CDATA[Distance from Start:10.714357430915882 km]]></desc>
+</trkpt>
+<trkpt lat="45.628186666666664" lon="10.57107">
+<time>2007-05-13T10:57:00Z</time>
+<speed>7.0</speed>
+<geoidheight>376.2</geoidheight><desc><![CDATA[Distance from Start:10.720723449089991 km]]></desc>
+</trkpt>
+<trkpt lat="45.62814" lon="10.57078">
+<time>2007-05-13T10:57:00Z</time>
+<speed>4.0</speed>
+<geoidheight>376.5</geoidheight><desc><![CDATA[Distance from Start:10.743863169178487 km]]></desc>
+</trkpt>
+<trkpt lat="45.62821666666667" lon="10.57038">
+<time>2007-05-13T10:57:00Z</time>
+<speed>10.0</speed>
+<geoidheight>341.9</geoidheight><desc><![CDATA[Distance from Start:10.77611424356922 km]]></desc>
+</trkpt>
+<trkpt lat="45.628416666666666" lon="10.569916666666666">
+<time>2007-05-13T10:57:00Z</time>
+<speed>10.0</speed>
+<geoidheight>290.7</geoidheight><desc><![CDATA[Distance from Start:10.818453802051796 km]]></desc>
+</trkpt>
+<trkpt lat="45.62848666666667" lon="10.56947">
+<time>2007-05-13T10:57:00Z</time>
+<speed>13.0</speed>
+<geoidheight>221.9</geoidheight><desc><![CDATA[Distance from Start:10.854047883681016 km]]></desc>
+</trkpt>
+<trkpt lat="45.62849166666667" lon="10.568991666666667">
+<time>2007-05-13T10:57:00Z</time>
+<speed>13.0</speed>
+<geoidheight>198.1</geoidheight><desc><![CDATA[Distance from Start:10.891246999898653 km]]></desc>
+</trkpt>
+<trkpt lat="45.628585" lon="10.568601666666666">
+<time>2007-05-13T10:58:00Z</time>
+<speed>11.0</speed>
+<geoidheight>195.8</geoidheight><desc><![CDATA[Distance from Start:10.923299831387052 km]]></desc>
+</trkpt>
+<trkpt lat="45.62876" lon="10.56849">
+<time>2007-05-13T10:58:00Z</time>
+<speed>10.0</speed>
+<geoidheight>207.2</geoidheight><desc><![CDATA[Distance from Start:10.944608363503468 km]]></desc>
+</trkpt>
+<trkpt lat="45.628798333333336" lon="10.568255">
+<time>2007-05-13T10:58:00Z</time>
+<speed>10.0</speed>
+<geoidheight>213.3</geoidheight><desc><![CDATA[Distance from Start:10.963372301872472 km]]></desc>
+</trkpt>
+<trkpt lat="45.62876833333333" lon="10.567986666666666">
+<time>2007-05-13T10:58:00Z</time>
+<speed>6.0</speed>
+<geoidheight>217.2</geoidheight><desc><![CDATA[Distance from Start:10.984502635140204 km]]></desc>
+</trkpt>
+<trkpt lat="45.628735" lon="10.567573333333334">
+<time>2007-05-13T10:58:00Z</time>
+<speed>11.0</speed>
+<geoidheight>217.9</geoidheight><desc><![CDATA[Distance from Start:11.016856092595003 km]]></desc>
+</trkpt>
+<trkpt lat="45.628755" lon="10.56717">
+<time>2007-05-13T10:58:00Z</time>
+<speed>10.0</speed>
+<geoidheight>216.2</geoidheight><desc><![CDATA[Distance from Start:11.04829769608638 km]]></desc>
+</trkpt>
+<trkpt lat="45.62856166666667" lon="10.566955">
+<time>2007-05-13T10:59:00Z</time>
+<speed>9.0</speed>
+<geoidheight>224.0</geoidheight><desc><![CDATA[Distance from Start:11.07553094985309 km]]></desc>
+</trkpt>
+<trkpt lat="45.628368333333334" lon="10.56673">
+<time>2007-05-13T10:59:00Z</time>
+<speed>7.0</speed>
+<geoidheight>230.1</geoidheight><desc><![CDATA[Distance from Start:11.103248396302082 km]]></desc>
+</trkpt>
+<trkpt lat="45.628416666666666" lon="10.56662">
+<time>2007-05-13T10:59:00Z</time>
+<speed>4.0</speed>
+<geoidheight>243.4</geoidheight><desc><![CDATA[Distance from Start:11.113350266990587 km]]></desc>
+</trkpt>
+<trkpt lat="45.628475" lon="10.566916666666666">
+<time>2007-05-13T10:59:00Z</time>
+<speed>5.0</speed>
+<geoidheight>270.3</geoidheight><desc><![CDATA[Distance from Start:11.13731349982398 km]]></desc>
+</trkpt>
+<trkpt lat="45.62847333333333" lon="10.566956666666666">
+<time>2007-05-13T10:59:00Z</time>
+<speed>8.0</speed>
+<geoidheight>273.4</geoidheight><desc><![CDATA[Distance from Start:11.14042939687458 km]]></desc>
+</trkpt>
+<trkpt lat="45.63039833333333" lon="10.565478333333333">
+<time>2007-05-13T11:04:00Z</time>
+<speed>8.0</speed>
+<geoidheight>284.7</geoidheight><desc><![CDATA[Distance from Start:11.383393558454602 km]]></desc>
+</trkpt>
+<trkpt lat="45.630403333333334" lon="10.565186666666667">
+<time>2007-05-13T11:04:00Z</time>
+<speed>1.0</speed>
+<geoidheight>284.8</geoidheight><desc><![CDATA[Distance from Start:11.406079453141478 km]]></desc>
+</trkpt>
+<trkpt lat="45.63024" lon="10.564991666666666">
+<time>2007-05-13T11:04:00Z</time>
+<speed>7.0</speed>
+<geoidheight>290.6</geoidheight><desc><![CDATA[Distance from Start:11.429738637481398 km]]></desc>
+</trkpt>
+<trkpt lat="45.629976666666664" lon="10.564788333333333">
+<time>2007-05-13T11:04:00Z</time>
+<speed>8.0</speed>
+<geoidheight>292.5</geoidheight><desc><![CDATA[Distance from Start:11.463015847482696 km]]></desc>
+</trkpt>
+<trkpt lat="45.62974666666667" lon="10.564748333333334">
+<time>2007-05-13T11:04:00Z</time>
+<speed>7.0</speed>
+<geoidheight>304.9</geoidheight><desc><![CDATA[Distance from Start:11.488779117248834 km]]></desc>
+</trkpt>
+<trkpt lat="45.62949" lon="10.564313333333333">
+<time>2007-05-13T11:04:00Z</time>
+<speed>12.0</speed>
+<geoidheight>304.1</geoidheight><desc><![CDATA[Distance from Start:11.533035685044014 km]]></desc>
+</trkpt>
+<trkpt lat="45.62957333333333" lon="10.5642">
+<time>2007-05-13T11:05:00Z</time>
+<speed>6.0</speed>
+<geoidheight>319.5</geoidheight><desc><![CDATA[Distance from Start:11.545823367872396 km]]></desc>
+</trkpt>
+<trkpt lat="45.62971833333334" lon="10.564023333333333">
+<time>2007-05-13T11:05:00Z</time>
+<speed>8.0</speed>
+<geoidheight>332.0</geoidheight><desc><![CDATA[Distance from Start:11.567005225476036 km]]></desc>
+</trkpt>
+<trkpt lat="45.629871666666666" lon="10.563901666666666">
+<time>2007-05-13T11:05:00Z</time>
+<speed>5.0</speed>
+<geoidheight>334.6</geoidheight><desc><![CDATA[Distance from Start:11.586503946428554 km]]></desc>
+</trkpt>
+<trkpt lat="45.630273333333335" lon="10.56251">
+<time>2007-05-13T11:05:00Z</time>
+<speed>6.0</speed>
+<geoidheight>314.3</geoidheight><desc><![CDATA[Distance from Start:11.703571023975059 km]]></desc>
+</trkpt>
+<trkpt lat="45.63010166666667" lon="10.562881666666666">
+<time>2007-05-13T11:06:00Z</time>
+<speed>8.0</speed>
+<geoidheight>336.2</geoidheight><desc><![CDATA[Distance from Start:11.738205750668838 km]]></desc>
+</trkpt>
+<trkpt lat="45.630015" lon="10.562726666666666">
+<time>2007-05-13T11:06:00Z</time>
+<speed>7.0</speed>
+<geoidheight>349.2</geoidheight><desc><![CDATA[Distance from Start:11.753637202536353 km]]></desc>
+</trkpt>
+<trkpt lat="45.63002" lon="10.56222">
+<time>2007-05-13T11:06:00Z</time>
+<speed>9.0</speed>
+<geoidheight>346.0</geoidheight><desc><![CDATA[Distance from Start:11.793038198138152 km]]></desc>
+</trkpt>
+<trkpt lat="45.63004" lon="10.56137">
+<time>2007-05-13T11:06:00Z</time>
+<speed>11.0</speed>
+<geoidheight>317.4</geoidheight><desc><![CDATA[Distance from Start:11.859169360751645 km]]></desc>
+</trkpt>
+<trkpt lat="45.630125" lon="10.560901666666666">
+<time>2007-05-13T11:06:00Z</time>
+<speed>3.0</speed>
+<geoidheight>306.7</geoidheight><desc><![CDATA[Distance from Start:11.89679224360263 km]]></desc>
+</trkpt>
+<trkpt lat="45.630156666666664" lon="10.560591666666667">
+<time>2007-05-13T11:06:00Z</time>
+<speed>6.0</speed>
+<geoidheight>300.9</geoidheight><desc><![CDATA[Distance from Start:11.921152804002661 km]]></desc>
+</trkpt>
+<trkpt lat="45.630336666666665" lon="10.560025">
+<time>2007-05-13T11:07:00Z</time>
+<speed>12.0</speed>
+<geoidheight>290.8</geoidheight><desc><![CDATA[Distance from Start:11.969547980437959 km]]></desc>
+</trkpt>
+<trkpt lat="45.63052" lon="10.55961">
+<time>2007-05-13T11:07:00Z</time>
+<speed>14.0</speed>
+<geoidheight>288.1</geoidheight><desc><![CDATA[Distance from Start:12.007716967062485 km]]></desc>
+</trkpt>
+<trkpt lat="45.63064333333333" lon="10.559275">
+<time>2007-05-13T11:07:00Z</time>
+<speed>11.0</speed>
+<geoidheight>292.4</geoidheight><desc><![CDATA[Distance from Start:12.037154990091155 km]]></desc>
+</trkpt>
+<trkpt lat="45.630584999999996" lon="10.558761666666667">
+<time>2007-05-13T11:07:00Z</time>
+<speed>10.0</speed>
+<geoidheight>294.5</geoidheight><desc><![CDATA[Distance from Start:12.077593618397687 km]]></desc>
+</trkpt>
+<trkpt lat="45.63047" lon="10.558366666666666">
+<time>2007-05-13T11:07:00Z</time>
+<speed>9.0</speed>
+<geoidheight>302.9</geoidheight><desc><![CDATA[Distance from Start:12.110863136032357 km]]></desc>
+</trkpt>
+<trkpt lat="45.630271666666665" lon="10.558063333333333">
+<time>2007-05-13T11:07:00Z</time>
+<speed>11.0</speed>
+<geoidheight>322.0</geoidheight><desc><![CDATA[Distance from Start:12.143153621300415 km]]></desc>
+</trkpt>
+<trkpt lat="45.629895" lon="10.558045">
+<time>2007-05-13T11:08:00Z</time>
+<speed>13.0</speed>
+<geoidheight>329.0</geoidheight><desc><![CDATA[Distance from Start:12.185061296427868 km]]></desc>
+</trkpt>
+<trkpt lat="45.629628333333336" lon="10.557673333333334">
+<time>2007-05-13T11:08:00Z</time>
+<speed>8.0</speed>
+<geoidheight>322.4</geoidheight><desc><![CDATA[Distance from Start:12.226467183961018 km]]></desc>
+</trkpt>
+<trkpt lat="45.62997166666667" lon="10.557303333333333">
+<time>2007-05-13T11:08:00Z</time>
+<speed>17.0</speed>
+<geoidheight>314.7</geoidheight><desc><![CDATA[Distance from Start:12.274271055868738 km]]></desc>
+</trkpt>
+<trkpt lat="45.63026833333333" lon="10.557008333333334">
+<time>2007-05-13T11:08:00Z</time>
+<speed>16.0</speed>
+<geoidheight>317.7</geoidheight><desc><![CDATA[Distance from Start:12.314450233499995 km]]></desc>
+</trkpt>
+<trkpt lat="45.630633333333336" lon="10.556631666666666">
+<time>2007-05-13T11:08:00Z</time>
+<speed>19.0</speed>
+<geoidheight>312.4</geoidheight><desc><![CDATA[Distance from Start:12.364500658159017 km]]></desc>
+</trkpt>
+<trkpt lat="45.63080333333333" lon="10.556098333333333">
+<time>2007-05-13T11:08:00Z</time>
+<speed>14.0</speed>
+<geoidheight>306.8</geoidheight><desc><![CDATA[Distance from Start:12.41007583237177 km]]></desc>
+</trkpt>
+<trkpt lat="45.630831666666666" lon="10.555653333333334">
+<time>2007-05-13T11:09:00Z</time>
+<speed>13.0</speed>
+<geoidheight>307.1</geoidheight><desc><![CDATA[Distance from Start:12.444820506744113 km]]></desc>
+</trkpt>
+<trkpt lat="45.63067" lon="10.555293333333333">
+<time>2007-05-13T11:09:00Z</time>
+<speed>6.0</speed>
+<geoidheight>321.5</geoidheight><desc><![CDATA[Distance from Start:12.478087958720868 km]]></desc>
+</trkpt>
+<trkpt lat="45.630465" lon="10.555001666666668">
+<time>2007-05-13T11:09:00Z</time>
+<speed>10.0</speed>
+<geoidheight>329.5</geoidheight><desc><![CDATA[Distance from Start:12.510243018078798 km]]></desc>
+</trkpt>
+<trkpt lat="45.630605" lon="10.554673333333334">
+<time>2007-05-13T11:09:00Z</time>
+<speed>11.0</speed>
+<geoidheight>339.7</geoidheight><desc><![CDATA[Distance from Start:12.540144969982375 km]]></desc>
+</trkpt>
+<trkpt lat="45.63084" lon="10.55436">
+<time>2007-05-13T11:09:00Z</time>
+<speed>13.0</speed>
+<geoidheight>336.2</geoidheight><desc><![CDATA[Distance from Start:12.575871817797003 km]]></desc>
+</trkpt>
+<trkpt lat="45.630943333333335" lon="10.553928333333333">
+<time>2007-05-13T11:09:00Z</time>
+<speed>12.0</speed>
+<geoidheight>334.9</geoidheight><desc><![CDATA[Distance from Start:12.611348789619424 km]]></desc>
+</trkpt>
+<trkpt lat="45.631013333333335" lon="10.553483333333334">
+<time>2007-05-13T11:10:00Z</time>
+<speed>9.0</speed>
+<geoidheight>324.9</geoidheight><desc><![CDATA[Distance from Start:12.646814898199892 km]]></desc>
+</trkpt>
+<trkpt lat="45.63097166666667" lon="10.553126666666667">
+<time>2007-05-13T11:10:00Z</time>
+<speed>9.0</speed>
+<geoidheight>319.5</geoidheight><desc><![CDATA[Distance from Start:12.674932227039669 km]]></desc>
+</trkpt>
+<trkpt lat="45.630815" lon="10.552771666666667">
+<time>2007-05-13T11:10:00Z</time>
+<speed>9.0</speed>
+<geoidheight>320.8</geoidheight><desc><![CDATA[Distance from Start:12.707573075498573 km]]></desc>
+</trkpt>
+<trkpt lat="45.63073333333333" lon="10.552388333333333">
+<time>2007-05-13T11:10:00Z</time>
+<speed>10.0</speed>
+<geoidheight>327.5</geoidheight><desc><![CDATA[Distance from Start:12.738732281263282 km]]></desc>
+</trkpt>
+<trkpt lat="45.630658333333336" lon="10.552033333333334">
+<time>2007-05-13T11:10:00Z</time>
+<speed>7.0</speed>
+<geoidheight>329.8</geoidheight><desc><![CDATA[Distance from Start:12.76756810019155 km]]></desc>
+</trkpt>
+<trkpt lat="45.63055666666666" lon="10.551868333333333">
+<time>2007-05-13T11:10:00Z</time>
+<speed>3.0</speed>
+<geoidheight>333.3</geoidheight><desc><![CDATA[Distance from Start:12.784667910298829 km]]></desc>
+</trkpt>
+<trkpt lat="45.63042333333333" lon="10.551536666666667">
+<time>2007-05-13T11:11:00Z</time>
+<speed>11.0</speed>
+<geoidheight>333.5</geoidheight><desc><![CDATA[Distance from Start:12.814415157049845 km]]></desc>
+</trkpt>
+<trkpt lat="45.630201666666665" lon="10.551098333333334">
+<time>2007-05-13T11:11:00Z</time>
+<speed>9.0</speed>
+<geoidheight>335.3</geoidheight><desc><![CDATA[Distance from Start:12.856477221628293 km]]></desc>
+</trkpt>
+<trkpt lat="45.629845" lon="10.550975">
+<time>2007-05-13T11:11:00Z</time>
+<speed>11.0</speed>
+<geoidheight>351.4</geoidheight><desc><![CDATA[Distance from Start:12.89727976274826 km]]></desc>
+</trkpt>
+<trkpt lat="45.629623333333335" lon="10.55104">
+<time>2007-05-13T11:11:00Z</time>
+<speed>6.0</speed>
+<geoidheight>364.3</geoidheight><desc><![CDATA[Distance from Start:12.922440837461076 km]]></desc>
+</trkpt>
+<trkpt lat="45.62952666666666" lon="10.551213333333333">
+<time>2007-05-13T11:11:00Z</time>
+<speed>5.0</speed>
+<geoidheight>381.8</geoidheight><desc><![CDATA[Distance from Start:12.939680197010942 km]]></desc>
+</trkpt>
+<trkpt lat="45.629373333333334" lon="10.551175">
+<time>2007-05-13T11:11:00Z</time>
+<speed>10.0</speed>
+<geoidheight>389.9</geoidheight><desc><![CDATA[Distance from Start:12.956988676195655 km]]></desc>
+</trkpt>
+<trkpt lat="45.629326666666664" lon="10.550778333333334">
+<time>2007-05-13T11:12:00Z</time>
+<speed>10.0</speed>
+<geoidheight>378.7</geoidheight><desc><![CDATA[Distance from Start:12.988266255577717 km]]></desc>
+</trkpt>
+<trkpt lat="45.62947666666667" lon="10.550513333333333">
+<time>2007-05-13T11:12:00Z</time>
+<speed>11.0</speed>
+<geoidheight>371.9</geoidheight><desc><![CDATA[Distance from Start:13.014776658307348 km]]></desc>
+</trkpt>
+<trkpt lat="45.62963333333333" lon="10.550425">
+<time>2007-05-13T11:12:00Z</time>
+<speed>8.0</speed>
+<geoidheight>386.5</geoidheight><desc><![CDATA[Distance from Start:13.033502393816395 km]]></desc>
+</trkpt>
+<trkpt lat="45.62981333333333" lon="10.550373333333333">
+<time>2007-05-13T11:12:00Z</time>
+<speed>4.0</speed>
+<geoidheight>396.9</geoidheight><desc><![CDATA[Distance from Start:13.053916699699148 km]]></desc>
+</trkpt>
+<trkpt lat="45.629801666666665" lon="10.550661666666667">
+<time>2007-05-13T11:12:00Z</time>
+<speed>3.0</speed>
+<geoidheight>432.8</geoidheight><desc><![CDATA[Distance from Start:13.076374328523803 km]]></desc>
+</trkpt>
+<trkpt lat="45.629695" lon="10.551148333333334">
+<time>2007-05-13T11:12:00Z</time>
+<speed>8.0</speed>
+<geoidheight>487.9</geoidheight><desc><![CDATA[Distance from Start:13.116031653774279 km]]></desc>
+</trkpt>
+<trkpt lat="45.62958833333333" lon="10.551638333333333">
+<time>2007-05-13T11:13:00Z</time>
+<speed>4.0</speed>
+<geoidheight>541.7</geoidheight><desc><![CDATA[Distance from Start:13.155936452154782 km]]></desc>
+</trkpt>
+<trkpt lat="45.62951" lon="10.551926666666667">
+<time>2007-05-13T11:13:00Z</time>
+<speed>8.0</speed>
+<geoidheight>596.4</geoidheight><desc><![CDATA[Distance from Start:13.179989219043946 km]]></desc>
+</trkpt>
+<trkpt lat="45.629418333333334" lon="10.55223">
+<time>2007-05-13T11:13:00Z</time>
+<speed>6.0</speed>
+<geoidheight>646.2</geoidheight><desc><![CDATA[Distance from Start:13.205684044742378 km]]></desc>
+</trkpt>
+<trkpt lat="45.629975" lon="10.55207">
+<time>2007-05-13T11:13:00Z</time>
+<speed>2.0</speed>
+<geoidheight>580.0</geoidheight><desc><![CDATA[Distance from Start:13.268820485318733 km]]></desc>
+</trkpt>
+<trkpt lat="45.63028833333333" lon="10.551721666666667">
+<time>2007-05-13T11:13:00Z</time>
+<speed>5.0</speed>
+<geoidheight>526.9</geoidheight><desc><![CDATA[Distance from Start:13.312951214699789 km]]></desc>
+</trkpt>
+<trkpt lat="45.630695" lon="10.551195">
+<time>2007-05-13T11:13:00Z</time>
+<speed>12.0</speed>
+<geoidheight>455.4</geoidheight><desc><![CDATA[Distance from Start:13.37395808598443 km]]></desc>
+</trkpt>
+<trkpt lat="45.63113333333333" lon="10.550351666666666">
+<time>2007-05-13T11:14:00Z</time>
+<speed>16.0</speed>
+<geoidheight>344.9</geoidheight><desc><![CDATA[Distance from Start:13.455662584280793 km]]></desc>
+</trkpt>
+<trkpt lat="45.631056666666666" lon="10.549816666666667">
+<time>2007-05-13T11:14:00Z</time>
+<speed>21.0</speed>
+<geoidheight>325.2</geoidheight><desc><![CDATA[Distance from Start:13.49812650616126 km]]></desc>
+</trkpt>
+<trkpt lat="45.631083333333336" lon="10.549463333333334">
+<time>2007-05-13T11:14:00Z</time>
+<speed>17.0</speed>
+<geoidheight>335.0</geoidheight><desc><![CDATA[Distance from Start:13.525759815915338 km]]></desc>
+</trkpt>
+<trkpt lat="45.631165" lon="10.549218333333334">
+<time>2007-05-13T11:14:00Z</time>
+<speed>9.0</speed>
+<geoidheight>341.8</geoidheight><desc><![CDATA[Distance from Start:13.546863666900437 km]]></desc>
+</trkpt>
+<trkpt lat="45.631258333333335" lon="10.54909">
+<time>2007-05-13T11:14:00Z</time>
+<speed>10.0</speed>
+<geoidheight>374.3</geoidheight><desc><![CDATA[Distance from Start:13.561260901765714 km]]></desc>
+</trkpt>
+<trkpt lat="45.631375" lon="10.549033333333334">
+<time>2007-05-13T11:14:00Z</time>
+<speed>7.0</speed>
+<geoidheight>414.4</geoidheight><desc><![CDATA[Distance from Start:13.574961491920073 km]]></desc>
+</trkpt>
+<trkpt lat="45.631708333333336" lon="10.54892">
+<time>2007-05-13T11:15:00Z</time>
+<speed>11.0</speed>
+<geoidheight>438.6</geoidheight><desc><![CDATA[Distance from Start:13.61305963331672 km]]></desc>
+</trkpt>
+<trkpt lat="45.631955" lon="10.548886666666666">
+<time>2007-05-13T11:15:00Z</time>
+<speed>10.0</speed>
+<geoidheight>453.0</geoidheight><desc><![CDATA[Distance from Start:13.640609900852226 km]]></desc>
+</trkpt>
+<trkpt lat="45.634098333333334" lon="10.54983">
+<time>2007-05-13T11:15:00Z</time>
+<speed>26.0</speed>
+<geoidheight>476.5</geoidheight><desc><![CDATA[Distance from Start:13.889968971847875 km]]></desc>
+</trkpt>
+<trkpt lat="45.63477833333334" lon="10.550336666666666">
+<time>2007-05-13T11:15:00Z</time>
+<speed>35.0</speed>
+<geoidheight>487.5</geoidheight><desc><![CDATA[Distance from Start:13.975228236122733 km]]></desc>
+</trkpt>
+<trkpt lat="45.635558333333336" lon="10.55073">
+<time>2007-05-13T11:16:00Z</time>
+<speed>29.0</speed>
+<geoidheight>493.6</geoidheight><desc><![CDATA[Distance from Start:14.067193942233693 km]]></desc>
+</trkpt>
+<trkpt lat="45.63612833333333" lon="10.550765">
+<time>2007-05-13T11:16:00Z</time>
+<speed>14.0</speed>
+<geoidheight>491.8</geoidheight><desc><![CDATA[Distance from Start:14.130633440006074 km]]></desc>
+</trkpt>
+<trkpt lat="45.636511666666664" lon="10.550148333333333">
+<time>2007-05-13T11:16:00Z</time>
+<speed>20.0</speed>
+<geoidheight>443.9</geoidheight><desc><![CDATA[Distance from Start:14.194786298087521 km]]></desc>
+</trkpt>
+<trkpt lat="45.636935" lon="10.549365">
+<time>2007-05-13T11:16:00Z</time>
+<speed>25.0</speed>
+<geoidheight>403.8</geoidheight><desc><![CDATA[Distance from Start:14.271760034124897 km]]></desc>
+</trkpt>
+<trkpt lat="45.6374" lon="10.548613333333334">
+<time>2007-05-13T11:16:00Z</time>
+<speed>27.0</speed>
+<geoidheight>377.7</geoidheight><desc><![CDATA[Distance from Start:14.349790331262806 km]]></desc>
+</trkpt>
+<trkpt lat="45.637883333333335" lon="10.548156666666667">
+<time>2007-05-13T11:16:00Z</time>
+<speed>24.0</speed>
+<geoidheight>367.3</geoidheight><desc><![CDATA[Distance from Start:14.414203071260928 km]]></desc>
+</trkpt>
+<trkpt lat="45.63841" lon="10.547995">
+<time>2007-05-13T11:17:00Z</time>
+<speed>23.0</speed>
+<geoidheight>377.0</geoidheight><desc><![CDATA[Distance from Start:14.47409934689435 km]]></desc>
+</trkpt>
+<trkpt lat="45.638978333333334" lon="10.54774">
+<time>2007-05-13T11:17:00Z</time>
+<speed>23.0</speed>
+<geoidheight>373.2</geoidheight><desc><![CDATA[Distance from Start:14.540331816727376 km]]></desc>
+</trkpt>
+<trkpt lat="45.639376666666664" lon="10.547508333333333">
+<time>2007-05-13T11:17:00Z</time>
+<speed>19.0</speed>
+<geoidheight>388.0</geoidheight><desc><![CDATA[Distance from Start:14.588146345058982 km]]></desc>
+</trkpt>
+<trkpt lat="45.639451666666666" lon="10.547285">
+<time>2007-05-13T11:17:00Z</time>
+<speed>5.0</speed>
+<geoidheight>381.4</geoidheight><desc><![CDATA[Distance from Start:14.607408215845266 km]]></desc>
+</trkpt>
+<trkpt lat="45.63932333333333" lon="10.54736">
+<time>2007-05-13T11:17:00Z</time>
+<speed>3.0</speed>
+<geoidheight>402.5</geoidheight><desc><![CDATA[Distance from Start:14.622823529756165 km]]></desc>
+</trkpt>
+<trkpt lat="45.639086666666664" lon="10.547768333333334">
+<time>2007-05-13T11:17:00Z</time>
+<speed>11.0</speed>
+<geoidheight>444.1</geoidheight><desc><![CDATA[Distance from Start:14.664058586560964 km]]></desc>
+</trkpt>
+<trkpt lat="45.63873" lon="10.548296666666667">
+<time>2007-05-13T11:18:00Z</time>
+<speed>14.0</speed>
+<geoidheight>489.5</geoidheight><desc><![CDATA[Distance from Start:14.721155504083896 km]]></desc>
+</trkpt>
+<trkpt lat="45.6384" lon="10.548791666666666">
+<time>2007-05-13T11:18:00Z</time>
+<speed>9.0</speed>
+<geoidheight>520.3</geoidheight><desc><![CDATA[Distance from Start:14.774329692743935 km]]></desc>
+</trkpt>
+<trkpt lat="45.63811166666667" lon="10.549151666666667">
+<time>2007-05-13T11:18:00Z</time>
+<speed>10.0</speed>
+<geoidheight>545.6</geoidheight><desc><![CDATA[Distance from Start:14.816888819534471 km]]></desc>
+</trkpt>
+<trkpt lat="45.637858333333334" lon="10.549605">
+<time>2007-05-13T11:18:00Z</time>
+<speed>9.0</speed>
+<geoidheight>572.0</geoidheight><desc><![CDATA[Distance from Start:14.862007819480437 km]]></desc>
+</trkpt>
+<trkpt lat="45.63767333333333" lon="10.549615">
+<time>2007-05-13T11:18:00Z</time>
+<speed>4.0</speed>
+<geoidheight>596.9</geoidheight><desc><![CDATA[Distance from Start:14.882593567349081 km]]></desc>
+</trkpt>
+<trkpt lat="45.637613333333334" lon="10.549481666666667">
+<time>2007-05-13T11:18:00Z</time>
+<speed>3.0</speed>
+<geoidheight>616.3</geoidheight><desc><![CDATA[Distance from Start:14.894921197076416 km]]></desc>
+</trkpt>
+<trkpt lat="45.637525" lon="10.54926">
+<time>2007-05-13T11:19:00Z</time>
+<speed>11.0</speed>
+<geoidheight>627.6</geoidheight><desc><![CDATA[Distance from Start:14.914757607501764 km]]></desc>
+</trkpt>
+<trkpt lat="45.637481666666666" lon="10.54907">
+<time>2007-05-13T11:19:00Z</time>
+<speed>11.0</speed>
+<geoidheight>633.5</geoidheight><desc><![CDATA[Distance from Start:14.930295539027533 km]]></desc>
+</trkpt>
+<trkpt lat="45.63760333333333" lon="10.548511666666666">
+<time>2007-05-13T11:19:00Z</time>
+<speed>9.0</speed>
+<geoidheight>651.3</geoidheight><desc><![CDATA[Distance from Start:14.975763573098481 km]]></desc>
+</trkpt>
+<trkpt lat="45.63626" lon="10.546316666666666">
+<time>2007-05-13T11:19:00Z</time>
+<speed>6.0</speed>
+<geoidheight>564.3</geoidheight><desc><![CDATA[Distance from Start:15.202557652941428 km]]></desc>
+</trkpt>
+<trkpt lat="45.63559" lon="10.545173333333333">
+<time>2007-05-13T11:19:00Z</time>
+<speed>13.0</speed>
+<geoidheight>499.8</geoidheight><desc><![CDATA[Distance from Start:15.318541904335193 km]]></desc>
+</trkpt>
+<trkpt lat="45.63482333333333" lon="10.544646666666667">
+<time>2007-05-13T11:19:00Z</time>
+<speed>18.0</speed>
+<geoidheight>456.1</geoidheight><desc><![CDATA[Distance from Start:15.413115903756319 km]]></desc>
+</trkpt>
+<trkpt lat="45.633813333333336" lon="10.543986666666667">
+<time>2007-05-13T11:20:00Z</time>
+<speed>23.0</speed>
+<geoidheight>367.5</geoidheight><desc><![CDATA[Distance from Start:15.53659124203035 km]]></desc>
+</trkpt>
+<trkpt lat="45.633765" lon="10.542928333333334">
+<time>2007-05-13T11:20:00Z</time>
+<speed>37.0</speed>
+<geoidheight>365.1</geoidheight><desc><![CDATA[Distance from Start:15.619054253847564 km]]></desc>
+</trkpt>
+<trkpt lat="45.63399833333333" lon="10.541791666666667">
+<time>2007-05-13T11:20:00Z</time>
+<speed>34.0</speed>
+<geoidheight>361.5</geoidheight><desc><![CDATA[Distance from Start:15.711162134897565 km]]></desc>
+</trkpt>
+<trkpt lat="45.63445" lon="10.540873333333334">
+<time>2007-05-13T11:20:00Z</time>
+<speed>13.0</speed>
+<geoidheight>370.1</geoidheight><desc><![CDATA[Distance from Start:15.798458045062148 km]]></desc>
+</trkpt>
+<trkpt lat="45.63445" lon="10.53979">
+<time>2007-05-13T11:20:00Z</time>
+<speed>22.0</speed>
+<geoidheight>361.8</geoidheight><desc><![CDATA[Distance from Start:15.882688545439494 km]]></desc>
+</trkpt>
+<trkpt lat="45.633788333333335" lon="10.539791666666666">
+<time>2007-05-13T11:20:00Z</time>
+<speed>14.0</speed>
+<geoidheight>371.6</geoidheight><desc><![CDATA[Distance from Start:15.956262635425306 km]]></desc>
+</trkpt>
+<trkpt lat="45.632976666666664" lon="10.539886666666666">
+<time>2007-05-13T11:21:00Z</time>
+<speed>17.0</speed>
+<geoidheight>352.4</geoidheight><desc><![CDATA[Distance from Start:16.046817609137562 km]]></desc>
+</trkpt>
+<trkpt lat="45.632288333333335" lon="10.53979">
+<time>2007-05-13T11:21:00Z</time>
+<speed>16.0</speed>
+<geoidheight>348.3</geoidheight><desc><![CDATA[Distance from Start:16.123724945215756 km]]></desc>
+</trkpt>
+<trkpt lat="45.631845" lon="10.53992">
+<time>2007-05-13T11:21:00Z</time>
+<speed>13.0</speed>
+<geoidheight>358.8</geoidheight><desc><![CDATA[Distance from Start:16.174047010141102 km]]></desc>
+</trkpt>
+<trkpt lat="45.631388333333334" lon="10.53985">
+<time>2007-05-13T11:21:00Z</time>
+<speed>14.0</speed>
+<geoidheight>360.4</geoidheight><desc><![CDATA[Distance from Start:16.22511689573387 km]]></desc>
+</trkpt>
+<trkpt lat="45.63070333333334" lon="10.539601666666666">
+<time>2007-05-13T11:21:00Z</time>
+<speed>15.0</speed>
+<geoidheight>370.4</geoidheight><desc><![CDATA[Distance from Start:16.303694862191954 km]]></desc>
+</trkpt>
+<trkpt lat="45.6305" lon="10.539738333333334">
+<time>2007-05-13T11:21:00Z</time>
+<speed>5.0</speed>
+<geoidheight>403.4</geoidheight><desc><![CDATA[Distance from Start:16.328677316184834 km]]></desc>
+</trkpt>
+<trkpt lat="45.63037666666666" lon="10.540311666666666">
+<time>2007-05-13T11:22:00Z</time>
+<speed>16.0</speed>
+<geoidheight>436.4</geoidheight><desc><![CDATA[Distance from Start:16.375319588372673 km]]></desc>
+</trkpt>
+<trkpt lat="45.63023" lon="10.540798333333333">
+<time>2007-05-13T11:22:00Z</time>
+<speed>8.0</speed>
+<geoidheight>454.9</geoidheight><desc><![CDATA[Distance from Start:16.416525980795424 km]]></desc>
+</trkpt>
+<trkpt lat="45.630235" lon="10.540998333333333">
+<time>2007-05-13T11:22:00Z</time>
+<speed>7.0</speed>
+<geoidheight>473.9</geoidheight><desc><![CDATA[Distance from Start:16.432087332332017 km]]></desc>
+</trkpt>
+<trkpt lat="45.630248333333334" lon="10.541326666666667">
+<time>2007-05-13T11:22:00Z</time>
+<speed>6.0</speed>
+<geoidheight>500.1</geoidheight><desc><![CDATA[Distance from Start:16.457660582891513 km]]></desc>
+</trkpt>
+<trkpt lat="45.63037833333333" lon="10.541616666666666">
+<time>2007-05-13T11:22:00Z</time>
+<speed>5.0</speed>
+<geoidheight>525.0</geoidheight><desc><![CDATA[Distance from Start:16.48444561186967 km]]></desc>
+</trkpt>
+<trkpt lat="45.630406666666666" lon="10.541918333333333">
+<time>2007-05-13T11:22:00Z</time>
+<speed>6.0</speed>
+<geoidheight>547.7</geoidheight><desc><![CDATA[Distance from Start:16.508112896422404 km]]></desc>
+</trkpt>
+<trkpt lat="45.62999666666666" lon="10.542063333333333">
+<time>2007-05-13T11:23:00Z</time>
+<speed>6.0</speed>
+<geoidheight>542.7</geoidheight><desc><![CDATA[Distance from Start:16.55507630238573 km]]></desc>
+</trkpt>
+<trkpt lat="45.62924833333334" lon="10.541923333333333">
+<time>2007-05-13T11:23:00Z</time>
+<speed>7.0</speed>
+<geoidheight>498.2</geoidheight><desc><![CDATA[Distance from Start:16.638996241507144 km]]></desc>
+</trkpt>
+<trkpt lat="45.628951666666666" lon="10.541486666666666">
+<time>2007-05-13T11:23:00Z</time>
+<speed>10.0</speed>
+<geoidheight>492.7</geoidheight><desc><![CDATA[Distance from Start:16.686336630914592 km]]></desc>
+</trkpt>
+<trkpt lat="45.62864666666667" lon="10.540956666666666">
+<time>2007-05-13T11:23:00Z</time>
+<speed>10.0</speed>
+<geoidheight>476.4</geoidheight><desc><![CDATA[Distance from Start:16.739709323998593 km]]></desc>
+</trkpt>
+<trkpt lat="45.628213333333335" lon="10.540301666666666">
+<time>2007-05-13T11:23:00Z</time>
+<speed>18.0</speed>
+<geoidheight>454.9</geoidheight><desc><![CDATA[Distance from Start:16.809822555442416 km]]></desc>
+</trkpt>
+<trkpt lat="45.62769333333333" lon="10.539618333333333">
+<time>2007-05-13T11:23:00Z</time>
+<speed>17.0</speed>
+<geoidheight>425.9</geoidheight><desc><![CDATA[Distance from Start:16.88835128940072 km]]></desc>
+</trkpt>
+<trkpt lat="45.62734" lon="10.538895">
+<time>2007-05-13T11:24:00Z</time>
+<speed>17.0</speed>
+<geoidheight>414.2</geoidheight><desc><![CDATA[Distance from Start:16.956961363520037 km]]></desc>
+</trkpt>
+<trkpt lat="45.62708" lon="10.538233333333332">
+<time>2007-05-13T11:24:00Z</time>
+<speed>18.0</speed>
+<geoidheight>411.5</geoidheight><desc><![CDATA[Distance from Start:17.01597949863773 km]]></desc>
+</trkpt>
+<trkpt lat="45.626783333333336" lon="10.537836666666667">
+<time>2007-05-13T11:24:00Z</time>
+<speed>17.0</speed>
+<geoidheight>408.6</geoidheight><desc><![CDATA[Distance from Start:17.061141862804487 km]]></desc>
+</trkpt>
+<trkpt lat="45.62632333333333" lon="10.538171666666667">
+<time>2007-05-13T11:24:00Z</time>
+<speed>24.0</speed>
+<geoidheight>416.3</geoidheight><desc><![CDATA[Distance from Start:17.11854315315297 km]]></desc>
+</trkpt>
+<trkpt lat="45.62578666666667" lon="10.538248333333334">
+<time>2007-05-13T11:24:00Z</time>
+<speed>14.0</speed>
+<geoidheight>417.8</geoidheight><desc><![CDATA[Distance from Start:17.17851483314728 km]]></desc>
+</trkpt>
+<trkpt lat="45.62546833333333" lon="10.538781666666667">
+<time>2007-05-13T11:24:00Z</time>
+<speed>15.0</speed>
+<geoidheight>438.2</geoidheight><desc><![CDATA[Distance from Start:17.2330403460751 km]]></desc>
+</trkpt>
+<trkpt lat="45.62474666666667" lon="10.539148333333333">
+<time>2007-05-13T11:25:00Z</time>
+<speed>28.0</speed>
+<geoidheight>445.8</geoidheight><desc><![CDATA[Distance from Start:17.318201308813325 km]]></desc>
+</trkpt>
+<trkpt lat="45.62389833333334" lon="10.538551666666667">
+<time>2007-05-13T11:25:00Z</time>
+<speed>9.0</speed>
+<geoidheight>429.0</geoidheight><desc><![CDATA[Distance from Start:17.423325866553622 km]]></desc>
+</trkpt>
+<trkpt lat="45.62359333333333" lon="10.538675">
+<time>2007-05-13T11:25:00Z</time>
+<speed>11.0</speed>
+<geoidheight>470.2</geoidheight><desc><![CDATA[Distance from Start:17.45857044395122 km]]></desc>
+</trkpt>
+<trkpt lat="45.623536666666666" lon="10.538795">
+<time>2007-05-13T11:25:00Z</time>
+<speed>1.0</speed>
+<geoidheight>517.6</geoidheight><desc><![CDATA[Distance from Start:17.469830490651862 km]]></desc>
+</trkpt>
+<trkpt lat="45.62356833333333" lon="10.53864">
+<time>2007-05-13T11:25:00Z</time>
+<speed>3.0</speed>
+<geoidheight>540.0</geoidheight><desc><![CDATA[Distance from Start:17.482388052824128 km]]></desc>
+</trkpt>
+<trkpt lat="45.623646666666666" lon="10.538793333333333">
+<time>2007-05-13T11:25:00Z</time>
+<speed>11.0</speed>
+<geoidheight>575.8</geoidheight><desc><![CDATA[Distance from Start:17.497154718802513 km]]></desc>
+</trkpt>
+<trkpt lat="45.62360666666667" lon="10.53934">
+<time>2007-05-13T11:26:00Z</time>
+<speed>7.0</speed>
+<geoidheight>603.6</geoidheight><desc><![CDATA[Distance from Start:17.53989897318184 km]]></desc>
+</trkpt>
+<trkpt lat="45.623345" lon="10.540453333333334">
+<time>2007-05-13T11:26:00Z</time>
+<speed>15.0</speed>
+<geoidheight>664.7</geoidheight><desc><![CDATA[Distance from Start:17.631237199979402 km]]></desc>
+</trkpt>
+<trkpt lat="45.62283" lon="10.541386666666666">
+<time>2007-05-13T11:26:00Z</time>
+<speed>32.0</speed>
+<geoidheight>699.9</geoidheight><desc><![CDATA[Distance from Start:17.72369014936871 km]]></desc>
+</trkpt>
+<trkpt lat="45.62181666666667" lon="10.541848333333334">
+<time>2007-05-13T11:26:00Z</time>
+<speed>40.0</speed>
+<geoidheight>642.8</geoidheight><desc><![CDATA[Distance from Start:17.841949373631756 km]]></desc>
+</trkpt>
+<trkpt lat="45.619973333333334" lon="10.541048333333332">
+<time>2007-05-13T11:26:00Z</time>
+<speed>42.0</speed>
+<geoidheight>528.4</geoidheight><desc><![CDATA[Distance from Start:18.056153139895166 km]]></desc>
+</trkpt>
+<trkpt lat="45.618415" lon="10.539935">
+<time>2007-05-13T11:26:00Z</time>
+<speed>46.0</speed>
+<geoidheight>444.9</geoidheight><desc><![CDATA[Distance from Start:18.249861083868517 km]]></desc>
+</trkpt>
+<trkpt lat="45.61815333333333" lon="10.539745">
+<time>2007-05-13T11:27:00Z</time>
+<speed>43.0</speed>
+<geoidheight>432.1</geoidheight><desc><![CDATA[Distance from Start:18.282494458104235 km]]></desc>
+</trkpt>
+<trkpt lat="45.6115" lon="10.538926666666667">
+<time>2007-05-13T11:33:00Z</time>
+<speed>1.0</speed>
+<geoidheight>70.6</geoidheight><desc><![CDATA[Distance from Start:19.025044262019723 km]]></desc>
+</trkpt>
+<trkpt lat="45.611583333333336" lon="10.538801666666666">
+<time>2007-05-13T11:33:00Z</time>
+<speed>1.0</speed>
+<geoidheight>64.5</geoidheight><desc><![CDATA[Distance from Start:19.0384754790994 km]]></desc>
+</trkpt>
+<trkpt lat="45.61161666666667" lon="10.538763333333334">
+<time>2007-05-13T11:33:00Z</time>
+<speed>0.0</speed>
+<geoidheight>60.5</geoidheight><desc><![CDATA[Distance from Start:19.043232424842923 km]]></desc>
+</trkpt>
+<trkpt lat="45.611576666666664" lon="10.538751666666666">
+<time>2007-05-13T11:34:00Z</time>
+<speed>0.0</speed>
+<geoidheight>58.9</geoidheight><desc><![CDATA[Distance from Start:19.047771851651916 km]]></desc>
+</trkpt>
+<trkpt lat="45.61163666666667" lon="10.538716666666666">
+<time>2007-05-13T11:34:00Z</time>
+<speed>0.0</speed>
+<geoidheight>54.6</geoidheight><desc><![CDATA[Distance from Start:19.05497761287418 km]]></desc>
+</trkpt>
+<trkpt lat="45.61170166666667" lon="10.538686666666667">
+<time>2007-05-13T11:34:00Z</time>
+<speed>1.0</speed>
+<geoidheight>50.4</geoidheight><desc><![CDATA[Distance from Start:19.06257263545987 km]]></desc>
+</trkpt>
+<trkpt lat="45.61162" lon="10.538723333333333">
+<time>2007-05-13T11:34:00Z</time>
+<speed>1.0</speed>
+<geoidheight>54.5</geoidheight><desc><![CDATA[Distance from Start:19.072090891970934 km]]></desc>
+</trkpt>
+<trkpt lat="45.611356666666666" lon="10.538925">
+<time>2007-05-13T11:34:00Z</time>
+<speed>5.0</speed>
+<geoidheight>84.5</geoidheight><desc><![CDATA[Distance from Start:19.105309183689002 km]]></desc>
+</trkpt>
+<trkpt lat="45.61149" lon="10.539166666666667">
+<time>2007-05-13T11:34:00Z</time>
+<speed>16.0</speed>
+<geoidheight>98.5</geoidheight><desc><![CDATA[Distance from Start:19.129249938605433 km]]></desc>
+</trkpt>
+<trkpt lat="45.61182" lon="10.540096666666667">
+<time>2007-05-13T11:35:00Z</time>
+<speed>24.0</speed>
+<geoidheight>88.6</geoidheight><desc><![CDATA[Distance from Start:19.21036262067191 km]]></desc>
+</trkpt>
+<trkpt lat="45.612183333333334" lon="10.541011666666666">
+<time>2007-05-13T11:35:00Z</time>
+<speed>29.0</speed>
+<geoidheight>83.6</geoidheight><desc><![CDATA[Distance from Start:19.292200992133733 km]]></desc>
+</trkpt>
+<trkpt lat="45.61251333333333" lon="10.542113333333333">
+<time>2007-05-13T11:35:00Z</time>
+<speed>33.0</speed>
+<geoidheight>73.1</geoidheight><desc><![CDATA[Distance from Start:19.385416874543935 km]]></desc>
+</trkpt>
+<trkpt lat="45.61271333333333" lon="10.543236666666667">
+<time>2007-05-13T11:35:00Z</time>
+<speed>23.0</speed>
+<geoidheight>81.9</geoidheight><desc><![CDATA[Distance from Start:19.475577226232563 km]]></desc>
+</trkpt>
+<trkpt lat="45.612626666666664" lon="10.543001666666667">
+<time>2007-05-13T11:35:00Z</time>
+<speed>21.0</speed>
+<geoidheight>88.4</geoidheight><desc><![CDATA[Distance from Start:19.496240681094154 km]]></desc>
+</trkpt>
+<trkpt lat="45.612428333333334" lon="10.542185">
+<time>2007-05-13T11:35:00Z</time>
+<speed>21.0</speed>
+<geoidheight>74.4</geoidheight><desc><![CDATA[Distance from Start:19.5634817914057 km]]></desc>
+</trkpt>
+<trkpt lat="45.61221666666667" lon="10.54153">
+<time>2007-05-13T11:36:00Z</time>
+<speed>21.0</speed>
+<geoidheight>83.0</geoidheight><desc><![CDATA[Distance from Start:19.619602809854072 km]]></desc>
+</trkpt>
+<trkpt lat="45.611845" lon="10.540923333333334">
+<time>2007-05-13T11:36:00Z</time>
+<speed>24.0</speed>
+<geoidheight>88.5</geoidheight><desc><![CDATA[Distance from Start:19.68232967983763 km]]></desc>
+</trkpt>
+<trkpt lat="45.611423333333335" lon="10.540166666666666">
+<time>2007-05-13T11:36:00Z</time>
+<speed>25.0</speed>
+<geoidheight>87.1</geoidheight><desc><![CDATA[Distance from Start:19.757578625408303 km]]></desc>
+</trkpt>
+<trkpt lat="45.61099166666666" lon="10.539273333333334">
+<time>2007-05-13T11:36:00Z</time>
+<speed>28.0</speed>
+<geoidheight>76.1</geoidheight><desc><![CDATA[Distance from Start:19.842031575849603 km]]></desc>
+</trkpt>
+<trkpt lat="45.61066833333334" lon="10.538343333333334">
+<time>2007-05-13T11:36:00Z</time>
+<speed>27.0</speed>
+<geoidheight>74.7</geoidheight><desc><![CDATA[Distance from Start:19.92281256180676 km]]></desc>
+</trkpt>
+<trkpt lat="45.610405" lon="10.537496666666666">
+<time>2007-05-13T11:36:00Z</time>
+<speed>27.0</speed>
+<geoidheight>84.9</geoidheight><desc><![CDATA[Distance from Start:19.994886144902853 km]]></desc>
+</trkpt>
+<trkpt lat="45.61003" lon="10.536788333333334">
+<time>2007-05-13T11:37:00Z</time>
+<speed>26.0</speed>
+<geoidheight>98.8</geoidheight><desc><![CDATA[Distance from Start:20.063983732633595 km]]></desc>
+</trkpt>
+<trkpt lat="45.609586666666665" lon="10.536023333333333">
+<time>2007-05-13T11:37:00Z</time>
+<speed>23.0</speed>
+<geoidheight>96.2</geoidheight><desc><![CDATA[Distance from Start:20.141256507560843 km]]></desc>
+</trkpt>
+<trkpt lat="45.609085" lon="10.535186666666666">
+<time>2007-05-13T11:37:00Z</time>
+<speed>26.0</speed>
+<geoidheight>72.5</geoidheight><desc><![CDATA[Distance from Start:20.226972650804285 km]]></desc>
+</trkpt>
+<trkpt lat="45.608575" lon="10.534766666666666">
+<time>2007-05-13T11:37:00Z</time>
+<speed>25.0</speed>
+<geoidheight>69.1</geoidheight><desc><![CDATA[Distance from Start:20.292419692446266 km]]></desc>
+</trkpt>
+<trkpt lat="45.60805833333333" lon="10.534156666666666">
+<time>2007-05-13T11:37:00Z</time>
+<speed>25.0</speed>
+<geoidheight>75.5</geoidheight><desc><![CDATA[Distance from Start:20.366932249978092 km]]></desc>
+</trkpt>
+<trkpt lat="45.607675" lon="10.533331666666667">
+<time>2007-05-13T11:37:00Z</time>
+<speed>26.0</speed>
+<geoidheight>74.4</geoidheight><desc><![CDATA[Distance from Start:20.443973287250103 km]]></desc>
+</trkpt>
+<trkpt lat="45.60769333333333" lon="10.532586666666667">
+<time>2007-05-13T11:38:00Z</time>
+<speed>22.0</speed>
+<geoidheight>83.8</geoidheight><desc><![CDATA[Distance from Start:20.501961457839023 km]]></desc>
+</trkpt>
+<trkpt lat="45.607776666666666" lon="10.531728333333334">
+<time>2007-05-13T11:38:00Z</time>
+<speed>21.0</speed>
+<geoidheight>93.3</geoidheight><desc><![CDATA[Distance from Start:20.5693696655697 km]]></desc>
+</trkpt>
+<trkpt lat="45.60781333333333" lon="10.530803333333333">
+<time>2007-05-13T11:38:00Z</time>
+<speed>23.0</speed>
+<geoidheight>79.5</geoidheight><desc><![CDATA[Distance from Start:20.64143917376372 km]]></desc>
+</trkpt>
+<trkpt lat="45.607885" lon="10.52999">
+<time>2007-05-13T11:38:00Z</time>
+<speed>21.0</speed>
+<geoidheight>86.5</geoidheight><desc><![CDATA[Distance from Start:20.705206748422434 km]]></desc>
+</trkpt>
+<trkpt lat="45.607995" lon="10.52919">
+<time>2007-05-13T11:38:00Z</time>
+<speed>22.0</speed>
+<geoidheight>97.4</geoidheight><desc><![CDATA[Distance from Start:20.7686278107323 km]]></desc>
+</trkpt>
+<trkpt lat="45.607818333333334" lon="10.528296666666666">
+<time>2007-05-13T11:38:00Z</time>
+<speed>25.0</speed>
+<geoidheight>88.3</geoidheight><desc><![CDATA[Distance from Start:20.840841766059572 km]]></desc>
+</trkpt>
+<trkpt lat="45.607591666666664" lon="10.527406666666666">
+<time>2007-05-13T11:39:00Z</time>
+<speed>26.0</speed>
+<geoidheight>85.5</geoidheight><desc><![CDATA[Distance from Start:20.91451854013872 km]]></desc>
+</trkpt>
+<trkpt lat="45.607445" lon="10.526468333333334">
+<time>2007-05-13T11:39:00Z</time>
+<speed>25.0</speed>
+<geoidheight>89.6</geoidheight><desc><![CDATA[Distance from Start:20.989309899035028 km]]></desc>
+</trkpt>
+<trkpt lat="45.607398333333336" lon="10.525543333333333">
+<time>2007-05-13T11:39:00Z</time>
+<speed>24.0</speed>
+<geoidheight>84.8</geoidheight><desc><![CDATA[Distance from Start:21.061451333189186 km]]></desc>
+</trkpt>
+<trkpt lat="45.60745" lon="10.524581666666666">
+<time>2007-05-13T11:39:00Z</time>
+<speed>25.0</speed>
+<geoidheight>87.7</geoidheight><desc><![CDATA[Distance from Start:21.136478433440328 km]]></desc>
+</trkpt>
+<trkpt lat="45.607415" lon="10.523631666666667">
+<time>2007-05-13T11:39:00Z</time>
+<speed>27.0</speed>
+<geoidheight>85.8</geoidheight><desc><![CDATA[Distance from Start:21.210480113091837 km]]></desc>
+</trkpt>
+<trkpt lat="45.60729833333333" lon="10.522668333333334">
+<time>2007-05-13T11:39:00Z</time>
+<speed>25.0</speed>
+<geoidheight>79.9</geoidheight><desc><![CDATA[Distance from Start:21.286531275861467 km]]></desc>
+</trkpt>
+<trkpt lat="45.60721" lon="10.521821666666666">
+<time>2007-05-13T11:40:00Z</time>
+<speed>22.0</speed>
+<geoidheight>76.1</geoidheight><desc><![CDATA[Distance from Start:21.353120980093042 km]]></desc>
+</trkpt>
+<trkpt lat="45.607216666666666" lon="10.521068333333334">
+<time>2007-05-13T11:40:00Z</time>
+<speed>14.0</speed>
+<geoidheight>78.6</geoidheight><desc><![CDATA[Distance from Start:21.411726723284296 km]]></desc>
+</trkpt>
+<trkpt lat="45.60735666666667" lon="10.520216666666666">
+<time>2007-05-13T11:40:00Z</time>
+<speed>21.0</speed>
+<geoidheight>84.9</geoidheight><desc><![CDATA[Distance from Start:21.479781350311494 km]]></desc>
+</trkpt>
+<trkpt lat="45.60746833333333" lon="10.519206666666667">
+<time>2007-05-13T11:40:00Z</time>
+<speed>23.0</speed>
+<geoidheight>85.6</geoidheight><desc><![CDATA[Distance from Start:21.559323101328648 km]]></desc>
+</trkpt>
+<trkpt lat="45.607573333333335" lon="10.518301666666666">
+<time>2007-05-13T11:40:00Z</time>
+<speed>24.0</speed>
+<geoidheight>81.7</geoidheight><desc><![CDATA[Distance from Start:21.630683378029566 km]]></desc>
+</trkpt>
+<trkpt lat="45.60762166666667" lon="10.517465">
+<time>2007-05-13T11:40:00Z</time>
+<speed>22.0</speed>
+<geoidheight>81.7</geoidheight><desc><![CDATA[Distance from Start:21.695987931809796 km]]></desc>
+</trkpt>
+<trkpt lat="45.607695" lon="10.516653333333334">
+<time>2007-05-13T11:41:00Z</time>
+<speed>22.0</speed>
+<geoidheight>80.9</geoidheight><desc><![CDATA[Distance from Start:21.759650563220315 km]]></desc>
+</trkpt>
+<trkpt lat="45.607775" lon="10.515886666666667">
+<time>2007-05-13T11:41:00Z</time>
+<speed>22.0</speed>
+<geoidheight>84.3</geoidheight><desc><![CDATA[Distance from Start:21.819948036533845 km]]></desc>
+</trkpt>
+<trkpt lat="45.607835" lon="10.515048333333333">
+<time>2007-05-13T11:41:00Z</time>
+<speed>22.0</speed>
+<geoidheight>81.8</geoidheight><desc><![CDATA[Distance from Start:21.88550086183021 km]]></desc>
+</trkpt>
+<trkpt lat="45.60789833333333" lon="10.514206666666666">
+<time>2007-05-13T11:41:00Z</time>
+<speed>21.0</speed>
+<geoidheight>73.3</geoidheight><desc><![CDATA[Distance from Start:21.95135017617222 km]]></desc>
+</trkpt>
+<trkpt lat="45.60797" lon="10.51343">
+<time>2007-05-13T11:41:00Z</time>
+<speed>21.0</speed>
+<geoidheight>74.3</geoidheight><desc><![CDATA[Distance from Start:22.01228883076918 km]]></desc>
+</trkpt>
+<trkpt lat="45.60802" lon="10.512641666666667">
+<time>2007-05-13T11:41:00Z</time>
+<speed>22.0</speed>
+<geoidheight>65.5</geoidheight><desc><![CDATA[Distance from Start:22.073863163739837 km]]></desc>
+</trkpt>
+<trkpt lat="45.608086666666665" lon="10.511886666666667">
+<time>2007-05-13T11:42:00Z</time>
+<speed>21.0</speed>
+<geoidheight>65.5</geoidheight><desc><![CDATA[Distance from Start:22.133058980055136 km]]></desc>
+</trkpt>
+<trkpt lat="45.608131666666665" lon="10.511053333333333">
+<time>2007-05-13T11:42:00Z</time>
+<speed>21.0</speed>
+<geoidheight>64.0</geoidheight><desc><![CDATA[Distance from Start:22.19807495690342 km]]></desc>
+</trkpt>
+<trkpt lat="45.607688333333336" lon="10.510685">
+<time>2007-05-13T11:42:00Z</time>
+<speed>29.0</speed>
+<geoidheight>64.7</geoidheight><desc><![CDATA[Distance from Start:22.25509311027783 km]]></desc>
+</trkpt>
+<trkpt lat="45.60680166666667" lon="10.510641666666666">
+<time>2007-05-13T11:42:00Z</time>
+<speed>36.0</speed>
+<geoidheight>76.4</geoidheight><desc><![CDATA[Distance from Start:22.353743551798765 km]]></desc>
+</trkpt>
+<trkpt lat="45.60597833333333" lon="10.51113">
+<time>2007-05-13T11:42:00Z</time>
+<speed>32.0</speed>
+<geoidheight>81.6</geoidheight><desc><![CDATA[Distance from Start:22.45286238967704 km]]></desc>
+</trkpt>
+<trkpt lat="45.60527833333333" lon="10.511925">
+<time>2007-05-13T11:42:00Z</time>
+<speed>32.0</speed>
+<geoidheight>93.8</geoidheight><desc><![CDATA[Distance from Start:22.552276645793835 km]]></desc>
+</trkpt>
+<trkpt lat="45.60503333333333" lon="10.512995">
+<time>2007-05-13T11:43:00Z</time>
+<speed>32.0</speed>
+<geoidheight>116.3</geoidheight><desc><![CDATA[Distance from Start:22.639858692837535 km]]></desc>
+</trkpt>
+<trkpt lat="45.605199999999996" lon="10.513816666666667">
+<time>2007-05-13T11:43:00Z</time>
+<speed>23.0</speed>
+<geoidheight>105.7</geoidheight><desc><![CDATA[Distance from Start:22.706410139058253 km]]></desc>
+</trkpt>
+<trkpt lat="45.60536666666667" lon="10.514531666666667">
+<time>2007-05-13T11:43:00Z</time>
+<speed>17.0</speed>
+<geoidheight>114.8</geoidheight><desc><![CDATA[Distance from Start:22.765037393765994 km]]></desc>
+</trkpt>
+<trkpt lat="45.605045" lon="10.515316666666667">
+<time>2007-05-13T11:43:00Z</time>
+<speed>23.0</speed>
+<geoidheight>118.8</geoidheight><desc><![CDATA[Distance from Start:22.83580781861877 km]]></desc>
+</trkpt>
+<trkpt lat="45.604508333333335" lon="10.51593">
+<time>2007-05-13T11:43:00Z</time>
+<speed>27.0</speed>
+<geoidheight>129.4</geoidheight><desc><![CDATA[Distance from Start:22.912211729249147 km]]></desc>
+</trkpt>
+<trkpt lat="45.603785" lon="10.51671">
+<time>2007-05-13T11:43:00Z</time>
+<speed>28.0</speed>
+<geoidheight>135.8</geoidheight><desc><![CDATA[Distance from Start:23.012964174877347 km]]></desc>
+</trkpt>
+<trkpt lat="45.603318333333334" lon="10.517178333333334">
+<time>2007-05-13T11:44:00Z</time>
+<speed>16.0</speed>
+<geoidheight>112.3</geoidheight><desc><![CDATA[Distance from Start:23.076368251415825 km]]></desc>
+</trkpt>
+<trkpt lat="45.602601666666665" lon="10.517453333333334">
+<time>2007-05-13T11:44:00Z</time>
+<speed>26.0</speed>
+<geoidheight>95.9</geoidheight><desc><![CDATA[Distance from Start:23.158879668144415 km]]></desc>
+</trkpt>
+<trkpt lat="45.60205833333333" lon="10.517605">
+<time>2007-05-13T11:44:00Z</time>
+<speed>18.0</speed>
+<geoidheight>87.6</geoidheight><desc><![CDATA[Distance from Start:23.220436951849454 km]]></desc>
+</trkpt>
+<trkpt lat="45.60144833333333" lon="10.517643333333334">
+<time>2007-05-13T11:44:00Z</time>
+<speed>27.0</speed>
+<geoidheight>88.3</geoidheight><desc><![CDATA[Distance from Start:23.288331383460445 km]]></desc>
+</trkpt>
+<trkpt lat="45.60102166666667" lon="10.518408333333333">
+<time>2007-05-13T11:44:00Z</time>
+<speed>18.0</speed>
+<geoidheight>137.7</geoidheight><desc><![CDATA[Distance from Start:23.36444236634308 km]]></desc>
+</trkpt>
+<trkpt lat="45.60089833333333" lon="10.51884">
+<time>2007-05-13T11:44:00Z</time>
+<speed>10.0</speed>
+<geoidheight>119.4</geoidheight><desc><![CDATA[Distance from Start:23.40071729401695 km]]></desc>
+</trkpt>
+<trkpt lat="45.600245" lon="10.518826666666667">
+<time>2007-05-13T11:45:00Z</time>
+<speed>21.0</speed>
+<geoidheight>91.3</geoidheight><desc><![CDATA[Distance from Start:23.47337205083944 km]]></desc>
+</trkpt>
+<trkpt lat="45.59967666666667" lon="10.51864">
+<time>2007-05-13T11:45:00Z</time>
+<speed>21.0</speed>
+<geoidheight>77.6</geoidheight><desc><![CDATA[Distance from Start:23.53821501309894 km]]></desc>
+</trkpt>
+<trkpt lat="45.59900666666667" lon="10.518725">
+<time>2007-05-13T11:45:00Z</time>
+<speed>22.0</speed>
+<geoidheight>73.9</geoidheight><desc><![CDATA[Distance from Start:23.61300853636837 km]]></desc>
+</trkpt>
+<trkpt lat="45.59842833333333" lon="10.518931666666667">
+<time>2007-05-13T11:45:00Z</time>
+<speed>21.0</speed>
+<geoidheight>75.6</geoidheight><desc><![CDATA[Distance from Start:23.679295889489183 km]]></desc>
+</trkpt>
+<trkpt lat="45.597795" lon="10.519201666666667">
+<time>2007-05-13T11:45:00Z</time>
+<speed>22.0</speed>
+<geoidheight>77.8</geoidheight><desc><![CDATA[Distance from Start:23.752785570879382 km]]></desc>
+</trkpt>
+<trkpt lat="45.597456666666666" lon="10.519503333333333">
+<time>2007-05-13T11:45:00Z</time>
+<speed>10.0</speed>
+<geoidheight>86.9</geoidheight><desc><![CDATA[Distance from Start:23.797127354379988 km]]></desc>
+</trkpt>
+<trkpt lat="45.597365" lon="10.520041666666666">
+<time>2007-05-13T11:46:00Z</time>
+<speed>19.0</speed>
+<geoidheight>93.0</geoidheight><desc><![CDATA[Distance from Start:23.840233523282418 km]]></desc>
+</trkpt>
+<trkpt lat="45.59726" lon="10.520706666666667">
+<time>2007-05-13T11:46:00Z</time>
+<speed>13.0</speed>
+<geoidheight>112.0</geoidheight><desc><![CDATA[Distance from Start:23.89327334056057 km]]></desc>
+</trkpt>
+<trkpt lat="45.59717166666667" lon="10.521191666666667">
+<time>2007-05-13T11:46:00Z</time>
+<speed>13.0</speed>
+<geoidheight>136.1</geoidheight><desc><![CDATA[Distance from Start:23.932265140244454 km]]></desc>
+</trkpt>
+<trkpt lat="45.59708" lon="10.521798333333333">
+<time>2007-05-13T11:46:00Z</time>
+<speed>12.0</speed>
+<geoidheight>139.1</geoidheight><desc><![CDATA[Distance from Start:23.980553652450222 km]]></desc>
+</trkpt>
+<trkpt lat="45.59695166666667" lon="10.522781666666667">
+<time>2007-05-13T11:46:00Z</time>
+<speed>28.0</speed>
+<geoidheight>135.3</geoidheight><desc><![CDATA[Distance from Start:24.058379531410807 km]]></desc>
+</trkpt>
+<trkpt lat="45.596673333333335" lon="10.523756666666667">
+<time>2007-05-13T11:46:00Z</time>
+<speed>15.0</speed>
+<geoidheight>115.5</geoidheight><desc><![CDATA[Distance from Start:24.140308434455495 km]]></desc>
+</trkpt>
+<trkpt lat="45.596605" lon="10.52464">
+<time>2007-05-13T11:47:00Z</time>
+<speed>21.0</speed>
+<geoidheight>115.5</geoidheight><desc><![CDATA[Distance from Start:24.20945376678482 km]]></desc>
+</trkpt>
+<trkpt lat="45.596815" lon="10.525431666666666">
+<time>2007-05-13T11:47:00Z</time>
+<speed>15.0</speed>
+<geoidheight>111.7</geoidheight><desc><![CDATA[Distance from Start:24.275325977750114 km]]></desc>
+</trkpt>
+<trkpt lat="45.59714666666667" lon="10.52627">
+<time>2007-05-13T11:47:00Z</time>
+<speed>33.0</speed>
+<geoidheight>112.8</geoidheight><desc><![CDATA[Distance from Start:24.350255352905943 km]]></desc>
+</trkpt>
+<trkpt lat="45.59729" lon="10.527281666666667">
+<time>2007-05-13T11:47:00Z</time>
+<speed>17.0</speed>
+<geoidheight>106.1</geoidheight><desc><![CDATA[Distance from Start:24.43056333373666 km]]></desc>
+</trkpt>
+<trkpt lat="45.59748" lon="10.527985">
+<time>2007-05-13T11:47:00Z</time>
+<speed>13.0</speed>
+<geoidheight>93.8</geoidheight><desc><![CDATA[Distance from Start:24.489221327407318 km]]></desc>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>
+

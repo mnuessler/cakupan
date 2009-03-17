@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>Coverage Report [XsltCoverageStats.xsl]</title>
+<link title="Style" type="text/css" rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<h5>Coverage Report - XsltCoverageStats.xsl &nbsp;<font color="blue">(97%)</font>
+<div class="separator">&nbsp;</div>
+<table cellspacing="0" cellpadding="0" class="src">
+<tr>  <td class="numLine"> 1</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 2</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;xsl:stylesheet version=&quot;2.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:fn=&quot;http://www.w3.org/2005/xpath-functions&quot; xmlns:xdt=&quot;http://www.w3.org/2005/xpath-datatypes&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 3</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;xsl:output method=&quot;html&quot; encoding=&quot;UTF-8&quot; indent=&quot;yes&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 4</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;xsl:include href=&quot;common.xsl&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;5</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp	&lt;xsl:template match=&quot;/&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;6</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;html&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;7</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;head&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;8</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;title&gt;XSLT Coverage Report&lt;/title&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;9</td><td class="nbHitsCovered">&nbsp;25</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;link title=&quot;Style&quot; type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;main.css&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 10</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/head&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;11</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;body&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;12</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;h5&gt;XSLT Coverage Report - All Files &lt;/h5&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;13</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:variable name=&quot;stats0Percentage&quot; select=&quot;round(10000 * number(count(//lineCount[. != '0'])) div number(count(//lineCount))) div 100&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;14</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:variable name=&quot;statsTotal&quot; select=&quot;count(//lineCount)&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;15</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:variable name=&quot;stats0&quot; select=&quot;count(//lineCount[. = '0'])&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;16</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:variable name=&quot;greenBarPerc&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;17</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:value-of select=&quot;format-number($stats0Percentage,'##.###')&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 18</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/xsl:variable&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;19</td><td class="nbHitsCovered">&nbsp;25</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;h3&gt;line matches: &lt;xsl:value-of select=&quot;$statsTotal - $stats0&quot;/&gt; (&lt;xsl:value-of select=&quot;format-number($stats0Percentage,'##.###')&quot;/&gt;%) | no line matches: &lt;xsl:value-of select=&quot;$stats0&quot;/&gt; (&lt;xsl:value-of select=&quot;format-number(100 - $stats0Percentage,'##.###')&quot;/&gt;%)&lt;/h3&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;20</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:text&gt; &lt;/xsl:text&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;21</td><td class="nbHitsCovered">&nbsp;15</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;table class=&quot;report&quot; id=&quot;packageResults&quot;&gt;				</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;22</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;thead&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;23</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;tr&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;24</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td class=&quot;heading&quot;&gt;XSLT file&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;25</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td class=&quot;heading&quot;&gt;# Lines&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;26</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td class=&quot;heading&quot;&gt;Line Coverage&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 27</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp					&lt;/tr&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 28</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/thead&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;29</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;tbody&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;30</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;tr&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;31</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;32</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp							&lt;b&gt;All XSLTs (&lt;xsl:value-of select=&quot;count(//entry)&quot;/&gt;)&lt;/b&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 33</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp						&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;34</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td class=&quot;value&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;35</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp							&lt;xsl:value-of select=&quot;$statsTotal&quot;/&gt;&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;36</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;37</td><td class="nbHitsCovered">&nbsp;20</td>
+<td class="src"><pre class="src"><span class="src">&nbsp							&lt;table cellpadding=&quot;0px&quot; cellspacing=&quot;0px&quot; class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;38</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp								&lt;tr class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;39</td><td class="nbHitsCovered">&nbsp;20</td>
+<td class="src"><pre class="src"><span class="src">&nbsp									&lt;td align=&quot;right&quot; class=&quot;percentgraph&quot; width=&quot;40&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;40</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp										&lt;xsl:value-of select=&quot;format-number($stats0Percentage,'##.###')&quot;/&gt;%&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;41</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp									&lt;td class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;42</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp										&lt;div class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;43</td><td class="nbHitsCovered">&nbsp;15</td>
+<td class="src"><pre class="src"><span class="src">&nbsp											&lt;div class=&quot;greenbar&quot; style=&quot;width: {$greenBarPerc}px&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;44</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp												&lt;span class=&quot;text&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;45</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp													&lt;xsl:value-of select=&quot;$statsTotal - $stats0&quot;/&gt;/&lt;xsl:value-of select=&quot;$statsTotal&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 46</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp												&lt;/span&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 47</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp											&lt;/div&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 48</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp										&lt;/div&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 49</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp									&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 50</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp								&lt;/tr&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 51</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp							&lt;/table&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 52</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp						&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 53</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp					&lt;/tr&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;54</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:apply-templates select=&quot;*/entry&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 55</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/tbody&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 56</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/table&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 57</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/body&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 58</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/html&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 59</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;60</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp	&lt;xsl:template match=&quot;entry&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;61</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;perc&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;62</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:call-template name=&quot;calcPerc&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 63</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;xsl:with-param name=&quot;count&quot; select=&quot;number(count(*/line/*//lineCount[.!='0']))&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 64</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;xsl:with-param name=&quot;total&quot; select=&quot;number(count(*/line/*//lineCount))&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 65</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/xsl:call-template&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 66</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:variable&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;67</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;total&quot; select=&quot;count(*/line/*//lineCount)&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;68</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;totOk&quot; select=&quot;count(*/line/*//lineCount[.!='0'])&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;69</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;uri&quot; select=&quot;concat(string/text(),'.html')&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;70</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;percentage&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;71</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;xsl:choose&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;72</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:when test=&quot;$total - $totOk = $total&quot;&gt;0&lt;/xsl:when&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 73</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;xsl:otherwise&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;74</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp					&lt;xsl:value-of select=&quot;format-number($perc,'##')&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 75</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/xsl:otherwise&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 76</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/xsl:choose&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 77</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:variable&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;78</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;xsl:variable name=&quot;greenBarPerc&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;79</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;xsl:value-of select=&quot;$percentage&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 80</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:variable&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;81</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp		&lt;tr&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;82</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;83</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;a href=&quot;{$uri}&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;84</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:value-of select=&quot;string/text()&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 85</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/a&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;86</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;i&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;87</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:text&gt; (&lt;/xsl:text&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;88</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:value-of select=&quot;$percentage&quot;/&gt;%</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;89</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;xsl:text&gt;)&lt;/xsl:text&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 90</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp					&lt;/i&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 91</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;92</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;td class=&quot;value&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;93</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;xsl:value-of select=&quot;count(*/line/*/lineNumber)&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 94</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;95</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp			&lt;td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;96</td><td class="nbHitsCovered">&nbsp;20</td>
+<td class="src"><pre class="src"><span class="src">&nbsp				&lt;table cellpadding=&quot;0px&quot; cellspacing=&quot;0px&quot; class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;97</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp					&lt;tr class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;98</td><td class="nbHitsCovered">&nbsp;20</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td align=&quot;right&quot; class=&quot;percentgraph&quot; width=&quot;40&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;99</td><td class="nbHitsCovered">&nbsp;5</td>
+<td class="src"><pre class="src"><span class="src">&nbsp							&lt;xsl:value-of select=&quot;$percentage&quot;/&gt;%&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;100</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp						&lt;td class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;101</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp							&lt;div class=&quot;percentgraph&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;102</td><td class="nbHitsCovered">&nbsp;15</td>
+<td class="src"><pre class="src"><span class="src">&nbsp								&lt;div class=&quot;greenbar&quot; style=&quot;width: {$greenBarPerc}px&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;103</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp									&lt;span class=&quot;text&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;104</td><td class="nbHitsCovered">&nbsp;10</td>
+<td class="src"><pre class="src"><span class="src">&nbsp										&lt;xsl:value-of select=&quot;$totOk&quot;/&gt;/&lt;xsl:value-of select=&quot;$total&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 105</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp									&lt;/span&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 106</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp								&lt;/div&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 107</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp							&lt;/div&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 108</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp						&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 109</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp					&lt;/tr&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 110</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;/table&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 111</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/td&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 112</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/tr&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 113</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 114</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;/xsl:stylesheet&gt;</pre></td></tr>
+</table>
+</body>
+</html>
