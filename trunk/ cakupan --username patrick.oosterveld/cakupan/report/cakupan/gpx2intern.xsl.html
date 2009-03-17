@@ -1,0 +1,168 @@
+<html>
+<head>
+<title>Coverage Report [gpx2intern.xsl]</title>
+<link title="Style" type="text/css" rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<h5>Coverage Report - gpx2intern.xsl &nbsp;<font color="blue">(0%)</font>
+<div class="separator">&nbsp;</div>
+<table cellspacing="0" cellpadding="0" class="src">
+<tr>  <td class="numLine"> 1</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 2</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns=&quot;http://www.topografix.com/GPX/1/0&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;3</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;/&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;4</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:apply-templates select=&quot;*[local-name()='gpx']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 5</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;6</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='gpx']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;7</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:element name=&quot;nl.lin.googlemaps.model.GPX&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;8</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:element name=&quot;metadata&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;9</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:attribute name=&quot;class&quot;&gt;nl.lin.googlemaps.model.Metadata&lt;/xsl:attribute&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;10</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:apply-templates select=&quot;*[local-name()='time']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;11</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:apply-templates select=&quot;*[local-name()='bounds']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 12</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/xsl:element&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;13</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:element name=&quot;points&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;14</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:attribute name=&quot;class&quot;&gt;list&lt;/xsl:attribute&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 15</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp				&lt;!--xsl:apply-templates select=&quot;*[local-name()='trk']/*[local-name()='trkseg']/*[local-name()='trkpt'] | *[local-name()='wpt']&quot;/--&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;16</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:apply-templates select=&quot;*[local-name()='trk']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 17</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/xsl:element&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 18</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:element&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 19</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;20</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='trk']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;21</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='trkseg']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 22</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;23</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='trkseg']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;24</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='trkpt']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 25</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;26</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='time']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;27</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;time&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;28</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;text()&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 29</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/time&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 30</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;31</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='bounds']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;32</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:element name=&quot;bounds&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;33</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:attribute name=&quot;class&quot;&gt;nl.lin.googlemaps.model.Bounds&lt;/xsl:attribute&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;34</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;minLat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;35</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:value-of select=&quot;@minlat&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 36</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/minLat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;37</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;maxLat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;38</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:value-of select=&quot;@maxlat&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 39</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/maxLat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;40</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;minLon&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;41</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:value-of select=&quot;@minlon&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 42</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/minLon&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;43</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;maxLon&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;44</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp				&lt;xsl:value-of select=&quot;@maxlon&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 45</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp			&lt;/maxLon&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 46</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:element&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 47</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;48</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='wpt' or local-name()='trkpt']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;49</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:element name=&quot;nl.lin.googlemaps.model.Point&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;50</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;lon&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;51</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;@lon&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 52</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/lon&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;53</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;lat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;54</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;@lat&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 55</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/lat&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;56</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='time']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;57</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='ele' or local-name()='geoidheight']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;58</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='speed']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;59</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;xsl:apply-templates select=&quot;*[local-name()='desc']&quot;/&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 60</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/xsl:element&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 61</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;62</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='ele' or local-name()='geoidheight']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;63</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;height&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;64</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;text()&quot;/&gt; </pre></td></tr>
+<tr>  <td class="numLine"> 65</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/height&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 66</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;67</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='speed']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;68</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;speed&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;69</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;text()&quot;/&gt; </pre></td></tr>
+<tr>  <td class="numLine"> 70</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/speed&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 71</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;72</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp	&lt;xsl:template match=&quot;*[local-name()='desc']&quot;&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;73</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp		&lt;distance&gt;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;74</td><td class="nbHitsUncovered">&nbsp;0</td>
+<td class="src"><pre class="src"><span class="srcUncovered">&nbsp			&lt;xsl:value-of select=&quot;substring-after(text(),'Distance from Start:')&quot;/&gt; </pre></td></tr>
+<tr>  <td class="numLine"> 75</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		&lt;/distance&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 76</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp	&lt;/xsl:template&gt;</pre></td></tr>
+<tr>  <td class="numLine"> 77</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp		</pre></td></tr>
+<tr>  <td class="numLine"> 78</td><td class="nbHits">&nbsp;</td>
+<td class="src"><pre class="src">&nbsp&lt;/xsl:stylesheet&gt;</pre></td></tr>
+</table>
+</body>
+</html>
