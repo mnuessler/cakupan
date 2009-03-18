@@ -59,6 +59,13 @@
         	<fileset dir="." includes="${notices.dir}/**"/>
         	</jar>
     </target>
+	
+    <target name="jar_src" description="JARs the Task" depends="compile,copypropfiles">
+        <jar destfile="${ant.project.name}-src-${version}.jar" basedir="${classes.dir}">
+        	<fileset dir="${src.dir}" includes="**/*.java"/>
+        	<fileset dir="." includes="${notices.dir}/**"/>
+        	</jar>
+    </target>
     
 	<target name="copypropfiles" description="copy xtra files to classes">
         <copy todir="${classes.dir}">
