@@ -1,5 +1,3 @@
-#labels GettingstartedforCakupan
-
 
 = Introduction =
 
