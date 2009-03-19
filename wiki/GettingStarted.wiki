@@ -1,7 +1,8 @@
 #summary Getting started for Cakupan.
 = History =
 
-Assuming a project with 50000 lines of Java code and having enough unit tests to get a decent Java code coverage. The same project could also have 12000 lines of XSLT code. Although XSLT code could be tested (by means of unit tests) the coverage will be unknown. There is simple no good XSLT coverage tool on the market.
+Assuming a project with 50000 lines of Java code and having enough unit tests to get a decent Java code coverage. The same project could also have 12000 lines of XSLT code. Although XSLT code could be tested (by means of unit tests) the coverage will be unknown. There is simple no good XSLT coverage tool on the market.<br/>
+This is the reason why we started, influenced by Cobertura, to build our own XSLT coverage tool. First based on java insertion into xsl:match instruction then analysing the trace of the Saxon api
 
 
 = Details =
