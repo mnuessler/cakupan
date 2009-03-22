@@ -5,4 +5,4 @@ The first release
   * calculates XSLT coverage after running the unit tests
   * using ant tasks
   * generate HTML reports
-  * contains a custom made 'javax.xml.transform.TransformerFactory' class for unit testing  
+  * contains a custom made `javax.xml.transform.TransformerFactory` class for unit testing  
