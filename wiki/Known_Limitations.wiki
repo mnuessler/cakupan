@@ -1,3 +1,0 @@
-#summary known limitations of Cakupan.
-
-todo
