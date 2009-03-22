@@ -1,6 +1,6 @@
 #summary release.
 
-*release 0.7, 2009-03-19*
+*release 0.7, 2009-03-19* <br/>
 The first release
   * calculates XSLT coverage after running the unit tests
   * using ant tasks
