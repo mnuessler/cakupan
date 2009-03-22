@@ -116,4 +116,4 @@ You can wrap this up with an abstract factory design pattern which returns an xs
 
 = Known Limitations =
 
-* When running junitreport ant task be sure that you first load the Xalan jar and then load the Saxon jar. This is due classloader of the junitreport ant task. It requests only for a specific Xalan TransformerFactoryImpl.
+  * When running junitreport ant task be sure that you first load the Xalan jar and then load the Saxon jar. This is due classloader of the junitreport ant task. It requests only for a specific Xalan TransformerFactoryImpl.
