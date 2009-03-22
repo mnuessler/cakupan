@@ -1,0 +1,8 @@
+#summary release.
+
+*release 0.7, 2009-03-19*
+The first release
+  * calculate XSLT coverage after running the unit tests
+  * using ant tasks
+  * generate HTML reports
+  * contains a custom made 'javax.xml.transform.TransformerFactory' class for unit testing  
