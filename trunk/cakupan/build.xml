@@ -35,7 +35,7 @@
         <!--pathelement location="lib/${ant.test.lib}" /-->
      </path>
 
-	<target name="compile" description="Compiles the Task">
+	<target name="compile" depends="clean" description="Compiles the Task">
         <mkdir dir="${classes.dir}"/>
         <javac debuglevel="lines,source" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
     </target>
@@ -60,7 +60,7 @@
         	</jar>
     </target>
 	
-    <target name="jar_src" description="JARs the Task" depends="compile,copypropfiles">
+    <target name="jar_src" description="JARs the Task with sources" depends="compile,copypropfiles">
         <jar destfile="${ant.project.name}-src-${version}.jar" basedir="${classes.dir}">
         	<fileset dir="${src.dir}" includes="**/*.java"/>
         	<fileset dir="." includes="${notices.dir}/**"/>
