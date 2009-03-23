@@ -18,7 +18,7 @@ Cokupan instruments your XSLTs by reading the file and saving the linenumbers of
  
 skipped, see skipped elements for more info.
 This data is saved in the destDir directory mentioned in the ant task.
-The data which are stored are:
+The data contains:
   * URL of the XSLT
   * linenumbers of the XSLT instructions
   * unique key (is the filename of the XSLT)
