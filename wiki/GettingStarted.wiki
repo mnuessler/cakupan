@@ -85,7 +85,7 @@ Coverage merging with the merge tag.
     </target>
  }}}
 
-= using Saxon S9api =
+= Using Saxon S9api =
  
 When using S9api you will instantiate a processor which will create XsltCompiler object, with these two objects is it possible to create a hook, see example below.
  
