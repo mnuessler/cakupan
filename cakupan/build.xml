@@ -69,7 +69,7 @@
     
 	<target name="copypropfiles" description="copy xtra files to classes">
         <copy todir="${classes.dir}">
-             <fileset dir="${src.dir}" includes="**/*.css,**/*.properties,**/*.xsl" />
+             <fileset dir="${src.dir}" includes="**/*.css,**/*.png,**/*.js,**/*.properties,**/*.xsl" />
          </copy>
     </target>
 

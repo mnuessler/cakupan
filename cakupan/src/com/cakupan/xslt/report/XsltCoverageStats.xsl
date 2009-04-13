@@ -6,6 +6,9 @@
 			<head>
 				<title>XSLT Coverage Report</title>
 				<link title="Style" type="text/css" rel="stylesheet" href="main.css"/>
+				<link title="Style" type="text/css" rel="stylesheet" href="sortabletable.css"/>
+				<script type="text/javascript" src="sortabletable.js"></script>
+				<script type="text/javascript" src="customsorttypes.js"></script>
 			</head>
 			<body>
 				<h5>XSLT Coverage Report - All Files </h5>
@@ -54,6 +57,11 @@
 				</tbody>
 				</table>
 			</body>
+			<script type="text/javascript">
+				var packageTable = new SortableTable(document.getElementById("packageResults"),
+    			["String", "Number", "Percentage"]);
+				packageTable.sort(0);
+			</script>
 		</html>
 	</xsl:template>
 	<xsl:template match="entry">

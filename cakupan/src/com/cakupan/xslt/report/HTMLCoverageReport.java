@@ -18,6 +18,12 @@ import com.cakupan.xslt.util.XStreamUtil;
 public class HTMLCoverageReport {
 
 	private static final String MAIN_CSS = "main.css";
+	private static final String SORT_CSS = "sortabletable.css";
+	private static final String SORT_JS = "sortabletable.js";
+	private static final String CUSTOM_JS = "customsorttypes.js";
+	private static final String BLANK_PNG = "blank.png";
+	private static final String DOWNSIMPLE_PNG = "downsimple.png";
+	private static final String UPSIMPLE_PNG = "upsimple.png";
 	private static final String SOURCE_VIEWER_CSS = "source-viewer.css";
 	private static final String FRAME_SUMMARY = "xslt_summary.html";
 	private static final String HTML_EXT = ".html";
@@ -28,6 +34,12 @@ public class HTMLCoverageReport {
 			String content = getCoverageStatsAsHTML(coverageMap);
 			CoverageIOUtil.write(content, new FileOutputStream(outputDir + File.separator + FRAME_SUMMARY));
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(MAIN_CSS)), new File(outputDir + File.separator + MAIN_CSS).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SORT_CSS)), new File(outputDir + File.separator + SORT_CSS).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SORT_JS)), new File(outputDir + File.separator + SORT_JS).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(DOWNSIMPLE_PNG)), new File(outputDir + File.separator + DOWNSIMPLE_PNG).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(BLANK_PNG)), new File(outputDir + File.separator + BLANK_PNG).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(UPSIMPLE_PNG)), new File(outputDir + File.separator + UPSIMPLE_PNG).toURI());
+			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(CUSTOM_JS)), new File(outputDir + File.separator + CUSTOM_JS).toURI());
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SOURCE_VIEWER_CSS)), new File(outputDir + File.separator + SOURCE_VIEWER_CSS).toURI());
 		} catch (Exception e) {
 			throw new XSLTCoverageException("could not write frame-summary data to file!", e);
