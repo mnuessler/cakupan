@@ -1,5 +1,11 @@
 #summary release.
 
+*release 0.8, 2009-04-15* <br/>
+The first release
+  * HTML reports with sorting tables
+  * ant tasks update (added default target: test) 
+  * copyutils bugfix
+
 *release 0.7, 2009-03-19* <br/>
 The first release
   * calculates XSLT coverage after running the unit tests
