@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.util.Map;
 
 import javax.xml.transform.stream.StreamSource;
@@ -36,9 +37,9 @@ public class HTMLCoverageReport {
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(MAIN_CSS)), new File(outputDir + File.separator + MAIN_CSS).toURI());
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SORT_CSS)), new File(outputDir + File.separator + SORT_CSS).toURI());
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SORT_JS)), new File(outputDir + File.separator + SORT_JS).toURI());
-			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(DOWNSIMPLE_PNG)), new File(outputDir + File.separator + DOWNSIMPLE_PNG).toURI());
-			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(BLANK_PNG)), new File(outputDir + File.separator + BLANK_PNG).toURI());
-			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(UPSIMPLE_PNG)), new File(outputDir + File.separator + UPSIMPLE_PNG).toURI());
+			CoverageIOUtil.copy(HTMLCoverageReport.class.getResourceAsStream(DOWNSIMPLE_PNG), new FileOutputStream(outputDir + File.separator + DOWNSIMPLE_PNG));
+			CoverageIOUtil.copy(HTMLCoverageReport.class.getResourceAsStream(BLANK_PNG), new FileOutputStream(outputDir + File.separator + BLANK_PNG));
+			CoverageIOUtil.copy(HTMLCoverageReport.class.getResourceAsStream(UPSIMPLE_PNG), new FileOutputStream(outputDir + File.separator + UPSIMPLE_PNG));
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(CUSTOM_JS)), new File(outputDir + File.separator + CUSTOM_JS).toURI());
 			CoverageIOUtil.write(CoverageIOUtil.toString(HTMLCoverageReport.class.getResourceAsStream(SOURCE_VIEWER_CSS)), new File(outputDir + File.separator + SOURCE_VIEWER_CSS).toURI());
 		} catch (Exception e) {

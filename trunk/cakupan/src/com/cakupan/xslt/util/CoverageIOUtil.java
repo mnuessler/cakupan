@@ -13,10 +13,9 @@ import java.net.URI;
 
 import com.cakupan.xslt.exception.XSLTCoverageException;
 
-
 /**
  * util class dealing with IO activities
- *
+ * 
  * A part of the source is distributed with the Apache 2.0 License
  * http://www.apache.org/licenses/LICENSE-2.0
  */
@@ -41,7 +40,7 @@ public class CoverageIOUtil {
 			}
 			destDir = file;
 		}
-		System.out.println("destdir: "+destDir.getPath());
+		System.out.println("destdir: " + destDir.getPath());
 		return destDir != null ? destDir.getPath() : null;
 	}
 
@@ -79,7 +78,8 @@ public class CoverageIOUtil {
 		if (coverageFile != null) {
 			return coverageFile;
 		} else {
-			throw new XSLTCoverageException("System property [" + SYS_PROP_XSLT_COVERAGE_DIR + "] not set");
+			throw new XSLTCoverageException("System property ["
+					+ SYS_PROP_XSLT_COVERAGE_DIR + "] not set");
 		}
 	}
 
@@ -103,8 +103,30 @@ public class CoverageIOUtil {
 	 *            outputstream
 	 * @throws IOException
 	 */
-	public static void write(String content, OutputStream stream) throws IOException {
+	public static void write(String content, OutputStream stream)
+			throws IOException {
 		stream.write(content.getBytes());
+	}
+
+	public static int copy(InputStream input, OutputStream output)
+			throws IOException {
+		long count = copyLarge(input, output);
+		if (count > 2147483647L)
+			return -1;
+		else
+			return (int) count;
+	}
+
+	public static long copyLarge(InputStream input, OutputStream output)
+			throws IOException {
+		byte buffer[] = new byte[4096];
+		long count = 0L;
+		for (int n = 0; -1 != (n = input.read(buffer));) {
+			output.write(buffer, 0, n);
+			count += n;
+		}
+
+		return count;
 	}
 
 	public static String toString(InputStream input) throws IOException {
@@ -113,7 +135,8 @@ public class CoverageIOUtil {
 		return sw.toString();
 	}
 
-	public static void copy(InputStream input, Writer output) throws IOException {
+	public static void copy(InputStream input, Writer output)
+			throws IOException {
 		InputStreamReader in = new InputStreamReader(input);
 		copy(((Reader) (in)), output);
 	}
