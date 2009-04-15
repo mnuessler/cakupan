@@ -105,7 +105,7 @@
 
     <target name="test"
             depends="compile,compileTest,instrumentCakupan,junit,junitreport, reportCakupan"
-            description="Runs unit tests and creates a report"
+            description="Runs unit tests and creates a XSLT coverage and Junit report"
     />
 	
 	<!-- instrumentation of the XSLTs, fileset for retrieving the XSLTs and destdir for writing the trace and instrumenting files-->   
