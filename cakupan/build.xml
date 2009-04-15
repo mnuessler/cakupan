@@ -41,7 +41,6 @@
     </target>
 
 	<target name="compileTest" depends="copypropfiles" description="Compiles the tests">
-        <mkdir dir="${classes.dir}"/>
         <javac debuglevel="lines,source" srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
     </target>
 
@@ -105,7 +104,7 @@
     <target name="make" depends="clean, compile" />
 
     <target name="test"
-            depends="compileTest,junit,junitreport"
+            depends="compile,compileTest,instrumentCakupan,junit,junitreport, reportCakupan"
             description="Runs unit tests and creates a report"
     />
 	
