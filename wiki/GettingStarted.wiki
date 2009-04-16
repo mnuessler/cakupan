@@ -36,7 +36,7 @@ out where the XSLTs are stored.
 
 = Running an instrumented application =
  
-The most important task of the coverage tool is testing your application by running the unit tests. Be sure that instrumentation file is present and make it available for using by setting the system property 'cakupan.dir'. Another system property is used for retrieving the Cakupan TransformerFactoryImpl, see system property javax.xml.transform.TransformerFactor'. This class takes care of updating the When you
+The most important task of the coverage tool is testing your application by running the unit tests. Be sure that instrumentation file is present and make it available for using by setting the system property 'cakupan.dir'. Another system property is used for retrieving the Cakupan TransformerFactoryImpl, see system property javax.xml.transform.TransformerFactor '. This class takes care of updating the When you
  are using the Saxon S9 api you have to write your own class for setting the Saxon trace hook, see using Saxon S9 api.
 
 {{{ 
