@@ -113,6 +113,14 @@ When using S9api you will instantiate a processor which will create XsltCompiler
  }}}
 You can wrap this up with an abstract factory design pattern which returns an xsltCompiler with tracelistener or a clean XsltCompiler. The first you can use during unit tests and the latter in your production environment.
 
+= External Libs =
+Cakupan depends on some external libs. These libs can be found at http://code.google.com/p/cakupan/source/browse/#svn/trunk/cakupan/lib. <br/>
+The libs are:
+  * commons-lang-2.1.jar (HTML escaping)
+  * saxon9.jar
+  * junit-3.8.1.jar
+  * xpp3-1.1.4c.jar
+  * xstream-1.2.2.jar
 
 = Known Limitations =
 
