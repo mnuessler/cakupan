@@ -6,8 +6,10 @@
     <property name="junit.out.dir.xml"  value="${report.dir}/junit/xml"/>
     <property name="junit.out.dir.html" value="${report.dir}/junit/html"/>
     <property name="instrmtxslt.dir" value="${report.dir}/cakupan"/>
-    <property name="src.dir" value="src"/>
-    <property name="test.dir" value="test"/>
+	<property name="src.dir" value="src"/>
+	<property name="bin.dir" value="bin"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="test.dir" value="test"/>
     <property name="notices.dir" value="notices"/>
     <property name="classes.dir" value="classes"/>
     <property file="version.properties" />
@@ -37,11 +39,11 @@
 
 	<target name="compile" depends="clean" description="Compiles the Task">
         <mkdir dir="${classes.dir}"/>
-        <javac debuglevel="lines,source" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
+        <javac target="1.5" debuglevel="lines,source" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
     </target>
 
 	<target name="compileTest" depends="copypropfiles" description="Compiles the tests">
-        <javac debuglevel="lines,source" srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
+        <javac target="1.5" debuglevel="lines,source" srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
     </target>
 
 	
@@ -53,10 +55,26 @@
         </delete>
     </target>
 	
+    <target name="deleteJar" description="Delete all generated Jars">
+        <delete failonerror="false" includeEmptyDirs="true">
+            <fileset dir="." includes="${ant.project.name}-*.jar,${ant.project.name}-*.zip"/>
+        </delete>
+    </target>
+	
     <target name="jar" description="JARs the Task" depends="compile,copypropfiles">
         <jar destfile="${ant.project.name}-${version}.jar" basedir="${classes.dir}">
         	<fileset dir="." includes="${notices.dir}/**"/>
         	</jar>
+    </target>
+	
+    <target name="zip" description="JARs the Task" depends="deleteJar, jar">
+        <zip destfile="${ant.project.name}-${version}.zip">
+        	<fileset dir="${classes.dir}" includes="**"/>
+        	<fileset dir="${src.dir}" includes="**/*.java"/>
+        	<fileset dir="." includes="${notices.dir}/**"/>
+        	<fileset dir="." includes="${lib.dir}/**"/>
+        	<fileset dir="." includes="${ant.project.name}-${version}.jar"/>
+        </zip>
     </target>
 	
     <target name="jar_src" description="JARs the Task with sources" depends="compile,copypropfiles">
