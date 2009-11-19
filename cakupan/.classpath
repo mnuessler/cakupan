@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="lib/saxon9.jar"/>
 	<classpathentry kind="lib" path="lib/xpp3-1.1.4c.jar"/>
 	<classpathentry kind="lib" path="lib/xstream-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/xalan-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

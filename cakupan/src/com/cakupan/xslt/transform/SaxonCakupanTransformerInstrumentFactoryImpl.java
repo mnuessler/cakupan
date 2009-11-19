@@ -8,13 +8,13 @@ import javax.xml.transform.Templates;
 import javax.xml.transform.TransformerConfigurationException;
 
 import com.cakupan.xslt.exception.XSLTCoverageException;
-import com.cakupan.xslt.trace.CakupanTraceListener;
+import com.cakupan.xslt.trace.SaxonCakupanTraceListener;
 
 import net.sf.saxon.TransformerFactoryImpl;
 import net.sf.saxon.trans.CompilerInfo;
 
 /**
- * The <code>TransformerInstrumentFactoryImpl</code> is an implemententation of SAXON <link>TransformerFactoryImpl<link>
+ * The <code>SaxonCakupanTransformerInstrumentFactoryImpl</code> is an implemententation of SAXON <link>TransformerFactoryImpl<link>
  * which makes it possible to measure coverage statistics of used XSLTs. 
  *
  * The Saxon XSLT and XQuery Processor from Saxonica Limited.
@@ -23,7 +23,7 @@ import net.sf.saxon.trans.CompilerInfo;
  * @author Patrick Oosterveld
  *
  */
-public class TransformerInstrumentFactoryImpl extends TransformerFactoryImpl {
+public class SaxonCakupanTransformerInstrumentFactoryImpl extends TransformerFactoryImpl {
 	
 	@Override
 	public Templates newTemplates(Source source) throws TransformerConfigurationException {
@@ -31,7 +31,7 @@ public class TransformerInstrumentFactoryImpl extends TransformerFactoryImpl {
 		if (null != urlString){
 			try {
 				URL url = new URL(urlString);
-				getConfiguration().setTraceListener(new CakupanTraceListener(url));
+				getConfiguration().setTraceListener(new SaxonCakupanTraceListener(url));
 			} catch (XSLTCoverageException e) {
 				throw new RuntimeException("Error during creation of XSLTcoverage!.", e);
 			} catch (MalformedURLException e) {
@@ -50,7 +50,7 @@ public class TransformerInstrumentFactoryImpl extends TransformerFactoryImpl {
 		if (null != urlString){
 			try {
 				URL url = new URL(urlString);
-				getConfiguration().setTraceListener(new CakupanTraceListener(url));
+				getConfiguration().setTraceListener(new SaxonCakupanTraceListener(url));
 			} catch (XSLTCoverageException e) {
 				throw new RuntimeException("Error during creation of XSLTcoverage!.", e);
 			} catch (MalformedURLException e) {
