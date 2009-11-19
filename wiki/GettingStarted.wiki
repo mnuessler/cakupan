@@ -3,7 +3,7 @@
 
 Assuming a project with 50000 lines of Java code and having enough unit tests to get a decent Java code coverage. The same project could also have 12000 lines of XSLT code. Although XSLT code could be tested (by means of unit tests) the coverage will be unknown. There is simple no good XSLT coverage tool available on the market yet.<br/>
 This is the reason why we started to build our own XSLT coverage tool. The first version was based on extended XSLT with static java instruction in each possible xsl:match. Unfortunately this approach was not reliable enough and the of XSLT lines coverage was too summarily. In 2008 we change to the Saxon api. This API has the advantage of having a decent tracing mechanism which we used for the XSLT coverage tool. <br/>
-Recently Cakupan implement the trace facility of Xalan.
+Recently Cakupan implemented the trace facility of Xalan.
 
 
 = Getting started with ant tasks (thanks to cobertura) =
