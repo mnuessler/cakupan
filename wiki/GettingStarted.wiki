@@ -2,7 +2,9 @@
 = Introduction =
 
 Assuming a project with 50000 lines of Java code and having enough unit tests to get a decent Java code coverage. The same project could also have 12000 lines of XSLT code. Although XSLT code could be tested (by means of unit tests) the coverage will be unknown. There is simple no good XSLT coverage tool available on the market yet.<br/>
-This is the reason why we started to build our own XSLT coverage tool. The first version was based on extended XSLT with static java instruction in each possible xsl:match. Unfortunately this approach was not reliable enough and the of XSLT lines coverage was too summarily. Recently we change to the Saxon api. This API has the advantage of having a decent tracing mechanism which we used for the XSLT coverage tool.
+This is the reason why we started to build our own XSLT coverage tool. The first version was based on extended XSLT with static java instruction in each possible xsl:match. Unfortunately this approach was not reliable enough and the of XSLT lines coverage was too summarily. In 2008 we change to the Saxon api. This API has the advantage of having a decent tracing mechanism which we used for the XSLT coverage tool. <br/>
+Recently Cakupan implement the trace facility of Xalan.
+
 
 = Getting started with ant tasks (thanks to cobertura) =
  
@@ -44,9 +46,12 @@ The most important task of the coverage tool is testing your application by runn
         <delete dir="${junit.out.dir.xml}"/>
         <mkdir  dir="${junit.out.dir.xml}"/>
         <junit printsummary="yes" haltonfailure="no">
+                        <!--sysproperty
+                                key="javax.xml.transform.TransformerFactory"
+                           value="com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl" /-->
                         <sysproperty
                                 key="javax.xml.transform.TransformerFactory"
-                           value="com.cakupan.xslt.transform.TransformerInstrumentFactoryImpl" />
+                           value="com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl" />
                         <sysproperty
                                 key="cakupan.dir"
                                 value="${instrmtxslt.dir}"/>
@@ -121,6 +126,7 @@ The libs are:
   * junit-3.8.1.jar
   * xpp3-1.1.4c.jar
   * xstream-1.2.2.jar
+  * Xalan-2.*.*.jar (ico using Xalan iso Saxon)
 
 = Known Limitations =
 
