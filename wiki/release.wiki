@@ -1,5 +1,9 @@
 #summary release.
 
+*release 1.0, 2009-11-19* <br/>
+The first release
+  * Xalan support
+
 *release 0.8, 2009-04-15* <br/>
 The first release
   * HTML reports with sorting tables
