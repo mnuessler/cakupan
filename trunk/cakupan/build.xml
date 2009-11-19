@@ -97,7 +97,10 @@
         <junit printsummary="yes" haltonfailure="no">
 			<sysproperty
 				key="javax.xml.transform.TransformerFactory"
-				value="com.cakupan.xslt.transform.TransformerInstrumentFactoryImpl" />
+				value="com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl"/>
+			<!--sysproperty
+				key="javax.xml.transform.TransformerFactory"
+				value="com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl" /-->
 			<sysproperty
 					key="cakupan.dir"
 					value="${instrmtxslt.dir}"/>

@@ -18,12 +18,12 @@ import net.sf.saxon.trace.XSLTTraceListener;
 
 /**
  * This listener reacts on each XSLT event (mostly XSLT instruction).
- * The <code>XSLTCoverageTraceListener</code> is an extension of the SAXON {@link net.sf.saxon.trace.XSLTTraceListener XSLTTraceListener}.
+ * The <code>SaxonCakupanTraceListener</code> is an extension of the SAXON {@link net.sf.saxon.trace.XSLTTraceListener XSLTTraceListener}.
  *
  * The Saxon XSLT and XQuery Processor from Saxonica Limited.
  * http://www.saxonica.com/
  */
-public class CakupanTraceListener extends XSLTTraceListener {
+public class SaxonCakupanTraceListener extends XSLTTraceListener {
 
     private String xsltRootFileName;
 
@@ -33,7 +33,7 @@ public class CakupanTraceListener extends XSLTTraceListener {
      * @param resource
      * @throws XSLTCoverageException 
      */
-    public CakupanTraceListener(URL resource) throws XSLTCoverageException {
+    public SaxonCakupanTraceListener(URL resource) throws XSLTCoverageException {
         if (null != resource){
             try {
                 this.xsltURI = resource.toURI();
@@ -50,7 +50,7 @@ public class CakupanTraceListener extends XSLTTraceListener {
      * @param resource
      * @throws XSLTCoverageException 
      */
-    public CakupanTraceListener(String resource) throws XSLTCoverageException {
+    public SaxonCakupanTraceListener(String resource) throws XSLTCoverageException {
         xsltRootFileName = resource;
         setOutputDestination(null);
         XSLTCakupanUtil.loadCoverageStats();
