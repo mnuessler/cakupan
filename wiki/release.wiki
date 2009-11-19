@@ -4,6 +4,10 @@
 The first release
   * Xalan support
 
+*release 0.81, 2009-04-20* <br/>
+The first release
+  * supports jvm 1.5 and later
+
 *release 0.8, 2009-04-15* <br/>
 The first release
   * HTML reports with sorting tables
