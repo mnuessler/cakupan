@@ -19,8 +19,8 @@ public class XSLTTest extends TestCase {
 	
 	@Override
 	protected void setUp() throws Exception {
-		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl");
-//		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl");
+//		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl");
+		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl");
 		System.setProperty("cakupan.dir","report/cakupan");
 		super.setUp();
 	}
@@ -29,8 +29,8 @@ public class XSLTTest extends TestCase {
 		Source xml = null;
 		Source xsl = null;
 		try {
-			File xsltFile = new File("test\\XsltCoverageStats.xsl");
-			xml = new StreamSource("test\\coverage.xml");
+			File xsltFile = new File("test"+File.separator+"XsltCoverageStats.xsl");
+			xml = new StreamSource("test"+File.separator+"coverage.xml");
 			//use always the URL of the XSLT
 			xsl =  new StreamSource(xsltFile.toURI().toURL().toString());
 		} catch (MalformedURLException e) {
