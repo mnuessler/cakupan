@@ -12,6 +12,8 @@ Cakupan works with custom ant tasks. These tasks has to be declared in you ant b
 {{{ 
 <taskdef classpath="cakupan-x.x.jar" resource="cakupantasks.properties"/>
 }}}
+_Even it is possible to use these Ant tasks with Maven by using Antrun._
+
 Okay we're ready for the next step.
  
 = Instrumenting XSLTs =
