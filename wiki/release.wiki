@@ -1,5 +1,11 @@
 #summary release.
 
+*release 1.1, 2011-02-17* <br/>
+The bugfix release
+  * XalanTransformerInstrumentFactoryImpl; NULL pointer bug fixed
+  * Several source classes submitted into SVN
+  * Cakupan development support for Linux OS (build.xml, JUnit tests)
+
 *release 1.0, 2009-11-19* <br/>
 The first release
   * Xalan support
