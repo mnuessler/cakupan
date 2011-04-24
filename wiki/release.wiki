@@ -1,5 +1,9 @@
 #summary release.
 
+*release 1.2, 2011-04-23* <br/>
+The new Feature release
+  * ANT Task for [http://emma.sourceforge.net/index.html Emma] code coverage XML 
+ 
 *release 1.1, 2011-02-17* <br/>
 The bugfix release
   * `XalanTransformerInstrumentFactoryImpl`; NULL pointer bug fixed
