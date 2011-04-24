@@ -88,6 +88,7 @@ public class HTMLCoverageReport {
 		return response;
 	}
 
+
 	private String getCoverageStats(Map<String, CoverageFile> coverageMap) {
 		String resultaat = XStreamUtil.toXML(coverageMap);
 		return resultaat;

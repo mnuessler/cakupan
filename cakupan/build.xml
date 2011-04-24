@@ -35,7 +35,8 @@
         <pathelement location="${lib.dir}/xpp3-1.1.4c.jar" />
         <pathelement location="${lib.dir}/saxon9.jar" />
         <pathelement location="${lib.dir}/xalan-2.6.0.jar" />
-        <!--pathelement location="lib/${ant.test.lib}" /-->
+        <pathelement location="${lib.dir}/${ant.test.lib}"/>
+        <pathelement location="${lib.dir}/junit-3.8.1.jar"/>
      </path>
 
 	<target name="compile" depends="clean" description="Compiles the Task">
@@ -87,7 +88,7 @@
     
 	<target name="copypropfiles" description="copy xtra files to classes">
         <copy todir="${classes.dir}">
-             <fileset dir="${src.dir}" includes="**/*.css,**/*.png,**/*.js,**/*.properties,**/*.xsl" />
+             <fileset dir="${src.dir}" includes="**/*.css,**/*.png,**/*.js,**/*.properties,**/*.xsl,**/*.xslt" />
          </copy>
     </target>
 
@@ -126,7 +127,7 @@
     <target name="make" depends="clean, compile" />
 
     <target name="test"
-            depends="compile,compileTest,instrumentCakupan,junit,junitreport, reportCakupan"
+            depends="compile,compileTest,instrumentCakupan,junit,junitreport, reportCakupan, emmaReportCakupan"
             description="Runs unit tests and creates a XSLT coverage and Junit report"
     />
 	
@@ -143,11 +144,16 @@
               <fileset dir="${instrmtxslt.dir}"/>
        	</cakupan-merge>
     </target>
- 
-	<!-- building the coverage report-->   
-    <target name="reportCakupan">
-        <cakupan-report destdir="report/cakupan"/>
-    </target>	  
+	 
+		<!-- building the coverage report-->   
+	    <target name="reportCakupan">
+	        <cakupan-report destdir="report/cakupan"/>
+	    </target>	  
+	 
+		<!-- building the emma report-->   
+	    <target name="emmaReportCakupan">
+	        <cakupan-emma-report destdir="report/cakupan"/>
+	    </target>	  
 	
 	<!-- building the coverage report, wrong dir-->   
     <target name="reportCakupanError">

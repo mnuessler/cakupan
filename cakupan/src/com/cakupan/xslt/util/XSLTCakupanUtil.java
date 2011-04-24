@@ -10,12 +10,13 @@ import java.util.TreeMap;
 import com.cakupan.xslt.data.CoverageFile;
 import com.cakupan.xslt.data.CoverageLine;
 import com.cakupan.xslt.exception.XSLTCoverageException;
+import com.cakupan.xslt.report.EmmaReport;
 import com.cakupan.xslt.report.HTMLCoverageReport;
 
-
 /**
- * The <code>XSLTSaxonCoverageUtil</code> class keeps track of the hits per instrumented XSLT.
- * The data will be stored in a static map. The map contains a key (the filename of an XSLT) and a 
+ * The <code>XSLTSaxonCoverageUtil</code> class keeps track of the hits per
+ * instrumented XSLT. The data will be stored in a static map. The map contains
+ * a key (the filename of an XSLT) and a
  * {@link com.cakupan.xslt.data.CoverageFile CoverageFile} data store.
  */
 public class XSLTCakupanUtil {
@@ -39,17 +40,22 @@ public class XSLTCakupanUtil {
 			if (coverageMap.containsKey(key)) {
 				if (null != coverageMap.get(key)) {
 					CoverageFile coverageFile = coverageMap.get(key);
-					if (count > 0 && coverageFile.getLine().contains(new CoverageLine(lineNumber))) {
+					if (count > 0
+							&& coverageFile.getLine().contains(
+									new CoverageLine(lineNumber))) {
 						coverageFile.hitLine(lineNumber);
 					} else {
-						coverageFile.addLine(new CoverageLine(lineNumber, count));
+						coverageFile
+								.addLine(new CoverageLine(lineNumber, count));
 					}
 				} else {
 					// key doesn't contain content
-					coverageMap.put(key, new CoverageFile(key, uri, new CoverageLine(lineNumber, count)));
+					coverageMap.put(key, new CoverageFile(key, uri,
+							new CoverageLine(lineNumber, count)));
 				}
 			} else {
-				coverageMap.put(key, new CoverageFile(key, uri, new CoverageLine(lineNumber, count)));
+				coverageMap.put(key, new CoverageFile(key, uri,
+						new CoverageLine(lineNumber, count)));
 			}
 		}
 
@@ -81,6 +87,24 @@ public class XSLTCakupanUtil {
 		}
 	}
 
+	public static void startTemplate(String key, String name, int lineNumber) {
+		if (null != key && null != coverageMap) {
+			if (coverageMap.containsKey(key)) {
+				CoverageFile coverageFile = coverageMap.get(key);
+				coverageFile.startTemplate(name, lineNumber);
+			}
+		}
+	}
+
+	public static void endTemplate(String key, int lineNumber) {
+		if (null != key && null != coverageMap) {
+			if (coverageMap.containsKey(key)) {
+				CoverageFile coverageFile = coverageMap.get(key);
+				coverageFile.endTemplate(lineNumber);
+			}
+		}
+	}
+
 	/**
 	 * Xsl coverage statistics
 	 * 
@@ -89,8 +113,6 @@ public class XSLTCakupanUtil {
 	public static Map<String, CoverageFile> getCoverageMap() {
 		return coverageMap;
 	}
-
-
 
 	/**
 	 * Get the Coverage File Name, if found in properties file
@@ -110,9 +132,12 @@ public class XSLTCakupanUtil {
 		// bewaar xstream map to file
 		String resultaat = XStreamUtil.toXML(coverageMap);
 		try {
-			CoverageIOUtil.write(resultaat, new FileOutputStream(CoverageIOUtil.getDestDir() + File.separator + getCoverageXstreamFileName()));
+			CoverageIOUtil.write(resultaat, new FileOutputStream(CoverageIOUtil
+					.getDestDir()
+					+ File.separator + getCoverageXstreamFileName()));
 		} catch (Exception e) {
-			throw new XSLTCoverageException("Could not dump the coverage file!", e);
+			throw new XSLTCoverageException(
+					"Could not dump the coverage file!", e);
 		}
 	}
 
@@ -132,15 +157,20 @@ public class XSLTCakupanUtil {
 	@SuppressWarnings("unchecked")
 	public static void loadCoverageStats() throws XSLTCoverageException {
 		try {
-			System.out.println(CoverageIOUtil.getDestDir() + File.separator + getCoverageXstreamFileName());
-			Object object = XStreamUtil.fromXML(CoverageIOUtil.toString(new FileInputStream(CoverageIOUtil.getDestDir() + File.separator + getCoverageXstreamFileName())));
+			System.out.println(CoverageIOUtil.getDestDir() + File.separator
+					+ getCoverageXstreamFileName());
+			Object object = XStreamUtil.fromXML(CoverageIOUtil
+					.toString(new FileInputStream(CoverageIOUtil.getDestDir()
+							+ File.separator + getCoverageXstreamFileName())));
 			if (object instanceof Map) {
 				coverageMap = (Map<String, CoverageFile>) object;
 			}
 		} catch (Exception e) {
 			// no file found....
 			System.out.println(e.getMessage());
-			throw new XSLTCoverageException(XSLTCoverageException.NO_COVERAGE_FILE, "Coverage file not found!", e);
+			throw new XSLTCoverageException(
+					XSLTCoverageException.NO_COVERAGE_FILE,
+					"Coverage file not found!", e);
 		}
 	}
 
@@ -152,25 +182,31 @@ public class XSLTCakupanUtil {
 	 * @throws XSLTCoverageException
 	 */
 	@SuppressWarnings("unchecked")
-	public static void addCoverageStats(File coverageDir) throws XSLTCoverageException {
+	public static void addCoverageStats(File coverageDir)
+			throws XSLTCoverageException {
 		Object object = null;
 		if (coverageDir != null && coverageDir.isDirectory()) {
 			try {
 				String coveragefile = null;
 				File file = null;
-				coveragefile = coverageDir.getPath() + File.separator + getCoverageXstreamFileName();
+				coveragefile = coverageDir.getPath() + File.separator
+						+ getCoverageXstreamFileName();
 				file = new File(coveragefile);
 				if (file.exists()) {
-					object = XStreamUtil.fromXML(CoverageIOUtil.toString(new FileInputStream(file)));
+					object = XStreamUtil.fromXML(CoverageIOUtil
+							.toString(new FileInputStream(file)));
 					if (object instanceof Map) {
 						coverageMap.putAll((Map<String, CoverageFile>) object);
 					}
 				} else {
-					throw new XSLTCoverageException(XSLTCoverageException.NO_COVERAGE_FILE, "Could not find a coverage file!");
+					throw new XSLTCoverageException(
+							XSLTCoverageException.NO_COVERAGE_FILE,
+							"Could not find a coverage file!");
 				}
 			} catch (Exception e) {
 				// no file found....
-				throw new XSLTCoverageException("Could not find (a)(ny) coverage file(s)!", e);
+				throw new XSLTCoverageException(
+						"Could not find (a)(ny) coverage file(s)!", e);
 			}
 		}
 	}
@@ -189,5 +225,18 @@ public class XSLTCakupanUtil {
 		report.writeCoverageReport(coverageMap, CoverageIOUtil.getDestDir());
 	}
 
+	/**
+	 * Generate emma report
+	 * 
+	 * @throws XSLTCoverageException
+	 * 
+	 */
+	public static void generateEmmaReport() throws XSLTCoverageException {
+		// load the coverage statistics into coverageMap
+		loadCoverageStats();
+		// generate content
+		EmmaReport report = new EmmaReport();
+		report.writeEmmaReport(coverageMap, CoverageIOUtil.getDestDir());
+	}
 
 }

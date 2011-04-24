@@ -14,20 +14,22 @@ import com.cakupan.xslt.util.CoverageIOUtil;
 import com.cakupan.xslt.util.PropertyReader;
 import com.cakupan.xslt.util.XSLTCakupanUtil;
 
-
 /**
  * <code>InstrumentXSLT</code> instruments each line with XSLT-instructions
  * 
  * @author Patrick Oosterveld
- *
+ * 
  */
 public class InstrumentXSLT {
-	
 
 	private static String[] elementsToBeSkipped = null;
 
 	private static final String ELEMENTS_TO_BE_SKIPPED = "skipElements";
-	
+
+	private static final String TEMPLATE = "<xsl:template";
+
+	private static final String END_TEMPLATE = "</xsl:template>";
+
 	public InstrumentXSLT() {
 		init();
 	}
@@ -44,9 +46,11 @@ public class InstrumentXSLT {
 		File xslt = new File(file);
 		if (!xslt.isDirectory() && file.contains(".xsl")) {
 			try {
-				instrument(CoverageIOUtil.toString(new FileInputStream(xslt)), xslt);
+				instrument(CoverageIOUtil.toString(new FileInputStream(xslt)),
+						xslt);
 			} catch (IOException e) {
-				throw new XSLTCoverageException("Error while intrumenting XSLTs!", e);
+				throw new XSLTCoverageException(
+						"Error while intrumenting XSLTs!", e);
 			}
 		}
 	}
@@ -61,7 +65,8 @@ public class InstrumentXSLT {
 	 * @return geinstrumenteerd xsl
 	 * @throws XSLTCoverageException
 	 */
-	private void instrument(String xsltInhoud, File fileName) throws XSLTCoverageException {
+	private void instrument(String xsltInhoud, File fileName)
+			throws XSLTCoverageException {
 		BufferedReader reader = new BufferedReader(new StringReader(xsltInhoud));
 		String str = null;
 		int rowCount = 1;
@@ -72,8 +77,24 @@ public class InstrumentXSLT {
 				if (str.startsWith("<!--")) {
 					skipComment = true;
 				}
-				if (str.startsWith("<") && (!skipComment && !skipElement(str))) {
-					XSLTCakupanUtil.setInitHit(fileName.toURI(), fileName.getName(), rowCount);
+				if (!skipComment && str.startsWith("<")) {
+					if (!skipElement(str)) {
+						XSLTCakupanUtil.setInitHit(fileName.toURI(), fileName
+								.getName(), rowCount);
+					}
+
+					if (str.startsWith(TEMPLATE)) {
+						String name = str.substring(TEMPLATE.length()).trim();
+						int i = name.indexOf('>');
+						if (i >= 0) {
+							name = name.substring(0, i);
+						}
+						XSLTCakupanUtil.startTemplate(fileName.getName(), name,
+								rowCount);
+					} else if (str.startsWith(END_TEMPLATE)) {
+						XSLTCakupanUtil.endTemplate(fileName.getName(),
+								rowCount);
+					}
 				}
 				if (str.contains("-->")) {
 					skipComment = false;
@@ -81,13 +102,13 @@ public class InstrumentXSLT {
 				rowCount++;
 			}
 		} catch (Exception e) {
-			throw new XSLTCoverageException("Error while intrumenting an XSLT!", e);
+			throw new XSLTCoverageException(
+					"Error while intrumenting an XSLT!", e);
 		}
 	}
-	
 
 	/**
-	 * skip not traceable elemets
+	 * skip not traceable elements
 	 * 
 	 * @param str
 	 * @return skip yes or no
@@ -104,7 +125,6 @@ public class InstrumentXSLT {
 		}
 		return result;
 	}
-	
 
 	/**
 	 * load the elements to be skipped from the property file
@@ -113,10 +133,10 @@ public class InstrumentXSLT {
 		Collection<String> elementList = new ArrayList<String>();
 		String props = PropertyReader.getProperty(ELEMENTS_TO_BE_SKIPPED);
 		if (null != props) {
-				StringTokenizer token = new StringTokenizer(props, ";");
-				while (token.hasMoreElements()) {
-					elementList.add((String) token.nextElement());
-				}
+			StringTokenizer token = new StringTokenizer(props, ";");
+			while (token.hasMoreElements()) {
+				elementList.add((String) token.nextElement());
+			}
 		}
 		elementsToBeSkipped = elementList.toArray(new String[] {});
 	}

@@ -19,8 +19,8 @@ public class XSLTTest extends TestCase {
 	
 	@Override
 	protected void setUp() throws Exception {
-//		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl");
-		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl");
+		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.SaxonCakupanTransformerInstrumentFactoryImpl");
+//		System.setProperty("javax.xml.transform.TransformerFactory","com.cakupan.xslt.transform.XalanTransformerInstrumentFactoryImpl");
 		System.setProperty("cakupan.dir","report/cakupan");
 		super.setUp();
 	}
