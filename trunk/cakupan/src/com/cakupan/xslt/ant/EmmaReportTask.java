@@ -12,19 +12,19 @@ import com.cakupan.xslt.util.CoverageIOUtil;
 import com.cakupan.xslt.util.XSLTCakupanUtil;
 
 /**
- * <code>ReportTask</code> converts xml data of the coverage file into HTML reports.
+ * <code>ReportEmmaTask</code> converts xml data of the coverage file into Emma reports.
  * @author Patrick Oosterveld
  *
  */
-public class ReportTask extends MatchingTask {
+public class EmmaReportTask extends MatchingTask {
 	private File destDir;
 
 	@Override
 	public void execute() throws BuildException {
-		System.out.println("Start reporttask");
+		System.out.println("Start emmareporttask");
 		CoverageIOUtil.setDestDir(destDir);
 		try {
-			XSLTCakupanUtil.generateCoverageReport();
+			XSLTCakupanUtil.generateEmmaReport();
 		} catch (XSLTCoverageException e) {
 			if (e.getRefId() == XSLTCoverageException.NO_COVERAGE_FILE) {
 				getProject().log("No coverage files found in ["+destDir.getPath()+"]!", Project.MSG_WARN);

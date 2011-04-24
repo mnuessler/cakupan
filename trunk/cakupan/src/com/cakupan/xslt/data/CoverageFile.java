@@ -16,6 +16,8 @@ public class CoverageFile {
     private String key = null;
     
     private Collection<CoverageLine> line = new TreeSet<CoverageLine>(new CoverageLineComperator<CoverageLine>());
+    private List<CoverageTemplate> templates = new ArrayList<CoverageTemplate>();
+
     
     @SuppressWarnings("unused")
 	private double coveragePercentage; 
@@ -31,8 +33,8 @@ public class CoverageFile {
         this.key = key;
     }
 
-    /* (non-Javadoc)
-     * @see coveragePercentage.
+    /* (non-Javadoc) 
+     * @see coveragePercntage.
      */
     public double getCoveragePercentage() {
         double perc = 100.0d;
@@ -136,4 +138,23 @@ public class CoverageFile {
         }
     }
 
+    public List<CoverageTemplate> getTemplates()
+    {
+        return templates;
+    }
+
+    public void setTemplates(List<CoverageTemplate> templates)
+    {
+        this.templates = templates;
+    }
+
+    public void startTemplate(String name, int lineNumber)
+    {
+        templates.add(new CoverageTemplate(name, lineNumber));
+    }
+
+    public void endTemplate(int lineNumber)
+    {
+        templates.get(templates.size() - 1).setLineEnd(lineNumber);
+    }
 }

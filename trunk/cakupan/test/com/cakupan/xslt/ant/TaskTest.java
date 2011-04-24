@@ -24,6 +24,10 @@ public class TaskTest extends BuildFileTest {
 	        // execute target 'reportCakupant' and expect no message
 	    	expectLogContaining("reportCakupan", "");
 	    }
+	    public void testEmmaReportCakupan() {
+	        // execute target 'emmaReportCakupan' and expect no message
+	    	expectLogContaining("emmaReportCakupan", "");
+	    }
 	    public void testInstrumentCakupan(){
 	    	expectLogContaining("instrumentCakupan", "");
 	    }
