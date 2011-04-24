@@ -99,8 +99,8 @@ Generate [http://emma.sourceforge.net/index.html Emma] XML report file which can
 {{{ 
 	<!-- building the emma report-->   
         <target name="emmaReportCakupan">
-	        <cakupan-emma-report destdir="report/cakupan"/>
-       </target>
+	 <cakupan-emma-report destdir="report/cakupan"/>
+        </target>
 }}}
 
 = Using Saxon S9api =
