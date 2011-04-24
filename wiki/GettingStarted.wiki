@@ -92,6 +92,17 @@ Coverage merging with the merge tag.
     </target>
  }}}
 
+= Emma code coverage XML =
+ 
+Generate [http://emma.sourceforge.net/index.html Emma] XML report file which can be used with Continuous Integration (CI) Servers.
+
+{{{ 
+	<!-- building the emma report-->   
+        <target name="emmaReportCakupan">
+	        <cakupan-emma-report destdir="report/cakupan"/>
+       </target>
+}}}
+
 = Using Saxon S9api =
  
 When using S9api you will instantiate a processor which will create XsltCompiler object, with these two objects is it possible to create a hook, see example below.
