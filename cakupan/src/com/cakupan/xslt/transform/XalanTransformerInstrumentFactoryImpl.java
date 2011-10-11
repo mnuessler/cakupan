@@ -74,7 +74,7 @@ public class XalanTransformerInstrumentFactoryImpl extends
             }
             catch (MalformedURLException e)
             {
-                throw new RuntimeException("URL is not correct!.");
+                throw new RuntimeException("URL is not correct!."+urlString);
             }
         }
         else

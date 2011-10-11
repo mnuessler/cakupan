@@ -35,7 +35,7 @@ public class SaxonCakupanTransformerInstrumentFactoryImpl extends TransformerFac
 			} catch (XSLTCoverageException e) {
 				throw new RuntimeException("Error during creation of XSLTcoverage!.", e);
 			} catch (MalformedURLException e) {
-				throw new RuntimeException("URL is not correct!.");
+				throw new RuntimeException("URL is not correct!."+urlString);
 			}
 			getConfiguration().setCompileWithTracing(true);
 		}else{
@@ -54,7 +54,7 @@ public class SaxonCakupanTransformerInstrumentFactoryImpl extends TransformerFac
 			} catch (XSLTCoverageException e) {
 				throw new RuntimeException("Error during creation of XSLTcoverage!.", e);
 			} catch (MalformedURLException e) {
-				throw new RuntimeException("URL is not correct!.");
+				throw new RuntimeException("URL is not correct!."+urlString);
 			}
 			getConfiguration().setCompileWithTracing(true);
 		}else{
