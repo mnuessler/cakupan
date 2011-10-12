@@ -40,7 +40,7 @@ public class CoverageIOUtil {
 			}
 			destDir = file;
 		}
-		System.out.println("destdir: " + destDir.getPath());
+//		System.out.println("destdir: " + destDir.getPath());
 		return destDir != null ? destDir.getPath() : null;
 	}
 
@@ -105,7 +105,11 @@ public class CoverageIOUtil {
 	 */
 	public static void write(String content, OutputStream stream)
 			throws IOException {
-		stream.write(content.getBytes());
+		try{
+			stream.write(content.getBytes());
+		}finally{
+			stream.close();
+		}
 	}
 
 	public static int copy(InputStream input, OutputStream output)
@@ -119,14 +123,19 @@ public class CoverageIOUtil {
 
 	public static long copyLarge(InputStream input, OutputStream output)
 			throws IOException {
-		byte buffer[] = new byte[4096];
-		long count = 0L;
-		for (int n = 0; -1 != (n = input.read(buffer));) {
-			output.write(buffer, 0, n);
-			count += n;
-		}
-
-		return count;
+		try{
+			byte buffer[] = new byte[4096];
+			long count = 0L;
+			for (int n = 0; -1 != (n = input.read(buffer));) {
+				output.write(buffer, 0, n);
+				count += n;
+			}
+	
+			return count;
+		 } finally {
+            input.close();
+	        output.close();
+	    }
 	}
 
 	public static String toString(InputStream input) throws IOException {
@@ -138,18 +147,23 @@ public class CoverageIOUtil {
 	public static void copy(InputStream input, Writer output)
 			throws IOException {
 		InputStreamReader in = new InputStreamReader(input);
-		copy(((Reader) (in)), output);
+		copy(in, output);
 	}
 
 	public static int copy(Reader input, Writer output) throws IOException {
-		char buffer[] = new char[4096];
-		int count = 0;
-		for (int n = 0; -1 != (n = input.read(buffer));) {
-			output.write(buffer, 0, n);
-			count += n;
-		}
-
-		return count;
+		try{
+			char buffer[] = new char[4096];
+			int count = 0;
+			for (int n = 0; -1 != (n = input.read(buffer));) {
+				output.write(buffer, 0, n);
+				count += n;
+			}
+	
+			return count;
+	    } finally {
+            input.close();
+	        output.close();
+	    }
 	}
 
 }
