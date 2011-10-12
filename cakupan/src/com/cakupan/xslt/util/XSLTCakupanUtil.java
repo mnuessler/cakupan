@@ -157,8 +157,8 @@ public class XSLTCakupanUtil {
 	@SuppressWarnings("unchecked")
 	public static void loadCoverageStats() throws XSLTCoverageException {
 		try {
-			System.out.println(CoverageIOUtil.getDestDir() + File.separator
-					+ getCoverageXstreamFileName());
+//			System.out.println(CoverageIOUtil.getDestDir() + File.separator
+//					+ getCoverageXstreamFileName());
 			Object object = XStreamUtil.fromXML(CoverageIOUtil
 					.toString(new FileInputStream(CoverageIOUtil.getDestDir()
 							+ File.separator + getCoverageXstreamFileName())));
@@ -167,7 +167,7 @@ public class XSLTCakupanUtil {
 			}
 		} catch (Exception e) {
 			// no file found....
-			System.out.println(e.getMessage());
+//			System.out.println(e.getMessage());
 			throw new XSLTCoverageException(
 					XSLTCoverageException.NO_COVERAGE_FILE,
 					"Coverage file not found!", e);
