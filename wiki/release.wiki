@@ -1,9 +1,13 @@
 #summary release.
 
+*release 1.4, 2011-10-13* <br/>
+Bugfix release
+  * Issue 4,5 and 6 solved. 
+
 *release 1.3, 2011-04-25* <br/>
 Bugfix release
   * Missing Emma XSLT file added in Jar and Zip file. 
- 
+ Missing Emma XSLT file added in Jar and Zip file
 *release 1.2, 2011-04-23* <br/>
 The new Feature release
   * ANT Task for [http://emma.sourceforge.net/index.html Emma] code coverage XML 
