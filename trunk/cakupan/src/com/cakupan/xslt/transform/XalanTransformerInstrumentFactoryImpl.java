@@ -97,7 +97,6 @@ public class XalanTransformerInstrumentFactoryImpl extends
         }
 
         /** {@inheritDoc} */
-        @Override
         public Transformer newTransformer()
                 throws TransformerConfigurationException
         {
@@ -107,7 +106,6 @@ public class XalanTransformerInstrumentFactoryImpl extends
         }
 
         /** {@inheritDoc} */
-        @Override
         public Properties getOutputProperties()
         {
             return delegate.getOutputProperties();
