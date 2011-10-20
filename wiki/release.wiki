@@ -1,5 +1,9 @@
 #summary release.
 
+*release 1.5, 2011-10-20* <br/>
+Performance Improvement release
+  * Redesign of the serialization process. Cakupan 1.5 is significant faster than the previous release.
+
 *release 1.4, 2011-10-13* <br/>
 Bugfix release
   * Issue 4, issue 5 and issue 6 solved. 
