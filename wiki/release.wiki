@@ -6,7 +6,7 @@ Performance Improvement release
 
 *release 1.4, 2011-10-13* <br/>
 Bugfix release
-  * Issue 4, issue 5 and issue 6 solved. 
+  * Issue 4, issue 5 and issue 6 fixed. 
 
 *release 1.3, 2011-04-25* <br/>
 Bugfix release
