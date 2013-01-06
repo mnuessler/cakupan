@@ -6,6 +6,9 @@ import java.util.Collection;
 import java.util.List;
 import java.util.TreeSet;
 
+import org.apache.commons.lang.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.HashCodeBuilder;
+
 /**
  * The <code>CoverageFile</code> stores specific XSLT data, such as filename,
  * URI, coveragepercentage and instrumented lines, see
@@ -156,6 +159,7 @@ public class CoverageFile
      */
     public void hitLine(int lineNumber)
     {
+        System.out.println("CoverageFile: hitLine " + lineNumber);
         CoverageLine coverageLine = getLine(lineNumber);
         if (coverageLine != null)
         {
@@ -186,4 +190,28 @@ public class CoverageFile
     {
         templates.get(templates.size() - 1).setLineEnd(lineNumber);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        if (obj.getClass() != getClass()) {
+            return false;
+        }
+        CoverageFile rhs = (CoverageFile) obj;
+        return new EqualsBuilder().append(uri, rhs.uri).append(key, rhs.key)
+                .append(line, rhs.line).append(templates, rhs.templates)
+                .isEquals();
+    }
+
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder().append(uri).append(key).append(line)
+                .append(templates).toHashCode();
+    }
+
 }
