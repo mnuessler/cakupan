@@ -1,5 +1,8 @@
 package com.cakupan.xslt.data;
 
+import org.apache.commons.lang.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.HashCodeBuilder;
+
 
 /**
  * The <code>CoverageTemplate</code> stores the start and end lines of an XSLT template
@@ -50,4 +53,30 @@ public class CoverageTemplate
     {
         this.lineEnd = lineEnd;
     }
+
+    @Override
+    public boolean equals(Object obj)
+    {
+        if (obj == null) {
+            return false;
+        }
+        if (obj == this) {
+            return true;
+        }
+        if (obj.getClass() != getClass()) {
+            return false;
+        }
+        CoverageTemplate rhs = (CoverageTemplate) obj;
+        return new EqualsBuilder().append(name, rhs.name)
+                .append(lineStart, rhs.lineStart).append(lineEnd, rhs.lineEnd)
+                .isEquals();
+    }
+
+    @Override
+    public int hashCode()
+    {
+        return new HashCodeBuilder().append(name).append(lineStart).append(lineEnd)
+                .toHashCode();
+    }
+
 }

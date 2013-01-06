@@ -31,7 +31,7 @@
 
     <path id="classpath.xslt">
         <pathelement location="${lib.dir}/commons-lang-2.1.jar" />
-        <pathelement location="${lib.dir}/xstream-1.2.2.jar" />
+        <pathelement location="${lib.dir}/xstream-1.4.3.jar" />
         <pathelement location="${lib.dir}/xpp3-1.1.4c.jar" />
         <pathelement location="${lib.dir}/saxon9.jar" />
         <pathelement location="${lib.dir}/xalan-2.6.0.jar" />
