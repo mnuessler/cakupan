@@ -159,7 +159,6 @@ public class CoverageFile
      */
     public void hitLine(int lineNumber)
     {
-        System.out.println("CoverageFile: hitLine " + lineNumber);
         CoverageLine coverageLine = getLine(lineNumber);
         if (coverageLine != null)
         {
