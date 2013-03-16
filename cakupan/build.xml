@@ -14,9 +14,6 @@
     <property name="classes.dir" value="classes"/>
     <property file="version.properties" />
 
-	<!-- Cakupan - xslt coverage tasks -->
-	<taskdef classpath="${classes.dir}" resource="cakupantasks.properties" />
-
 	<path id="classpath.run">
         <path path="${java.class.path}"/>
         <path location="${ant.project.name}-${version}.jar"/>
@@ -36,8 +33,11 @@
         <pathelement location="${lib.dir}/saxon9.jar" />
         <pathelement location="${lib.dir}/xalan-2.6.0.jar" />
         <pathelement location="${lib.dir}/${ant.test.lib}"/>
-        <pathelement location="${lib.dir}/junit-3.8.1.jar"/>
+        <pathelement location="${lib.dir}/junit-4.11.jar"/>
      </path>
+
+	<!-- Cakupan - xslt coverage tasks -->
+	<taskdef classpath="${classes.dir}" resource="cakupantasks.properties" classpathref="classpath.xslt" />
 
 	<target name="compile" depends="clean" description="Compiles the Task">
         <mkdir dir="${classes.dir}"/>
@@ -48,7 +48,7 @@
         <javac target="1.5" debuglevel="lines,source" srcdir="${test.dir}" destdir="${classes.dir}" classpathref="classpath.xslt"/>
     </target>
 
-	
+
     <target name="clean" description="Delete all generated files">
         <delete failonerror="false" includeEmptyDirs="true">
             <fileset dir="." includes="${ant.project.name}-${version}.jar"/>
@@ -56,19 +56,19 @@
             <fileset dir="${report.dir}"/>
         </delete>
     </target>
-	
+
     <target name="deleteJar" description="Delete all generated Jars">
         <delete failonerror="false" includeEmptyDirs="true">
             <fileset dir="." includes="${ant.project.name}-*.jar,${ant.project.name}-*.zip"/>
         </delete>
     </target>
-	
+
     <target name="jar" description="JARs the Task" depends="compile,copypropfiles">
         <jar destfile="${ant.project.name}-${version}.jar" basedir="${classes.dir}">
         	<fileset dir="." includes="${notices.dir}/**"/>
         	</jar>
     </target>
-	
+
     <target name="zip" description="JARs the Task" depends="deleteJar, jar">
         <zip destfile="${ant.project.name}-${version}.zip">
         	<fileset dir="${classes.dir}" includes="**"/>
@@ -78,21 +78,21 @@
         	<fileset dir="." includes="${ant.project.name}-${version}.jar"/>
         </zip>
     </target>
-	
+
     <target name="jar_src" description="JARs the Task with sources" depends="compile,copypropfiles">
         <jar destfile="${ant.project.name}-src-${version}.jar" basedir="${classes.dir}">
         	<fileset dir="${src.dir}" includes="**/*.java"/>
         	<fileset dir="." includes="${notices.dir}/**"/>
         	</jar>
     </target>
-    
+
 	<target name="copypropfiles" description="copy xtra files to classes">
         <copy todir="${classes.dir}">
              <fileset dir="${src.dir}" includes="**/*.css,**/*.png,**/*.js,**/*.properties,**/*.xsl,**/*.xslt" />
          </copy>
     </target>
 
-	
+
     <target name="junit" description="Runs the unit tests">
         <delete dir="${junit.out.dir.xml}"/>
         <mkdir  dir="${junit.out.dir.xml}"/>
@@ -130,34 +130,34 @@
             depends="compile,compileTest,instrumentCakupan,junit,junitreport, reportCakupan, emmaReportCakupan"
             description="Runs unit tests and creates a XSLT coverage and Junit report"
     />
-	
-	<!-- instrumentation of the XSLTs, fileset for retrieving the XSLTs and destdir for writing the trace and instrumenting files-->   
+
+	<!-- instrumentation of the XSLTs, fileset for retrieving the XSLTs and destdir for writing the trace and instrumenting files-->
 	<target name="instrumentCakupan">
         <cakupan-instrument destdir="${instrmtxslt.dir}">
          	<fileset dir="../cakupan/test" includes="**/*.xsl"/>
         </cakupan-instrument>
     </target>
 
-	<!-- merging intrumentation data of different modules-->   
+	<!-- merging intrumentation data of different modules-->
 	<target name="mergeCakupan">
         <cakupan-merge destdir="report/merged/cakupan">
               <fileset dir="${instrmtxslt.dir}"/>
        	</cakupan-merge>
     </target>
-	 
-		<!-- building the coverage report-->   
+
+		<!-- building the coverage report-->
 	    <target name="reportCakupan">
 	        <cakupan-report destdir="report/cakupan"/>
-	    </target>	  
-	 
-		<!-- building the emma report-->   
+	    </target>
+
+		<!-- building the emma report-->
 	    <target name="emmaReportCakupan">
 	        <cakupan-emma-report destdir="report/cakupan"/>
-	    </target>	  
-	
-	<!-- building the coverage report, wrong dir-->   
+	    </target>
+
+	<!-- building the coverage report, wrong dir-->
     <target name="reportCakupanError">
         <cakupan-report destdir="report/cakupa"/>
-    </target>	    
+    </target>
 
 </project>
